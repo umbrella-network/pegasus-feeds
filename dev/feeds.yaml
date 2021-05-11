@@ -613,3 +613,30 @@ EQ:GOOG:
         name: PolygonIOPrice
         params:
           sym: GOOG
+
+EQ:IBM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IBM
+
+EQ:COIN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COIN
+
+EQ:ABNB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ABNB
