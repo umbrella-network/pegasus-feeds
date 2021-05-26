@@ -6803,6 +6803,19 @@ ETH-USD-VWAP-1day:
       calculator:
         name: VWAP
 
+AMPL-USD-VWAP-1day:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: AMPL
+          tsym: USD
+          limit: 24
+      calculator:
+        name: VWAP
+
 # GVol
 
 GVol-BTC-IV-1day:
@@ -11471,3 +11484,12 @@ EQ:ZTS:
         name: PolygonIOPrice
         params:
           sym: ZTS
+
+CPI-US-3months:
+  discrepancy: 1.0
+  precision: 1
+  inputs:
+    - fetcher:
+        name: BEACPIAverage
+        params:
+          months: 3
