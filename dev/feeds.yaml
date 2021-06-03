@@ -510,6 +510,26 @@ UMB-USD:
           id: umbrella-network
           currency: USD
 
+ZDEX-USDT:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: USDT
+
+ZDEX-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: EUR
+
 # histo
 
 ETH-USD-TWAP-1day:

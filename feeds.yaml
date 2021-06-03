@@ -6805,7 +6805,7 @@ ETH-USD-VWAP-1day:
 
 AMPL-USD-VWAP-1day:
   discrepancy: 1.0
-  precision: 4
+  precision: 2
   inputs:
     - fetcher:
         name: CryptoCompareHistoHour
