@@ -6762,6 +6762,36 @@ UMB-BTC:
           fsym: UMB
           tsyms: BTC
 
+ZDEX-USDT:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: USDT
+
+ZDEX-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: EUR
+
+ZDEX-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: EUR
+
 # histo
 
 ETH-USD-TWAP-1day:
@@ -6805,7 +6835,7 @@ ETH-USD-VWAP-1day:
 
 AMPL-USD-VWAP-1day:
   discrepancy: 1.0
-  precision: 2
+  precision: 6
   inputs:
     - fetcher:
         name: CryptoCompareHistoHour
