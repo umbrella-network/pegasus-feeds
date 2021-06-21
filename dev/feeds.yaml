@@ -555,6 +555,19 @@ ETH-USD-TWAP-1day:
       calculator:
         name: TWAP
 
+DAFI-USD-TWAP-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: DAFI
+          tsym: USD
+          limit: 24
+      calculator:
+        name: TWAP
+
 AMPL-USD-VWAP-1day:
   discrepancy: 1.0
   precision: 2
@@ -563,6 +576,19 @@ AMPL-USD-VWAP-1day:
         name: CryptoCompareHistoHour
         params:
           fsym: AMPL
+          tsym: USD
+          limit: 24
+      calculator:
+        name: VWAP
+
+DAFI-USD-VWAP-1day:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: DAFI
           tsym: USD
           limit: 24
       calculator:
