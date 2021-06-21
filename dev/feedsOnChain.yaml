@@ -75,7 +75,7 @@ DAFI-USD:
   precision: 2
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: DAFI
           tsym: USD
