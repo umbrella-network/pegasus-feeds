@@ -80,30 +80,24 @@ DAFI-USD:
           fsym: DAFI
           tsym: USD
 
-# Histo
+# GVol
 
-DAFI-USD-TWAP-1day:
+GVol-BTC-IV-28days:
   discrepancy: 1.0
   precision: 2
   inputs:
     - fetcher:
-        name: CryptoCompareHistoHour
+        name: GVolImpliedVolatility
         params:
-          fsym: DAFI
-          tsym: USD
-          limit: 24
-      calculator:
-        name: TWAP
+          query: twentyEightDayIv
+          sym: BTC
 
-DAFI-USD-VWAP-1day:
+GVol-ETH-IV-28days:
   discrepancy: 1.0
-  precision: 6
+  precision: 2
   inputs:
     - fetcher:
-        name: CryptoCompareHistoHour
+        name: GVolImpliedVolatility
         params:
-          fsym: DAFI
-          tsym: USD
-          limit: 24
-      calculator:
-        name: VWAP
+          query: twentyEightDayIv
+          sym: ETH
