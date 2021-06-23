@@ -537,8 +537,13 @@ FTS-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: footballstars
+          id: fortress
           currency: USD
+    - fetcher:
+        name: CoinmarketcapPrice
+        params:
+          symbol: FTS
+          convert: USD
 
 # histo
 
