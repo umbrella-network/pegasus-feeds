@@ -9,6 +9,7 @@ BTC-USDT:
         params:
           fsym: BTC
           tsym: USDT
+          freshness: 300
 
 BTC-USD:
   discrepancy: 1.0
@@ -19,6 +20,7 @@ BTC-USD:
         params:
           fsym: BTC
           tsym: USD
+          freshness: 300
 
 ETH-USDT:
   discrepancy: 1.0
@@ -29,6 +31,7 @@ ETH-USDT:
         params:
           fsym: ETH
           tsym: USDT
+          freshness: 300
 
 ETH-USD:
   discrepancy: 1.0
@@ -39,6 +42,7 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
+          freshness: 300
 
 BNB-USDT:
   discrepancy: 1.0
@@ -609,6 +613,7 @@ UNI-USD:
         params:
           fsym: UNI
           tsym: USD
+          freshness: 900
 
 ZRX-USDT:
   discrepancy: 1.0
@@ -1039,6 +1044,7 @@ AAVE-USD:
         params:
           fsym: AAVE
           tsym: USD
+          freshness: 900
 
 GRT-EUR:
   discrepancy: 1.0
@@ -1139,6 +1145,7 @@ DAI-USD:
         params:
           fsym: DAI
           tsym: USD
+          freshness: 900
 
 NPXS-USDT:
   discrepancy: 1.0
@@ -1289,6 +1296,7 @@ REN-USD:
         params:
           fsym: REN
           tsym: USD
+          freshness: 900
 
 AAVE-BTC:
   discrepancy: 1.0
@@ -1309,6 +1317,7 @@ YFI-USD:
         params:
           fsym: YFI
           tsym: USD
+          freshness: 900
 
 NEO-BTC:
   discrepancy: 1.0
@@ -1719,6 +1728,7 @@ BNT-USD:
         params:
           fsym: BNT
           tsym: USD
+          freshness: 900
 
 ETC-BTC:
   discrepancy: 1.0
@@ -1919,6 +1929,7 @@ SNX-USD:
         params:
           fsym: SNX
           tsym: USD
+          freshness: 900
 
 YFI-BTC:
   discrepancy: 1.0
@@ -2199,6 +2210,7 @@ COMP-USD:
         params:
           fsym: COMP
           tsym: USD
+          freshness: 900
 
 UNI-BUSD:
   discrepancy: 1.0
@@ -6681,6 +6693,7 @@ LINK-USD:
         params:
           fsym: LINK
           tsym: USD
+          freshness: 900
 
 EOS-USD:
   discrepancy: 1.0
@@ -6711,6 +6724,7 @@ BNB-USD:
         params:
           fsym: BNB
           tsym: USD
+          freshness: 900
 
 UMB-USD:
   discrepancy: 1.0
