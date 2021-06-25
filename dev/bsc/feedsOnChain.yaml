@@ -30,7 +30,7 @@ LINK-USD:
           fsym: LINK
           tsym: USD
 
-FIXED_DAFI-BSC-TVL:
+FIXED_DAFI-TVL:
   discrepancy: 1.0
   precision: 0
   inputs:

@@ -480,7 +480,7 @@ BCH-BTC:
           fsym: BCH
           tsym: BTC
 
-FIXED_DAFI-BSC-TVL:
+FIXED_UMB-CHAIN-BLOCKS:
   discrepancy: 1.0
   precision: 0
   inputs:
