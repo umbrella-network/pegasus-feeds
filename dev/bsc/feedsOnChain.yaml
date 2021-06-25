@@ -1,0 +1,96 @@
+# Crypto
+
+ETH-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: USD
+
+BTC-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: USD
+
+LINK-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: USD
+
+FIXED.DAFI-BSC-TVL:
+  discrepancy: 1.0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0x656338A8302021d3F5C1a1CcB2FfB3C3E4753331"
+          method: blocksCount
+          inputs: []
+          outputs: [ uint32 ]
+          args: []
+
+UNI-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: USD
+
+BNB-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: USD
+
+UMB-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: umbrella-network
+          currency: usd
+
+# GVol
+
+GVol-BTC-IV-28days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyEightDayIv
+          sym: BTC
+
+GVol-ETH-IV-28days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyEightDayIv
+          sym: ETH
