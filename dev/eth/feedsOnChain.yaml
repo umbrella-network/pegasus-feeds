@@ -37,7 +37,7 @@ FIXED_DAFI-BSC-TVL:
     - fetcher:
         name: OnChainData
         params:
-          address: "0x656338A8302021d3F5C1a1CcB2FfB3C3E4753331"
+          address: "0x23731A38B2B2EfB1fE46053f6510A76b388e663b"
           method: blocksCount
           inputs: []
           outputs: [ uint32 ]
