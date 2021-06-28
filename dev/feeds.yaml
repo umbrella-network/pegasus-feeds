@@ -540,6 +540,21 @@ DAFI-USD:
           fsym: DAFI
           tsyms: USD
 
+FTS-USD:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: fortress
+          currency: USD
+    - fetcher:
+        name: CoinmarketcapPrice
+        params:
+          symbol: FTS
+          convert: USD
+
 # histo
 
 ETH-USD-TWAP-1day:
