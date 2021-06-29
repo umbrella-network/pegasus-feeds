@@ -70,6 +70,16 @@ UMB-USD:
           id: umbrella-network
           currency: usd
 
+DAFI-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: DAFI
+          tsym: USD
+
 # GVol
 
 GVol-BTC-IV-28days:
