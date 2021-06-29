@@ -100,6 +100,16 @@ YFI-USD:
           fsym: YFI
           tsym: USD
 
+REN-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REN
+          tsym: USD
+
 DAFI-USD:
   discrepancy: 1.0
   precision: 2
