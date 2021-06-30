@@ -78,7 +78,7 @@ DAFI-USD:
         name: CryptoComparePrice
         params:
           fsym: DAFI
-          tsym: USD
+          tsyms: USD
 
 # GVol
 
