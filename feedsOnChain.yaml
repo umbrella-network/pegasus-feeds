@@ -118,7 +118,7 @@ DAFI-USD:
         name: CryptoComparePrice
         params:
           fsym: DAFI
-          tsym: USD
+          tsyms: USD
 
 AAVE-USD:
   discrepancy: 1.0
