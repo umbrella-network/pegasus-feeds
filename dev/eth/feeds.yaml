@@ -513,6 +513,21 @@ UMB-USD:
           id: umbrella-network
           currency: USD
 
+DAI-BNB:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: DAI
+          tsyms: BNB
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dai
+          currency: BNB
+
 ZDEX-USDT:
   discrepancy: 1.0
   precision: 2
