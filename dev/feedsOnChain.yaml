@@ -79,6 +79,7 @@ DAFI-USD:
         params:
           fsym: DAFI
           tsyms: USD
+
 # histo
 
 DAFI-USD-TWAP-1day:

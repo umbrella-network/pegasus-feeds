@@ -150,6 +150,34 @@ UMB-USD:
           fsym: UMB
           tsyms: USD
 
+# histo
+
+DAFI-USD-TWAP-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoinmarketcapHistoHour
+        params:
+          symbol: DAFI
+          convert: USD
+          count: 25
+      calculator:
+        name: TWAP
+
+DAFI-USD-VWAP-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoinmarketcapHistoDay
+        params:
+          symbol: DAFI
+          convert: USD
+          count: 2
+      calculator:
+        name: VWAP
+
 # GVol
 
 GVol-BTC-IV-28days:
