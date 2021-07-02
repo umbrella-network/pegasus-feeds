@@ -559,7 +559,7 @@ FTS-USD:
 
 DAFI-USD-TWAP-1day:
   discrepancy: 1.0
-  precision: 2
+  precision: 4
   inputs:
     - fetcher:
         name: CoinmarketcapHistoHour
@@ -570,16 +570,16 @@ DAFI-USD-TWAP-1day:
       calculator:
         name: TWAP
 
-DAFI-USD-VWAP-1day:
+DAFI-USD-VWAP-1week:
   discrepancy: 1.0
-  precision: 2
+  precision: 4
   inputs:
     - fetcher:
         name: CoinmarketcapHistoDay
         params:
           symbol: DAFI
           convert: USD
-          count: 2
+          count: 8
       calculator:
         name: VWAP
 
