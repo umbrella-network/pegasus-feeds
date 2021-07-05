@@ -100,6 +100,36 @@ DAFI-USD:
           fsym: DAFI
           tsyms: USD
 
+DAI-BNB:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: DAI
+          tsyms: BNB
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dai
+          currency: BNB
+
+# On-Chain
+
+FIXED_DAFI-TVL:
+  discrepancy: 1.0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0x23731A38B2B2EfB1fE46053f6510A76b388e663b"
+          method: blocksCount
+          inputs: []
+          outputs: [ uint32 ]
+          args: []
+
 # GVol
 
 GVol-BTC-IV-28days:
