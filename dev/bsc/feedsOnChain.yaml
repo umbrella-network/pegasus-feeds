@@ -9,6 +9,11 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: USD
 
 BTC-USD:
   discrepancy: 1.0
@@ -16,6 +21,11 @@ BTC-USD:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: BTC
           tsym: USD
@@ -29,19 +39,26 @@ LINK-USD:
         params:
           fsym: LINK
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LINK
+          tsym: USD
 
-FIXED_DAFI-TVL:
+BNT-USD:
   discrepancy: 1.0
-  precision: 0
+  precision: 2
   inputs:
     - fetcher:
-        name: OnChainData
+        name: CryptoComparePriceWS
         params:
-          address: "0xAD71846d3b2C49914862759fEbfB128a494E75Bd"
-          method: getTotalStaked
-          inputs: []
-          outputs: [ uint256 ]
-          args: []
+          fsym: BNT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BNT
+          tsym: USD
 
 UNI-USD:
   discrepancy: 1.0
@@ -73,20 +90,15 @@ UMB-USD:
           id: umbrella-network
           currency: usd
 
-DAI-BNB:
+DAFI-USD:
   discrepancy: 1.0
-  precision: 6
+  precision: 2
   inputs:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: DAI
-          tsyms: BNB
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: dai
-          currency: BNB
+          fsym: DAFI
+          tsyms: USD
 
 # GVol
 
