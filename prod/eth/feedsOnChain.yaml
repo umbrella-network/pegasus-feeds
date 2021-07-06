@@ -9,6 +9,11 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: USD
 
 BTC-USD:
   discrepancy: 1.0
@@ -19,6 +24,11 @@ BTC-USD:
         params:
           fsym: BTC
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: USD
 
 LINK-USD:
   discrepancy: 1.0
@@ -26,6 +36,11 @@ LINK-USD:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: LINK
           tsym: USD
@@ -49,6 +64,11 @@ DAI-USD:
         params:
           fsym: DAI
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI
+          tsym: USD
 
 COMP-USD:
   discrepancy: 1.0
@@ -66,6 +86,11 @@ BNT-USD:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: BNT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: BNT
           tsym: USD
