@@ -1,15 +1,5 @@
 # Volume-based pairs
 
-BTC-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BTC
-          tsym: USDT
-
 BTC-USD:
   discrepancy: 1.0
   precision: 2
@@ -19,16 +9,11 @@ BTC-USD:
         params:
           fsym: BTC
           tsym: USD
-
-ETH-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: ETH
-          tsym: USDT
+          fsym: BTC
+          tsym: USD
 
 ETH-USD:
   discrepancy: 1.0
@@ -39,8 +24,13 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: USD
 
-BNB-USDT:
+BNB-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -48,7 +38,7 @@ BNB-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BNB
-          tsym: USDT
+          tsym: USD
 
 BTC-JPY:
   discrepancy: 1.0
@@ -69,8 +59,13 @@ BTC-EUR:
         params:
           fsym: BTC
           tsym: EUR
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: EUR
 
-ADA-USDT:
+ADA-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -78,9 +73,14 @@ ADA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ADA
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ADA
+          tsym: USD
 
-XRP-USDT:
+XRP-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -88,9 +88,9 @@ XRP-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: XRP
-          tsym: USDT
+          tsym: USD
 
-DOT-USDT:
+DOT-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -98,7 +98,7 @@ DOT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DOT
-          tsym: USDT
+          tsym: USD
 
 ETH-BTC:
   discrepancy: 1.0
@@ -109,18 +109,13 @@ ETH-BTC:
         params:
           fsym: ETH
           tsym: BTC
-
-LTC-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: LTC
-          tsym: USDT
+          fsym: ETH
+          tsym: BTC
 
-BUSD-USDT:
+BUSD-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -128,9 +123,9 @@ BUSD-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BUSD
-          tsym: USDT
+          tsym: USD
 
-UNI-USDT:
+UNI-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -138,9 +133,9 @@ UNI-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: UNI
-          tsym: USDT
+          tsym: USD
 
-LINK-USDT:
+LINK-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -148,9 +143,14 @@ LINK-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: LINK
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LINK
+          tsym: USD
 
-EOS-USDT:
+EOS-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -158,7 +158,12 @@ EOS-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: EOS
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: EOS
+          tsym: USD
 
 ETH-EUR:
   discrepancy: 1.0
@@ -170,27 +175,7 @@ ETH-EUR:
           fsym: ETH
           tsym: EUR
 
-BNB-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BNB
-          tsym: BUSD
-
-BTC-USDC:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BTC
-          tsym: USDC
-
-TRX-USDT:
+TRX-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -198,9 +183,14 @@ TRX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: TRX
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: TRX
+          tsym: USD
 
-IOST-USDT:
+IOST-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -208,9 +198,9 @@ IOST-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: IOST
-          tsym: USDT
+          tsym: USD
 
-XLM-USDT:
+XLM-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -218,9 +208,14 @@ XLM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: XLM
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: XLM
+          tsym: USD
 
-DOGE-USDT:
+DOGE-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -228,7 +223,12 @@ DOGE-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DOGE
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DOGE
+          tsym: USD
 
 BNB-BTC:
   discrepancy: 1.0
@@ -250,7 +250,7 @@ ADA-BTC:
           fsym: ADA
           tsym: BTC
 
-ATOM-USDT:
+ATOM-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -258,17 +258,7 @@ ATOM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ATOM
-          tsym: USDT
-
-OKB-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OKB
-          tsym: USDT
+          tsym: USD
 
 XRP-BTC:
   discrepancy: 1.0
@@ -289,8 +279,13 @@ LTC-USD:
         params:
           fsym: LTC
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LTC
+          tsym: USD
 
-HT-USDT:
+HT-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -298,7 +293,7 @@ HT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: HT
-          tsym: USDT
+          tsym: USD
 
 BTC-GBP:
   discrepancy: 1.0
@@ -306,6 +301,11 @@ BTC-GBP:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: GBP
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: BTC
           tsym: GBP
@@ -319,6 +319,11 @@ USDT-USD:
         params:
           fsym: USDT
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDT
+          tsym: USD
 
 LTC-BTC:
   discrepancy: 1.0
@@ -329,8 +334,13 @@ LTC-BTC:
         params:
           fsym: LTC
           tsym: BTC
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LTC
+          tsym: BTC
 
-ZEC-USDT:
+ZEC-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -338,9 +348,14 @@ ZEC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ZEC
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ZEC
+          tsym: USD
 
-ETC-USDT:
+ETC-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -348,9 +363,14 @@ ETC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ETC
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETC
+          tsym: USD
 
-NEO-USDT:
+NEO-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -358,9 +378,9 @@ NEO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: NEO
-          tsym: USDT
+          tsym: USD
 
-SRM-USDT:
+SRM-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -368,9 +388,9 @@ SRM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SRM
-          tsym: USDT
+          tsym: USD
 
-BSV-USDT:
+BSV-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -378,9 +398,9 @@ BSV-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BSV
-          tsym: USDT
+          tsym: USD
 
-USDC-USDT:
+USDC-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -388,7 +408,12 @@ USDC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: USDC
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDC
+          tsym: USD
 
 ETH-JPY:
   discrepancy: 1.0
@@ -400,7 +425,7 @@ ETH-JPY:
           fsym: ETH
           tsym: JPY
 
-DASH-USDT:
+DASH-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -408,9 +433,14 @@ DASH-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DASH
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DASH
+          tsym: USD
 
-SOL-USDT:
+SOL-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -418,7 +448,7 @@ SOL-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SOL
-          tsym: USDT
+          tsym: USD
 
 XEM-BTC:
   discrepancy: 1.0
@@ -430,7 +460,7 @@ XEM-BTC:
           fsym: XEM
           tsym: BTC
 
-ONT-USDT:
+ONT-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -438,7 +468,7 @@ ONT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ONT
-          tsym: USDT
+          tsym: USD
 
 DOT-BTC:
   discrepancy: 1.0
@@ -450,17 +480,7 @@ DOT-BTC:
           fsym: DOT
           tsym: BTC
 
-FTM-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: FTM
-          tsym: USDT
-
-SUSHI-USDT:
+SUSHI-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -468,29 +488,9 @@ SUSHI-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SUSHI
-          tsym: USDT
-
-XLM-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XLM
           tsym: USD
 
-ADA-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ADA
-          tsym: USD
-
-BTT-USDT:
+BTT-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -498,7 +498,7 @@ BTT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BTT
-          tsym: USDT
+          tsym: USD
 
 IOST-BTC:
   discrepancy: 1.0
@@ -510,17 +510,7 @@ IOST-BTC:
           fsym: IOST
           tsym: BTC
 
-XRP-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XRP
-          tsym: USD
-
-VET-USDT:
+VET-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -528,7 +518,7 @@ VET-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: VET
-          tsym: USDT
+          tsym: USD
 
 BCH-BTC:
   discrepancy: 1.0
@@ -550,17 +540,7 @@ ADA-KRW:
           fsym: ADA
           tsym: KRW
 
-LUNA-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LUNA
-          tsym: USDT
-
-SXP-USDT:
+SXP-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -568,9 +548,9 @@ SXP-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SXP
-          tsym: USDT
+          tsym: USD
 
-KSM-USDT:
+KSM-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -578,7 +558,7 @@ KSM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KSM
-          tsym: USDT
+          tsym: USD
 
 LINK-BTC:
   discrepancy: 1.0
@@ -590,7 +570,7 @@ LINK-BTC:
           fsym: LINK
           tsym: BTC
 
-XEM-USDT:
+XEM-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -598,19 +578,9 @@ XEM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: XEM
-          tsym: USDT
-
-UNI-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UNI
           tsym: USD
 
-ZRX-USDT:
+ZRX-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -618,9 +588,14 @@ ZRX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ZRX
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ZRX
+          tsym: USD
 
-AAVE-USDT:
+AAVE-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -628,7 +603,7 @@ AAVE-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: AAVE
-          tsym: USDT
+          tsym: USD
 
 BCH-USD:
   discrepancy: 1.0
@@ -639,8 +614,13 @@ BCH-USD:
         params:
           fsym: BCH
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BCH
+          tsym: USD
 
-RVN-USDT:
+RVN-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -648,9 +628,9 @@ RVN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: RVN
-          tsym: USDT
+          tsym: USD
 
-CRV-USDT:
+CRV-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -658,7 +638,7 @@ CRV-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: CRV
-          tsym: USDT
+          tsym: USD
 
 BNB-EUR:
   discrepancy: 1.0
@@ -670,7 +650,7 @@ BNB-EUR:
           fsym: BNB
           tsym: EUR
 
-ALGO-USDT:
+ALGO-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -678,9 +658,9 @@ ALGO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ALGO
-          tsym: USDT
+          tsym: USD
 
-QTUM-USDT:
+QTUM-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -688,9 +668,14 @@ QTUM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: QTUM
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: QTUM
+          tsym: USD
 
-MIOTA-USDT:
+MIOTA-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -698,7 +683,7 @@ MIOTA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: MIOTA
-          tsym: USDT
+          tsym: USD
 
 XRP-EUR:
   discrepancy: 1.0
@@ -710,7 +695,7 @@ XRP-EUR:
           fsym: XRP
           tsym: EUR
 
-XTZ-USDT:
+XTZ-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -718,9 +703,14 @@ XTZ-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: XTZ
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: XTZ
+          tsym: USD
 
-OMG-USDT:
+OMG-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -728,17 +718,12 @@ OMG-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: OMG
-          tsym: USDT
-
-USDT-TRY:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
+          tsym: USD
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: USDT
-          tsym: TRY
+          fsym: OMG
+          tsym: USD
 
 ADA-EUR:
   discrepancy: 1.0
@@ -770,7 +755,7 @@ ATOM-BTC:
           fsym: ATOM
           tsym: BTC
 
-XMR-USDT:
+XMR-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -778,9 +763,9 @@ XMR-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: XMR
-          tsym: USDT
+          tsym: USD
 
-YFI-USDT:
+YFI-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -788,7 +773,7 @@ YFI-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: YFI
-          tsym: USDT
+          tsym: USD
 
 DOT-KRW:
   discrepancy: 1.0
@@ -800,27 +785,7 @@ DOT-KRW:
           fsym: DOT
           tsym: KRW
 
-DOT-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DOT
-          tsym: USD
-
-ATOM-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ATOM
-          tsym: USD
-
-ICX-USDT:
+ICX-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -828,9 +793,9 @@ ICX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ICX
-          tsym: USDT
+          tsym: USD
 
-AVAX-USDT:
+AVAX-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -838,9 +803,9 @@ AVAX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: AVAX
-          tsym: USDT
+          tsym: USD
 
-FIL-USDT:
+FIL-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -848,19 +813,9 @@ FIL-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: FIL
-          tsym: USDT
+          tsym: USD
 
-ADA-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ADA
-          tsym: BUSD
-
-BAND-USDT:
+BAND-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -868,7 +823,7 @@ BAND-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BAND
-          tsym: USDT
+          tsym: USD
 
 EOS-BTC:
   discrepancy: 1.0
@@ -900,7 +855,7 @@ XLM-BTC:
           fsym: XLM
           tsym: BTC
 
-ZIL-USDT:
+ZIL-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -908,7 +863,7 @@ ZIL-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ZIL
-          tsym: USDT
+          tsym: USD
 
 XMR-BTC:
   discrepancy: 1.0
@@ -940,7 +895,7 @@ XRP-TRY:
           fsym: XRP
           tsym: TRY
 
-EGLD-USDT:
+EGLD-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -948,9 +903,9 @@ EGLD-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: EGLD
-          tsym: USDT
+          tsym: USD
 
-JST-USDT:
+JST-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -958,9 +913,9 @@ JST-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: JST
-          tsym: USDT
+          tsym: USD
 
-THETA-USDT:
+THETA-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -968,9 +923,9 @@ THETA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: THETA
-          tsym: USDT
+          tsym: USD
 
-MATIC-USDT:
+MATIC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -978,9 +933,9 @@ MATIC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: MATIC
-          tsym: USDT
+          tsym: USD
 
-SNX-USDT:
+SNX-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -988,7 +943,7 @@ SNX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SNX
-          tsym: USDT
+          tsym: USD
 
 XEM-KRW:
   discrepancy: 1.0
@@ -999,16 +954,6 @@ XEM-KRW:
         params:
           fsym: XEM
           tsym: KRW
-
-XVS-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XVS
-          tsym: USDT
 
 GRT-BTC:
   discrepancy: 1.0
@@ -1029,16 +974,6 @@ DOT-EUR:
         params:
           fsym: DOT
           tsym: EUR
-
-AAVE-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: AAVE
-          tsym: USD
 
 GRT-EUR:
   discrepancy: 1.0
@@ -1110,16 +1045,6 @@ LINK-EUR:
           fsym: LINK
           tsym: EUR
 
-XRP-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XRP
-          tsym: BUSD
-
 CRO-KRW:
   discrepancy: 1.0
   precision: 2
@@ -1139,8 +1064,13 @@ DAI-USD:
         params:
           fsym: DAI
           tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI
+          tsym: USD
 
-NPXS-USDT:
+NPXS-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -1148,7 +1078,7 @@ NPXS-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: NPXS
-          tsym: USDT
+          tsym: USD
 
 DASH-BTC:
   discrepancy: 1.0
@@ -1160,26 +1090,6 @@ DASH-BTC:
           fsym: DASH
           tsym: BTC
 
-XTZ-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XTZ
-          tsym: USD
-
-DOT-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DOT
-          tsym: BUSD
-
 XLM-EUR:
   discrepancy: 1.0
   precision: 4
@@ -1190,7 +1100,7 @@ XLM-EUR:
           fsym: XLM
           tsym: EUR
 
-CRO-USDT:
+CRO-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -1198,9 +1108,9 @@ CRO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: CRO
-          tsym: USDT
+          tsym: USD
 
-PAY-USDT:
+PAY-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -1208,7 +1118,7 @@ PAY-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: PAY
-          tsym: USDT
+          tsym: USD
 
 BNB-ETH:
   discrepancy: 1.0
@@ -1220,7 +1130,7 @@ BNB-ETH:
           fsym: BNB
           tsym: ETH
 
-COMP-USDT:
+COMP-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -1228,7 +1138,7 @@ COMP-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: COMP
-          tsym: USDT
+          tsym: USD
 
 XEM-JPY:
   discrepancy: 1.0
@@ -1260,7 +1170,7 @@ IOST-KRW:
           fsym: IOST
           tsym: KRW
 
-RSR-USDT:
+RSR-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -1268,17 +1178,7 @@ RSR-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: RSR
-          tsym: USDT
-
-CAKE-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CAKE
-          tsym: BUSD
+          tsym: USD
 
 REN-USD:
   discrepancy: 1.0
@@ -1300,16 +1200,6 @@ AAVE-BTC:
           fsym: AAVE
           tsym: BTC
 
-YFI-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: YFI
-          tsym: USD
-
 NEO-BTC:
   discrepancy: 1.0
   precision: 7
@@ -1320,7 +1210,7 @@ NEO-BTC:
           fsym: NEO
           tsym: BTC
 
-BAT-USDT:
+BAT-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -1328,7 +1218,12 @@ BAT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BAT
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BAT
+          tsym: USD
 
 HT-BTC:
   discrepancy: 1.0
@@ -1340,16 +1235,6 @@ HT-BTC:
           fsym: HT
           tsym: BTC
 
-NEAR-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NEAR
-          tsym: USDT
-
 UNI-BTC:
   discrepancy: 1.0
   precision: 7
@@ -1360,7 +1245,7 @@ UNI-BTC:
           fsym: UNI
           tsym: BTC
 
-YFII-USDT:
+YFII-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -1368,9 +1253,9 @@ YFII-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: YFII
-          tsym: USDT
+          tsym: USD
 
-HOT-USDT:
+HOT-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -1378,7 +1263,7 @@ HOT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: HOT
-          tsym: USDT
+          tsym: USD
 
 ADA-ETH:
   discrepancy: 1.0
@@ -1399,16 +1284,6 @@ SRM-KRW:
         params:
           fsym: SRM
           tsym: KRW
-
-REN-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: REN
-          tsym: USDT
 
 NU-USD:
   discrepancy: 1.0
@@ -1470,7 +1345,7 @@ ALGO-BTC:
           fsym: ALGO
           tsym: BTC
 
-WAVES-USDT:
+WAVES-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1478,16 +1353,11 @@ WAVES-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: WAVES
-          tsym: USDT
-
-USDC-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
+          tsym: USD
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: USDC
+          fsym: WAVES
           tsym: USD
 
 ZEC-BTC:
@@ -1499,16 +1369,6 @@ ZEC-BTC:
         params:
           fsym: ZEC
           tsym: BTC
-
-ALPHA-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ALPHA
-          tsym: USDT
 
 ZRX-BTC:
   discrepancy: 1.0
@@ -1550,7 +1410,7 @@ MIOTA-BTC:
           fsym: MIOTA
           tsym: BTC
 
-BNT-USDT:
+BNT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1558,17 +1418,12 @@ BNT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BNT
-          tsym: USDT
-
-FTT-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
+          tsym: USD
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: FTT
-          tsym: USDT
+          fsym: BNT
+          tsym: USD
 
 ETH-AUD:
   discrepancy: 1.0
@@ -1576,6 +1431,11 @@ ETH-AUD:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: AUD
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: ETH
           tsym: AUD
@@ -1590,7 +1450,7 @@ XLM-JPY:
           fsym: XLM
           tsym: JPY
 
-TOMO-USDT:
+TOMO-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1598,36 +1458,6 @@ TOMO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: TOMO
-          tsym: USDT
-
-USDT-DAI:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: USDT
-          tsym: DAI
-
-LINK-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LINK
-          tsym: BUSD
-
-OMG-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OMG
           tsym: USD
 
 BCH-EUR:
@@ -1636,6 +1466,11 @@ BCH-EUR:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: EUR
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: BCH
           tsym: EUR
@@ -1670,7 +1505,7 @@ BTG-KRW:
           fsym: BTG
           tsym: KRW
 
-NANO-USDT:
+NANO-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1678,9 +1513,14 @@ NANO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: NANO
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: NANO
+          tsym: USD
 
-RUNE-USDT:
+RUNE-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1688,19 +1528,9 @@ RUNE-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: RUNE
-          tsym: USDT
-
-DASH-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DASH
           tsym: USD
 
-FRONT-USDT:
+FRONT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -1708,16 +1538,6 @@ FRONT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: FRONT
-          tsym: USDT
-
-BNT-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BNT
           tsym: USD
 
 ETC-BTC:
@@ -1740,17 +1560,7 @@ ATOM-KRW:
           fsym: ATOM
           tsym: KRW
 
-WBTC-BTC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WBTC
-          tsym: BTC
-
-HBAR-USDT:
+HBAR-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -1758,7 +1568,7 @@ HBAR-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: HBAR
-          tsym: USDT
+          tsym: USD
 
 SUSHI-BTC:
   discrepancy: 1.0
@@ -1810,27 +1620,7 @@ ZRX-KRW:
           fsym: ZRX
           tsym: KRW
 
-ANKR-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ANKR
-          tsym: USDT
-
-SAND-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SAND
-          tsym: USDT
-
-MKR-USDT:
+MKR-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -1838,7 +1628,7 @@ MKR-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: MKR
-          tsym: USDT
+          tsym: USD
 
 XTZ-BTC:
   discrepancy: 1.0
@@ -1850,7 +1640,7 @@ XTZ-BTC:
           fsym: XTZ
           tsym: BTC
 
-LRC-USDT:
+LRC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -1858,7 +1648,12 @@ LRC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: LRC
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LRC
+          tsym: USD
 
 OXT-USD:
   discrepancy: 1.0
@@ -1880,17 +1675,7 @@ BORA-KRW:
           fsym: BORA
           tsym: KRW
 
-ETC-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ETC
-          tsym: USD
-
-ZEN-USDT:
+ZEN-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -1898,7 +1683,7 @@ ZEN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ZEN
-          tsym: USDT
+          tsym: USD
 
 BNT-BTC:
   discrepancy: 1.0
@@ -1909,16 +1694,6 @@ BNT-BTC:
         params:
           fsym: BNT
           tsym: BTC
-
-SNX-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SNX
-          tsym: USD
 
 YFI-BTC:
   discrepancy: 1.0
@@ -1960,7 +1735,7 @@ ICX-BTC:
           fsym: ICX
           tsym: BTC
 
-SUN-USDT:
+SUN-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -1968,26 +1743,6 @@ SUN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SUN
-          tsym: USDT
-
-TRB-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: TRB
-          tsym: USDT
-
-ZEC-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZEC
           tsym: USD
 
 EGLD-BTC:
@@ -2000,7 +1755,7 @@ EGLD-BTC:
           fsym: EGLD
           tsym: BTC
 
-MANA-USDT:
+MANA-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2008,9 +1763,14 @@ MANA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: MANA
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: MANA
+          tsym: USD
 
-BAL-USDT:
+BAL-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -2018,7 +1778,7 @@ BAL-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BAL
-          tsym: USDT
+          tsym: USD
 
 ETC-KRW:
   discrepancy: 1.0
@@ -2060,7 +1820,7 @@ USDC-GBP:
           fsym: USDC
           tsym: GBP
 
-OCEAN-USDT:
+OCEAN-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2068,7 +1828,7 @@ OCEAN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: OCEAN
-          tsym: USDT
+          tsym: USD
 
 SNT-KRW:
   discrepancy: 1.0
@@ -2080,36 +1840,6 @@ SNT-KRW:
           fsym: SNT
           tsym: KRW
 
-SOL-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SOL
-          tsym: USD
-
-BAND-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BAND
-          tsym: USD
-
-DNT-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DNT
-          tsym: USDC
-
 DASH-TRY:
   discrepancy: 1.0
   precision: 2
@@ -2119,16 +1849,6 @@ DASH-TRY:
         params:
           fsym: DASH
           tsym: TRY
-
-OKB-BTC:
-  discrepancy: 1.0
-  precision: 7
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OKB
-          tsym: BTC
 
 CAKE-BNB:
   discrepancy: 1.0
@@ -2140,16 +1860,6 @@ CAKE-BNB:
           fsym: CAKE
           tsym: BNB
 
-CVC-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CVC
-          tsym: USDC
-
 UNI-KRW:
   discrepancy: 1.0
   precision: 2
@@ -2160,7 +1870,7 @@ UNI-KRW:
           fsym: UNI
           tsym: KRW
 
-CHZ-USDT:
+CHZ-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -2168,7 +1878,7 @@ CHZ-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: CHZ
-          tsym: USDT
+          tsym: USD
 
 XEM-ETH:
   discrepancy: 1.0
@@ -2190,27 +1900,7 @@ BNB-TRY:
           fsym: BNB
           tsym: TRY
 
-COMP-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: COMP
-          tsym: USD
-
-UNI-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UNI
-          tsym: BUSD
-
-KAVA-USDT:
+KAVA-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -2218,7 +1908,7 @@ KAVA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KAVA
-          tsym: USDT
+          tsym: USD
 
 MFT-KRW:
   discrepancy: 1.0
@@ -2249,16 +1939,6 @@ EOS-ETH:
         params:
           fsym: EOS
           tsym: ETH
-
-SOL-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SOL
-          tsym: BUSD
 
 BAT-BTC:
   discrepancy: 1.0
@@ -2310,26 +1990,6 @@ QTUM-KRW:
           fsym: QTUM
           tsym: KRW
 
-COTI-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: COTI
-          tsym: USDT
-
-LRC-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LRC
-          tsym: USD
-
 XTZ-KRW:
   discrepancy: 1.0
   precision: 2
@@ -2340,17 +2000,7 @@ XTZ-KRW:
           fsym: XTZ
           tsym: KRW
 
-DOGE-USD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DOGE
-          tsym: USD
-
-ENJ-USDT:
+ENJ-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2358,17 +2008,7 @@ ENJ-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ENJ
-          tsym: USDT
-
-FLM-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: FLM
-          tsym: USDT
+          tsym: USD
 
 XRP-ETH:
   discrepancy: 1.0
@@ -2380,7 +2020,7 @@ XRP-ETH:
           fsym: XRP
           tsym: ETH
 
-CVC-USDT:
+CVC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2388,7 +2028,7 @@ CVC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: CVC
-          tsym: USDT
+          tsym: USD
 
 EPT-KRW:
   discrepancy: 1.0
@@ -2400,19 +2040,9 @@ EPT-KRW:
           fsym: EPT
           tsym: KRW
 
-ORN-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ORN
-          tsym: USDT
-
 ADA-BNB:
   discrepancy: 1.0
-  precision: 6
+  precision: 6UNFI
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
@@ -2450,7 +2080,7 @@ EOS-EUR:
           fsym: EOS
           tsym: EUR
 
-TUSD-USDT:
+TUSD-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2458,27 +2088,7 @@ TUSD-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: TUSD
-          tsym: USDT
-
-UNFI-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UNFI
-          tsym: USDT
-
-EOS-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: EOS
-          tsym: BUSD
+          tsym: USD
 
 NPXS-ETH:
   discrepancy: 1.0
@@ -2500,7 +2110,7 @@ BAND-BTC:
           fsym: BAND
           tsym: BTC
 
-PAX-USDT:
+PAX-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -2508,7 +2118,7 @@ PAX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: PAX
-          tsym: USDT
+          tsym: USD
 
 ATOM-TRY:
   discrepancy: 1.0
@@ -2519,16 +2129,6 @@ ATOM-TRY:
         params:
           fsym: ATOM
           tsym: TRY
-
-DIA-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DIA
-          tsym: USDT
 
 LTC-GBP:
   discrepancy: 1.0
@@ -2550,16 +2150,6 @@ MED-KRW:
           fsym: MED
           tsym: KRW
 
-SRM-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SRM
-          tsym: USD
-
 COMP-BTC:
   discrepancy: 1.0
   precision: 6
@@ -2570,7 +2160,7 @@ COMP-BTC:
           fsym: COMP
           tsym: BTC
 
-STORJ-USDT:
+STORJ-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -2578,27 +2168,12 @@ STORJ-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: STORJ
-          tsym: USDT
-
-BTM-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
+          tsym: USD
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: BTM
-          tsym: USDT
-
-XLM-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XLM
-          tsym: BUSD
+          fsym: STORJ
+          tsym: USD
 
 WAVES-BTC:
   discrepancy: 1.0
@@ -2660,16 +2235,6 @@ HBAR-BTC:
           fsym: HBAR
           tsym: BTC
 
-MKR-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MKR
-          tsym: USD
-
 ALGO-EUR:
   discrepancy: 1.0
   precision: 4
@@ -2699,16 +2264,6 @@ XTZ-EUR:
         params:
           fsym: XTZ
           tsym: EUR
-
-BZRX-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BZRX
-          tsym: USDT
 
 LSK-BTC:
   discrepancy: 1.0
@@ -2760,26 +2315,6 @@ QTUM-BTC:
           fsym: QTUM
           tsym: BTC
 
-MANA-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MANA
-          tsym: USDC
-
-BCH-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BCH
-          tsym: BUSD
-
 DGB-BTC:
   discrepancy: 1.0
   precision: 9
@@ -2789,16 +2324,6 @@ DGB-BTC:
         params:
           fsym: DGB
           tsym: BTC
-
-INJ-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: INJ
-          tsym: USDT
 
 BCH-JPY:
   discrepancy: 1.0
@@ -2820,27 +2345,7 @@ HBAR-KRW:
           fsym: HBAR
           tsym: KRW
 
-ALGO-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ALGO
-          tsym: USD
-
-SXP-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SXP
-          tsym: BUSD
-
-DGB-USDT:
+DGB-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -2848,7 +2353,7 @@ DGB-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DGB
-          tsym: USDT
+          tsym: USD
 
 GRT-GBP:
   discrepancy: 1.0
@@ -2860,16 +2365,6 @@ GRT-GBP:
           fsym: GRT
           tsym: GBP
 
-BAT-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BAT
-          tsym: USDC
-
 DOT-BNB:
   discrepancy: 1.0
   precision: 4
@@ -2879,16 +2374,6 @@ DOT-BNB:
         params:
           fsym: DOT
           tsym: BNB
-
-MIOTA-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MIOTA
-          tsym: USD
 
 ZIL-KRW:
   discrepancy: 1.0
@@ -2910,7 +2395,7 @@ HT-ETH:
           fsym: HT
           tsym: ETH
 
-KNC-USDT:
+KNC-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -2918,7 +2403,12 @@ KNC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KNC
-          tsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: KNC
+          tsym: USD
 
 ENJ-BTC:
   discrepancy: 1.0
@@ -2930,7 +2420,7 @@ ENJ-BTC:
           fsym: ENJ
           tsym: BTC
 
-AKRO-USDT:
+AKRO-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -2938,7 +2428,7 @@ AKRO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: AKRO
-          tsym: USDT
+          tsym: USD
 
 ANKR-KRW:
   discrepancy: 1.0
@@ -2950,7 +2440,7 @@ ANKR-KRW:
           fsym: ANKR
           tsym: KRW
 
-GT-USDT:
+GT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -2958,7 +2448,7 @@ GT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: GT
-          tsym: USDT
+          tsym: USD
 
 CHSB-BTC:
   discrepancy: 1.0
@@ -2980,7 +2470,7 @@ AVAX-BTC:
           fsym: AVAX
           tsym: BTC
 
-LSK-USDT:
+LSK-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -2988,19 +2478,9 @@ LSK-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: LSK
-          tsym: USDT
+          tsym: USD
 
-TFUEL-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: TFUEL
-          tsym: USDT
-
-UMA-USDT:
+UMA-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -3008,7 +2488,7 @@ UMA-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: UMA
-          tsym: USDT
+          tsym: USD
 
 EOS-TRY:
   discrepancy: 1.0
@@ -3050,16 +2530,6 @@ MKR-BTC:
           fsym: MKR
           tsym: BTC
 
-KNC-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: KNC
-          tsym: USD
-
 ZRX-EUR:
   discrepancy: 1.0
   precision: 3
@@ -3090,16 +2560,6 @@ NMR-USD:
           fsym: NMR
           tsym: USD
 
-ADA-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ADA
-          tsym: USDC
-
 XRP-GBP:
   discrepancy: 1.0
   precision: 4
@@ -3109,26 +2569,6 @@ XRP-GBP:
         params:
           fsym: XRP
           tsym: GBP
-
-MFT-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MFT
-          tsym: USDT
-
-EGLD-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: EGLD
-          tsym: BUSD
 
 TFUEL-KRW:
   discrepancy: 1.0
@@ -3160,7 +2600,7 @@ MLK-KRW:
           fsym: MLK
           tsym: KRW
 
-BTS-USDT:
+BTS-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -3168,7 +2608,7 @@ BTS-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BTS
-          tsym: USDT
+          tsym: USD
 
 TRX-ETH:
   discrepancy: 1.0
@@ -3190,16 +2630,6 @@ XVS-BNB:
           fsym: XVS
           tsym: BNB
 
-UMA-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UMA
-          tsym: USD
-
 GAS-KRW:
   discrepancy: 1.0
   precision: 2
@@ -3220,37 +2650,7 @@ FIL-BTC:
           fsym: FIL
           tsym: BTC
 
-BUSD-DAI:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BUSD
-          tsym: DAI
-
-WBTC-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WBTC
-          tsym: USD
-
-SKL-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SKL
-          tsym: USDT
-
-FET-USDT:
+FET-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -3258,7 +2658,7 @@ FET-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: FET
-          tsym: USDT
+          tsym: USD
 
 RUNE-BTC:
   discrepancy: 1.0
@@ -3280,16 +2680,6 @@ ANKR-BTC:
           fsym: ANKR
           tsym: BTC
 
-RVN-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: RVN
-          tsym: USD
-
 RSR-BTC:
   discrepancy: 1.0
   precision: 10
@@ -3310,7 +2700,7 @@ SC-BTC:
           fsym: SC
           tsym: BTC
 
-PAXG-USDT:
+PAXG-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -3318,7 +2708,7 @@ PAXG-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: PAXG
-          tsym: USDT
+          tsym: USD
 
 COTI-BTC:
   discrepancy: 1.0
@@ -3350,7 +2740,7 @@ XTZ-TRY:
           fsym: XTZ
           tsym: TRY
 
-ONE-USDT:
+ONE-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -3358,7 +2748,7 @@ ONE-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ONE
-          tsym: USDT
+          tsym: USD
 
 RFR-KRW:
   discrepancy: 1.0
@@ -3370,17 +2760,7 @@ RFR-KRW:
           fsym: RFR
           tsym: KRW
 
-VET-BUSD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: VET
-          tsym: BUSD
-
-ANT-USDT:
+ANT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -3388,7 +2768,7 @@ ANT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ANT
-          tsym: USDT
+          tsym: USD
 
 ETH-RUB:
   discrepancy: 1.0
@@ -3430,7 +2810,7 @@ SOL-ETH:
           fsym: SOL
           tsym: ETH
 
-SC-USDT:
+SC-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -3438,17 +2818,7 @@ SC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SC
-          tsym: USDT
-
-LUNA-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LUNA
-          tsym: BUSD
+          tsym: USD
 
 USDC-EUR:
   discrepancy: 1.0
@@ -3459,16 +2829,6 @@ USDC-EUR:
         params:
           fsym: USDC
           tsym: EUR
-
-TRX-USD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: TRX
-          tsym: USD
 
 OMG-EUR:
   discrepancy: 1.0
@@ -3490,7 +2850,7 @@ LUNA-BNB:
           fsym: LUNA
           tsym: BNB
 
-STX-USDT:
+STX-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -3498,17 +2858,7 @@ STX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: STX
-          tsym: USDT
-
-ROSE-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ROSE
-          tsym: USDT
+          tsym: USD
 
 DKA-KRW:
   discrepancy: 1.0
@@ -3520,7 +2870,7 @@ DKA-KRW:
           fsym: DKA
           tsym: KRW
 
-DENT-USDT:
+DENT-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -3528,17 +2878,7 @@ DENT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DENT
-          tsym: USDT
-
-SRM-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SRM
-          tsym: BUSD
+          tsym: USD
 
 DCR-BTC:
   discrepancy: 1.0
@@ -3550,16 +2890,6 @@ DCR-BTC:
           fsym: DCR
           tsym: BTC
 
-WBTC-ETH:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WBTC
-          tsym: ETH
-
 BNB-AUD:
   discrepancy: 1.0
   precision: 2
@@ -3570,16 +2900,6 @@ BNB-AUD:
           fsym: BNB
           tsym: AUD
 
-VET-USD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: VET
-          tsym: USD
-
 KNC-BTC:
   discrepancy: 1.0
   precision: 8
@@ -3589,16 +2909,6 @@ KNC-BTC:
         params:
           fsym: KNC
           tsym: BTC
-
-XVS-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XVS
-          tsym: BUSD
 
 SOL-BNB:
   discrepancy: 1.0
@@ -3630,16 +2940,6 @@ NU-EUR:
           fsym: NU
           tsym: EUR
 
-BEL-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BEL
-          tsym: USDT
-
 ENJ-KRW:
   discrepancy: 1.0
   precision: 2
@@ -3649,16 +2949,6 @@ ENJ-KRW:
         params:
           fsym: ENJ
           tsym: KRW
-
-CRO-USDK:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CRO
-          tsym: USDK
 
 THETA-KRW:
   discrepancy: 1.0
@@ -3680,16 +2970,6 @@ XVG-BTC:
           fsym: XVG
           tsym: BTC
 
-API3-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: API3
-          tsym: USDT
-
 STEEM-KRW:
   discrepancy: 1.0
   precision: 2
@@ -3700,17 +2980,7 @@ STEEM-KRW:
           fsym: STEEM
           tsym: KRW
 
-WBTC-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WBTC
-          tsym: USDT
-
-KCS-USDT:
+KCS-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -3718,7 +2988,7 @@ KCS-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KCS
-          tsym: USDT
+          tsym: USD
 
 PAXG-BTC:
   discrepancy: 1.0
@@ -3730,16 +3000,6 @@ PAXG-BTC:
           fsym: PAXG
           tsym: BTC
 
-ZRX-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZRX
-          tsym: USD
-
 HOT-BNB:
   discrepancy: 1.0
   precision: 8
@@ -3750,27 +3010,7 @@ HOT-BNB:
           fsym: HOT
           tsym: BNB
 
-DOGE-BUSD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DOGE
-          tsym: BUSD
-
-XMR-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XMR
-          tsym: USD
-
-DCR-USDT:
+DCR-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -3778,7 +3018,7 @@ DCR-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DCR
-          tsym: USDT
+          tsym: USD
 
 ARK-KRW:
   discrepancy: 1.0
@@ -3789,26 +3029,6 @@ ARK-KRW:
         params:
           fsym: ARK
           tsym: KRW
-
-AAVE-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: AAVE
-          tsym: BUSD
-
-BLZ-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BLZ
-          tsym: USDT
 
 DASH-ETH:
   discrepancy: 1.0
@@ -3830,26 +3050,6 @@ STMX-KRW:
           fsym: STMX
           tsym: KRW
 
-SUSHI-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SUSHI
-          tsym: BUSD
-
-ATOM-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ATOM
-          tsym: BUSD
-
 CELO-USD:
   discrepancy: 1.0
   precision: 3
@@ -3870,17 +3070,7 @@ SAND-BTC:
           fsym: SAND
           tsym: BTC
 
-IRIS-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: IRIS
-          tsym: USDT
-
-KEY-USDT:
+KEY-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -3888,7 +3078,7 @@ KEY-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KEY
-          tsym: USDT
+          tsym: USD
 
 ELF-BTC:
   discrepancy: 1.0
@@ -3960,16 +3150,6 @@ ORN-BTC:
           fsym: ORN
           tsym: BTC
 
-BUSD-TRY:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BUSD
-          tsym: TRY
-
 ETH-PLN:
   discrepancy: 1.0
   precision: 2
@@ -3980,17 +3160,7 @@ ETH-PLN:
           fsym: ETH
           tsym: PLN
 
-KSM-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: KSM
-          tsym: USD
-
-RLC-USDT:
+RLC-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -3998,29 +3168,14 @@ RLC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: RLC
-          tsym: USDT
-
-RVN-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
+          tsym: USD
     - fetcher:
-        name: CryptoComparePriceWS
+        name: PolygonIOCryptoPrice
         params:
-          fsym: RVN
-          tsym: BUSD
+          fsym: RLC
+          tsym: USD
 
-CTK-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CTK
-          tsym: USDT
-
-AION-USDT:
+AION-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4028,7 +3183,7 @@ AION-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: AION
-          tsym: USDT
+          tsym: USD
 
 VET-ETH:
   discrepancy: 1.0
@@ -4060,16 +3215,6 @@ IQ-KRW:
           fsym: IQ
           tsym: KRW
 
-LOOM-USDC:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LOOM
-          tsym: USDC
-
 CRO-HT:
   discrepancy: 1.0
   precision: 6
@@ -4079,16 +3224,6 @@ CRO-HT:
         params:
           fsym: CRO
           tsym: HT
-
-HARD-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: HARD
-          tsym: USDT
 
 USDC-AUD:
   discrepancy: 1.0
@@ -4129,16 +3264,6 @@ IOST-ETH:
         params:
           fsym: IOST
           tsym: ETH
-
-NEO-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NEO
-          tsym: USD
 
 LOOM-KRW:
   discrepancy: 1.0
@@ -4210,7 +3335,7 @@ ONE-BTC:
           fsym: ONE
           tsym: BTC
 
-PNT-USDT:
+PNT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -4218,17 +3343,7 @@ PNT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: PNT
-          tsym: USDT
-
-OXT-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OXT
-          tsym: USDT
+          tsym: USD
 
 MANA-KRW:
   discrepancy: 1.0
@@ -4240,7 +3355,7 @@ MANA-KRW:
           fsym: MANA
           tsym: KRW
 
-OGN-USDT:
+OGN-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4248,7 +3363,7 @@ OGN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: OGN
-          tsym: USDT
+          tsym: USD
 
 REP-USD:
   discrepancy: 1.0
@@ -4256,6 +3371,11 @@ REP-USD:
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
+        params:
+          fsym: REP
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
         params:
           fsym: REP
           tsym: USD
@@ -4270,26 +3390,6 @@ FET-BTC:
           fsym: FET
           tsym: BTC
 
-BRG-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BRG
-          tsym: USDT
-
-MATIC-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MATIC
-          tsym: BUSD
-
 FIL-EUR:
   discrepancy: 1.0
   precision: 2
@@ -4299,16 +3399,6 @@ FIL-EUR:
         params:
           fsym: FIL
           tsym: EUR
-
-DAI-USDC:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DAI
-          tsym: USDC
 
 LOOM-BTC:
   discrepancy: 1.0
@@ -4330,17 +3420,7 @@ MTL-KRW:
           fsym: MTL
           tsym: KRW
 
-USDT-BRL:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: USDT
-          tsym: BRL
-
-ELF-USDT:
+ELF-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4348,27 +3428,7 @@ ELF-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ELF
-          tsym: USDT
-
-KSM-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: KSM
-          tsym: BUSD
-
-ALGO-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ALGO
-          tsym: BUSD
+          tsym: USD
 
 ZEN-BTC:
   discrepancy: 1.0
@@ -4400,16 +3460,6 @@ HOT-ETH:
           fsym: HOT
           tsym: ETH
 
-SUSHI-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SUSHI
-          tsym: USD
-
 ELF-KRW:
   discrepancy: 1.0
   precision: 2
@@ -4430,7 +3480,7 @@ NU-BTC:
           fsym: NU
           tsym: BTC
 
-ONGAS-USDT:
+ONGAS-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4438,7 +3488,7 @@ ONGAS-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ONGAS
-          tsym: USDT
+          tsym: USD
 
 MARO-KRW:
   discrepancy: 1.0
@@ -4510,17 +3560,7 @@ ALGO-GBP:
           fsym: ALGO
           tsym: GBP
 
-ZEC-USDC:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZEC
-          tsym: USDC
-
-FSN-USDT:
+FSN-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4528,7 +3568,7 @@ FSN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: FSN
-          tsym: USDT
+          tsym: USD
 
 XMR-EUR:
   discrepancy: 1.0
@@ -4560,7 +3600,7 @@ AVAX-ETH:
           fsym: AVAX
           tsym: ETH
 
-LEO-USDT:
+LEO-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -4568,7 +3608,7 @@ LEO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: LEO
-          tsym: USDT
+          tsym: USD
 
 GRS-KRW:
   discrepancy: 1.0
@@ -4580,7 +3620,7 @@ GRS-KRW:
           fsym: GRS
           tsym: KRW
 
-UTK-USDT:
+UTK-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4588,9 +3628,9 @@ UTK-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: UTK
-          tsym: USDT
+          tsym: USD
 
-VTHO-USDT:
+VTHO-USD:
   discrepancy: 1.0
   precision: 6
   inputs:
@@ -4598,47 +3638,7 @@ VTHO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: VTHO
-          tsym: USDT
-
-STMX-USDT:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: STMX
-          tsym: USDT
-
-XTZ-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: XTZ
-          tsym: BUSD
-
-TT-USDT:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: TT
-          tsym: USDT
-
-TRX-BUSD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: TRX
-          tsym: BUSD
+          tsym: USD
 
 DENT-ETH:
   discrepancy: 1.0
@@ -4659,16 +3659,6 @@ ZEC-ETH:
         params:
           fsym: ZEC
           tsym: ETH
-
-AXS-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: AXS
-          tsym: USDT
 
 BAL-BTC:
   discrepancy: 1.0
@@ -4700,7 +3690,7 @@ ALPHA-BTC:
           fsym: ALPHA
           tsym: BTC
 
-WRX-USDT:
+WRX-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -4708,17 +3698,7 @@ WRX-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: WRX
-          tsym: USDT
-
-REP-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: REP
-          tsym: USDT
+          tsym: USD
 
 ETH-MXN:
   discrepancy: 1.0
@@ -4729,16 +3709,6 @@ ETH-MXN:
         params:
           fsym: ETH
           tsym: MXN
-
-CELO-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CELO
-          tsym: USDT
 
 ORBS-KRW:
   discrepancy: 1.0
@@ -4759,26 +3729,6 @@ SRM-BNB:
         params:
           fsym: SRM
           tsym: BNB
-
-NMR-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NMR
-          tsym: USDT
-
-ZIL-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZIL
-          tsym: BUSD
 
 DASH-EUR:
   discrepancy: 1.0
@@ -4850,26 +3800,6 @@ OCEAN-BTC:
           fsym: OCEAN
           tsym: BTC
 
-EGLD-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: EGLD
-          tsym: USD
-
-CELR-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CELR
-          tsym: USDT
-
 BNB-BIDR:
   discrepancy: 1.0
   precision: 2
@@ -4889,26 +3819,6 @@ SOLVE-KRW:
         params:
           fsym: SOLVE
           tsym: KRW
-
-VTHO-USD:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: VTHO
-          tsym: USD
-
-BAL-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BAL
-          tsym: USD
 
 KMD-KRW:
   discrepancy: 1.0
@@ -4930,26 +3840,6 @@ NEAR-BTC:
           fsym: NEAR
           tsym: BTC
 
-NULS-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NULS
-          tsym: USDT
-
-ABT-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ABT
-          tsym: USDT
-
 ARK-BTC:
   discrepancy: 1.0
   precision: 8
@@ -4960,7 +3850,7 @@ ARK-BTC:
           fsym: ARK
           tsym: BTC
 
-SNT-USDT:
+SNT-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -4968,7 +3858,7 @@ SNT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: SNT
-          tsym: USDT
+          tsym: USD
 
 MIOTA-KRW:
   discrepancy: 1.0
@@ -5010,16 +3900,6 @@ UNFI-BTC:
           fsym: UNFI
           tsym: BTC
 
-LEO-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LEO
-          tsym: USD
-
 REP-KRW:
   discrepancy: 1.0
   precision: 2
@@ -5050,16 +3930,6 @@ SXP-BNB:
           fsym: SXP
           tsym: BNB
 
-ACH-USDT:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ACH
-          tsym: USDT
-
 DIA-BTC:
   discrepancy: 1.0
   precision: 8
@@ -5069,46 +3939,6 @@ DIA-BTC:
         params:
           fsym: DIA
           tsym: BTC
-
-DAI-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DAI
-          tsym: USDT
-
-OKB-ETH:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OKB
-          tsym: ETH
-
-USDT-USDC:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: USDT
-          tsym: USDC
-
-HPT-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: HPT
-          tsym: USDT
 
 TON-KRW:
   discrepancy: 1.0
@@ -5150,16 +3980,6 @@ NEO-ETH:
           fsym: NEO
           tsym: ETH
 
-ICX-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ICX
-          tsym: BUSD
-
 STRAX-KRW:
   discrepancy: 1.0
   precision: 2
@@ -5189,16 +4009,6 @@ WAVES-KRW:
         params:
           fsym: WAVES
           tsym: KRW
-
-FIL-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: FIL
-          tsym: USD
 
 BTS-QC:
   discrepancy: 1.0
@@ -5240,16 +4050,6 @@ LSK-KRW:
           fsym: LSK
           tsym: KRW
 
-NODE-USDT:
-  discrepancy: 1.0
-  precision: 7
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NODE
-          tsym: USDT
-
 KAVA-BTC:
   discrepancy: 1.0
   precision: 8
@@ -5270,16 +4070,6 @@ ONGAS-KRW:
           fsym: ONGAS
           tsym: KRW
 
-WAVES-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WAVES
-          tsym: USD
-
 CELR-BTC:
   discrepancy: 1.0
   precision: 10
@@ -5290,17 +4080,7 @@ CELR-BTC:
           fsym: CELR
           tsym: BTC
 
-BSV-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BSV
-          tsym: USD
-
-WNXM-USDT:
+WNXM-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -5308,7 +4088,7 @@ WNXM-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: WNXM
-          tsym: USDT
+          tsym: USD
 
 AAVE-ETH:
   discrepancy: 1.0
@@ -5400,17 +4180,7 @@ ZRX-ETH:
           fsym: ZRX
           tsym: ETH
 
-IOTX-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: IOTX
-          tsym: USDT
-
-WIN-USDT:
+WIN-USD:
   discrepancy: 1.0
   precision: 7
   inputs:
@@ -5418,7 +4188,7 @@ WIN-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: WIN
-          tsym: USDT
+          tsym: USD
 
 ONT-ETH:
   discrepancy: 1.0
@@ -5430,27 +4200,7 @@ ONT-ETH:
           fsym: ONT
           tsym: ETH
 
-YFI-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: YFI
-          tsym: BUSD
-
-BIX-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BIX
-          tsym: USDT
-
-BTG-USDT:
+BTG-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -5458,7 +4208,7 @@ BTG-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: BTG
-          tsym: USDT
+          tsym: USD
 
 OMG-ETH:
   discrepancy: 1.0
@@ -5470,17 +4220,7 @@ OMG-ETH:
           fsym: OMG
           tsym: ETH
 
-BEAM-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BEAM
-          tsym: USDT
-
-LAMB-USDT:
+LAMB-USD:
   discrepancy: 1.0
   precision: 5
   inputs:
@@ -5488,17 +4228,7 @@ LAMB-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: LAMB
-          tsym: USDT
-
-USDT-BIDR:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: USDT
-          tsym: BIDR
+          tsym: USD
 
 DMT-KRW:
   discrepancy: 1.0
@@ -5540,16 +4270,6 @@ UNI-BNB:
           fsym: UNI
           tsym: BNB
 
-NEO-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NEO
-          tsym: BUSD
-
 YFI-EUR:
   discrepancy: 1.0
   precision: 2
@@ -5579,16 +4299,6 @@ RVN-BNB:
         params:
           fsym: RVN
           tsym: BNB
-
-ARPA-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ARPA
-          tsym: USDT
 
 YFII-BTC:
   discrepancy: 1.0
@@ -5620,16 +4330,6 @@ SNX-GBP:
           fsym: SNX
           tsym: GBP
 
-FOR-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: FOR
-          tsym: USDT
-
 ARDR-KRW:
   discrepancy: 1.0
   precision: 2
@@ -5650,36 +4350,6 @@ TRB-BTC:
           fsym: TRB
           tsym: BTC
 
-ETC-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ETC
-          tsym: BUSD
-
-BAT-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BAT
-          tsym: USD
-
-CTSI-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CTSI
-          tsym: USDT
-
 INJ-BTC:
   discrepancy: 1.0
   precision: 7
@@ -5690,7 +4360,7 @@ INJ-BTC:
           fsym: INJ
           tsym: BTC
 
-KMD-USDT:
+KMD-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -5698,7 +4368,7 @@ KMD-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: KMD
-          tsym: USDT
+          tsym: USD
 
 SKL-BTC:
   discrepancy: 1.0
@@ -5729,16 +4399,6 @@ IGNIS-KRW:
         params:
           fsym: IGNIS
           tsym: KRW
-
-DASH-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DASH
-          tsym: BUSD
 
 STORJ-BTC:
   discrepancy: 1.0
@@ -5780,7 +4440,7 @@ WAVES-EUR:
           fsym: WAVES
           tsym: EUR
 
-ABBC-USDT:
+ABBC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -5788,9 +4448,9 @@ ABBC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ABBC
-          tsym: USDT
+          tsym: USD
 
-CTXC-USDT:
+CTXC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -5798,9 +4458,9 @@ CTXC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: CTXC
-          tsym: USDT
+          tsym: USD
 
-WTC-USDT:
+WTC-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -5808,7 +4468,7 @@ WTC-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: WTC
-          tsym: USDT
+          tsym: USD
 
 CVC-KRW:
   discrepancy: 1.0
@@ -5850,16 +4510,6 @@ ADX-BTC:
           fsym: ADX
           tsym: BTC
 
-OM-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OM
-          tsym: USDT
-
 KAVA-KRW:
   discrepancy: 1.0
   precision: 2
@@ -5869,16 +4519,6 @@ KAVA-KRW:
         params:
           fsym: KAVA
           tsym: KRW
-
-WING-USDT:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WING
-          tsym: USDT
 
 SNT-BTC:
   discrepancy: 1.0
@@ -5890,7 +4530,7 @@ SNT-BTC:
           fsym: SNT
           tsym: BTC
 
-HNT-USDT:
+HNT-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -5898,7 +4538,7 @@ HNT-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: HNT
-          tsym: USDT
+          tsym: USD
 
 PIVX-BTC:
   discrepancy: 1.0
@@ -5930,7 +4570,7 @@ BTT-BTC:
           fsym: BTT
           tsym: BTC
 
-ZB-USDT:
+ZB-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -5938,7 +4578,7 @@ ZB-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: ZB
-          tsym: USDT
+          tsym: USD
 
 ATOM-ETH:
   discrepancy: 1.0
@@ -5949,16 +4589,6 @@ ATOM-ETH:
         params:
           fsym: ATOM
           tsym: ETH
-
-ZRX-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZRX
-          tsym: BUSD
 
 BNT-EUR:
   discrepancy: 1.0
@@ -6070,27 +4700,7 @@ BTS-BTC:
           fsym: BTS
           tsym: BTC
 
-WAN-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: WAN
-          tsym: USDT
-
-SNX-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SNX
-          tsym: BUSD
-
-NEXO-USDT:
+NEXO-USD:
   discrepancy: 1.0
   precision: 3
   inputs:
@@ -6098,7 +4708,7 @@ NEXO-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: NEXO
-          tsym: USDT
+          tsym: USD
 
 MIOTA-ETH:
   discrepancy: 1.0
@@ -6120,26 +4730,6 @@ PNT-BTC:
           fsym: PNT
           tsym: BTC
 
-MIOTA-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MIOTA
-          tsym: BUSD
-
-PST-USDT:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: PST
-          tsym: USDT
-
 DVP-KRW:
   discrepancy: 1.0
   precision: 2
@@ -6149,26 +4739,6 @@ DVP-KRW:
         params:
           fsym: DVP
           tsym: KRW
-
-NANO-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NANO
-          tsym: USD
-
-ONT-BUSD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ONT
-          tsym: BUSD
 
 BZRX-BTC:
   discrepancy: 1.0
@@ -6200,16 +4770,6 @@ SBD-KRW:
           fsym: SBD
           tsym: KRW
 
-ONE-USD:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ONE
-          tsym: USD
-
 GLM-BTC:
   discrepancy: 1.0
   precision: 9
@@ -6230,16 +4790,6 @@ CEL-USD:
           fsym: CEL
           tsym: USD
 
-QTUM-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: QTUM
-          tsym: USD
-
 ONGAS-BTC:
   discrepancy: 1.0
   precision: 9
@@ -6250,36 +4800,6 @@ ONGAS-BTC:
           fsym: ONGAS
           tsym: BTC
 
-COMP-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: COMP
-          tsym: BUSD
-
-MOF-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MOF
-          tsym: USDT
-
-HBAR-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: HBAR
-          tsym: USD
-
 UTK-BTC:
   discrepancy: 1.0
   precision: 9
@@ -6289,26 +4809,6 @@ UTK-BTC:
         params:
           fsym: UTK
           tsym: BTC
-
-CREAM-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: CREAM
-          tsym: BUSD
-
-RUNE-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: RUNE
-          tsym: BUSD
 
 POWR-BTC:
   discrepancy: 1.0
@@ -6350,36 +4850,6 @@ FSN-BTC:
           fsym: FSN
           tsym: BTC
 
-ALPHA-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ALPHA
-          tsym: BUSD
-
-ZEC-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZEC
-          tsym: BUSD
-
-STRAX-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: STRAX
-          tsym: USDT
-
 NEXO-BTC:
   discrepancy: 1.0
   precision: 8
@@ -6390,37 +4860,7 @@ NEXO-BTC:
           fsym: NEXO
           tsym: BTC
 
-ZIL-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ZIL
-          tsym: USD
-
-NANO-BUSD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: NANO
-          tsym: BUSD
-
-SWRV-USDT:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SWRV
-          tsym: USDT
-
-HIVE-USDT:
+HIVE-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -6428,17 +4868,7 @@ HIVE-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: HIVE
-          tsym: USDT
-
-PHA-USDT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: PHA
-          tsym: USDT
+          tsym: USD
 
 BNT-GBP:
   discrepancy: 1.0
@@ -6480,37 +4910,7 @@ CTSI-BTC:
           fsym: CTSI
           tsym: BTC
 
-ICX-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ICX
-          tsym: USD
-
-AVAX-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: AVAX
-          tsym: BUSD
-
-OMI-USDT:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: OMI
-          tsym: USDT
-
-AMPL-USDT:
+AMPL-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -6518,7 +4918,7 @@ AMPL-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: AMPL
-          tsym: USDT
+          tsym: USD
 
 OGN-BTC:
   discrepancy: 1.0
@@ -6540,17 +4940,7 @@ LSK-PLN:
           fsym: LSK
           tsym: PLN
 
-MBL-USDT:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MBL
-          tsym: USDT
-
-DUSK-USDT:
+DUSK-USD:
   discrepancy: 1.0
   precision: 4
   inputs:
@@ -6558,7 +4948,7 @@ DUSK-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: DUSK
-          tsym: USDT
+          tsym: USD
 
 DOGE-ETH:
   discrepancy: 1.0
@@ -6600,16 +4990,6 @@ BAT-ETH:
           fsym: BAT
           tsym: ETH
 
-SC-USD:
-  discrepancy: 1.0
-  precision: 6
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SC
-          tsym: USD
-
 KSM-BNB:
   discrepancy: 1.0
   precision: 3
@@ -6630,26 +5010,6 @@ ROSE-BTC:
           fsym: ROSE
           tsym: BTC
 
-MKR-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MKR
-          tsym: BUSD
-
-UNFI-BUSD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UNFI
-          tsym: BUSD
-
 ADX-KRW:
   discrepancy: 1.0
   precision: 2
@@ -6669,48 +5029,6 @@ GAS-ETH:
         params:
           fsym: GAS
           tsym: ETH
-
-#Extra pairs
-
-LINK-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LINK
-          tsym: USD
-
-EOS-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: EOS
-          tsym: USD
-
-SXP-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: SXP
-          tsym: USD
-
-BNB-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BNB
-          tsym: USD
 
 UMB-USD:
   discrepancy: 1.0
@@ -6762,7 +5080,7 @@ UMB-BTC:
           fsym: UMB
           tsyms: BTC
 
-ZDEX-USDT:
+ZDEX-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
@@ -6770,19 +5088,9 @@ ZDEX-USDT:
         name: CryptoComparePrice
         params:
           fsym: ZDEX
-          tsyms: USDT
+          tsyms: USD
 
 ZDEX-EUR:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ZDEX
-          tsyms: EUR
-
-ZDEX-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
