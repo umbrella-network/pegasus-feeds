@@ -175,6 +175,21 @@ UMB-USD:
           fsym: UMB
           tsyms: USD
 
+FTS-USD:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: fortress
+          currency: USD
+    - fetcher:
+        name: CoinmarketcapPrice
+        params:
+          symbol: FTS
+          convert: USD
+
 # GVol
 
 GVol-BTC-IV-28days:
