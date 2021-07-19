@@ -135,16 +135,6 @@ REN-USD:
           fsym: REN
           tsym: USD
 
-DAFI-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: DAFI
-          tsyms: USD
-
 AAVE-USD:
   discrepancy: 1.0
   precision: 2
@@ -211,31 +201,3 @@ GVol-ETH-IV-28days:
         params:
           query: twentyEightDayIv
           sym: ETH
-          
-# histo
-
-DAFI-USD-TWAP-1day:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CoinmarketcapHistoHour
-        params:
-          symbol: DAFI
-          convert: USD
-          count: 25
-      calculator:
-        name: TWAP
-
-DAFI-USD-VWAP-1week:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CoinmarketcapHistoDay
-        params:
-          symbol: DAFI
-          convert: USD
-          count: 8
-      calculator:
-        name: VWAP
