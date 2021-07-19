@@ -5115,6 +5115,21 @@ FTS-USD:
           symbol: FTS
           convert: USD
 
+# On-Chain
+
+FIXED_UMB:V-COUNT:
+  discrepancy: 0.0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0xb2C6c4162c0d2B6963C62A9133331b4D0359AA34"
+          method: getNumberOfValidators
+          inputs: []
+          outputs: [ uint256 ]
+          args: []
+
 # histo
 
 ETH-USD-TWAP-1day:
