@@ -590,16 +590,6 @@ ZDEX-EUR:
           fsym: ZDEX
           tsyms: EUR
 
-DAFI-USD:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: DAFI
-          tsyms: USD
-
 FTS-USD:
   discrepancy: 1.0
   precision: 8
@@ -632,46 +622,20 @@ DAI-BNB:
 
 # On-Chain
 
-FIXED_DAFI-TVL:
-  discrepancy: 1.0
+FIXED_UMB:V-COUNT:
+  discrepancy: 0.0
   precision: 0
   inputs:
     - fetcher:
         name: OnChainData
         params:
-          address: "0xAD71846d3b2C49914862759fEbfB128a494E75Bd"
-          method: getTotalStaked
+          address: "0x8a64a268a239e17f5388d2f61b8EBeA5f4132eAd"
+          method: getNumberOfValidators
           inputs: []
           outputs: [ uint256 ]
           args: []
 
 # histo
-
-DAFI-USD-TWAP-1day:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CoinmarketcapHistoHour
-        params:
-          symbol: DAFI
-          convert: USD
-          count: 25
-      calculator:
-        name: TWAP
-
-DAFI-USD-VWAP-1week:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CoinmarketcapHistoDay
-        params:
-          symbol: DAFI
-          convert: USD
-          count: 8
-      calculator:
-        name: VWAP
 
 ETH-USD-TWAP-1day:
   discrepancy: 1.0
