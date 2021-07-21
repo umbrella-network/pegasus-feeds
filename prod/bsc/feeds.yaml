@@ -5124,7 +5124,7 @@ FIXED_UMB:V-COUNT:
     - fetcher:
         name: OnChainData
         params:
-          address: "0xb2C6c4162c0d2B6963C62A9133331b4D0359AA34"
+          address: "0x51ABC3F2E157371c72d780E8544E3DCE178c5DA2"
           method: getNumberOfValidators
           inputs: []
           outputs: [ uint256 ]
