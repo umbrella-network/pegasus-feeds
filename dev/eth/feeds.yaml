@@ -866,6 +866,16 @@ DAI-BNB:
           fsym: DAI
           tsym: USD
 
+INT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: internet-node-token
+          currency: USD
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
