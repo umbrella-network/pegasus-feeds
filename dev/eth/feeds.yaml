@@ -640,6 +640,16 @@ CNTR-USD:
           id: centaur
           currency: USD
 
+WHEY-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: whey
+          currency: USD
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
