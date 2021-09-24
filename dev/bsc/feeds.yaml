@@ -1079,3 +1079,12 @@ EQ:ABNB:
         name: PolygonIOPrice
         params:
           sym: ABNB
+
+# OPTIONS CONFIG
+
+OPTIONS:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
