@@ -1082,14 +1082,14 @@ EQ:ABNB:
 
 # OPTIONS CONFIG
 
-OP:ETH-*:
+OP:ETH:
   discrepancy: 1
   precision: 15
   inputs:
     - fetcher:
         name: OptionsPrice
 
-OP:BTC-*:
+OP:BTC:
   discrepancy: 1
   precision: 15
   inputs:
