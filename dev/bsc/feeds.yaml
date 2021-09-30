@@ -1088,3 +1088,20 @@ OPTIONS:
   inputs:
     - fetcher:
         name: OptionsPrice
+
+# yearn.finance
+
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: '0x0E928957572875954687BcA992fBA397642d0511'
+          network: ropsten
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
+
