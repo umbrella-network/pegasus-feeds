@@ -130,6 +130,16 @@ WHEY-USD:
           id: whey
           currency: USD
 
+CNTR-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: centaur
+          currency: USD
+
 # GVol
 
 GVol-BTC-IV-28days:
