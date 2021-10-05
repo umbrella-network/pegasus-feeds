@@ -5040,11 +5040,6 @@ UMB-USD:
           id: umbrella-network
           currency: USD
     - fetcher:
-        name: CoinmarketcapPrice
-        params:
-          symbol: UMB
-          convert: USD
-    - fetcher:
         name: CryptoComparePrice
         params:
           fsym: UMB
@@ -5109,11 +5104,6 @@ FTS-USD:
         params:
           id: fortress
           currency: USD
-    - fetcher:
-        name: CoinmarketcapPrice
-        params:
-          symbol: FTS
-          convert: USD
 
 INT-USD:
   discrepancy: 1.0
