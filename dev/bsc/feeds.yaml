@@ -929,7 +929,7 @@ MATTER-USDT:
         name: CryptoComparePriceWS
         params:
           fsym: MATTER
-          tsym: USDT
+          tsyms: USDT
 
 # On-Chain
 
