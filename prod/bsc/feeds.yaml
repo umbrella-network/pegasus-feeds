@@ -5125,6 +5125,16 @@ INT-USD:
           id: internet-node-token
           currency: USD
 
+MATTER-USDT:
+  discrepancy: 1
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: MATTER
+          tsyms: USDT
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
