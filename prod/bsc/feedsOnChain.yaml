@@ -155,11 +155,6 @@ UMB-USD:
           id: umbrella-network
           currency: usd
     - fetcher:
-        name: CoinmarketcapPrice
-        params:
-          symbol: UMB
-          convert: USD
-    - fetcher:
         name: CryptoComparePrice
         params:
           fsym: UMB
@@ -174,11 +169,6 @@ FTS-USD:
         params:
           id: fortress
           currency: USD
-    - fetcher:
-        name: CoinmarketcapPrice
-        params:
-          symbol: FTS
-          convert: USD
 
 # GVol
 
