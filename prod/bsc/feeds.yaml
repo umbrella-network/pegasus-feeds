@@ -9873,18 +9873,17 @@ CPI-US-3months:
           months: 3
 
 # OPTIONS CONFIG
-# Removed temporarily until validators update.
 
-# OP:ETH:
-#   discrepancy: 1
-#   precision: 15
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
+OP:ETH:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
 
-# OP:BTC:
-#   discrepancy: 1
-#   precision: 15
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
+OP:BTC:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
