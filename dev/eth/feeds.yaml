@@ -900,16 +900,6 @@ WHEY-USD:
           id: whey
           currency: USD
 
-MATTER-USDT:
-  discrepancy: 1
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: MATTER
-          tsym: USDT
-
 # On-Chain
 
 FIXED_UMB:V-COUNT:
