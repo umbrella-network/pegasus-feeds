@@ -5137,7 +5137,7 @@ MATTER-USDT:
 
 UFT-USD:
   discrepancy: 1.0
-  precision: 6
+  precision: 3
   inputs:
     - fetcher:
         name: CoingeckoPrice
