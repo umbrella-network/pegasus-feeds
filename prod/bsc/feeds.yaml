@@ -5125,6 +5125,17 @@ MATTER-USDT:
           fsym: MATTER
           tsyms: USDT
 
+UFT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: unlend-finance
+          currency: USD
+
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
