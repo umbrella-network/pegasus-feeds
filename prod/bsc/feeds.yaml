@@ -9874,16 +9874,16 @@ CPI-US-3months:
 
 # OPTIONS CONFIG
 
-# OP:ETH:
-#   discrepancy: 1
-#   precision: 15
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
+OP:ETH:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
 
-# OP:BTC:
-#   discrepancy: 1
-#   precision: 15
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
+OP:BTC:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice

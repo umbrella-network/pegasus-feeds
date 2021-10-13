@@ -9891,3 +9891,19 @@ CPI-US-3months:
         name: BEACPIAverage
         params:
           months: 3
+
+# OPTIONS CONFIG
+
+OP:ETH:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+
+OP:BTC:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
