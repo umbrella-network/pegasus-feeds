@@ -1090,18 +1090,42 @@ EQ:ABNB:
         params:
           sym: ABNB
 
-# OPTIONS CONFIG
+# yearn.finance
 
-OP:ETH:
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: "0x0E928957572875954687BcA992fBA397642d0511"
+          network: ropsten
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
+
+# options
+
+OP:ETH-*:
   discrepancy: 1
   precision: 15
   inputs:
     - fetcher:
         name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: ETH
 
-OP:BTC:
+OP:BTC-*:
   discrepancy: 1
   precision: 15
   inputs:
     - fetcher:
         name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: BTC
