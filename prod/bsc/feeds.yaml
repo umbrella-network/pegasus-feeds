@@ -9898,3 +9898,19 @@ OP:BTC:
   inputs:
     - fetcher:
         name: OptionsPrice
+
+# yearn.finance
+
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: "0x619B772d63399Ac0Cb70EA6ceFF25a8Fc81faE81"
+          network: eth-mainnet
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
