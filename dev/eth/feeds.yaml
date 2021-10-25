@@ -1069,7 +1069,7 @@ YEARN-FI:*-ETH:
         name: YearnVaultTokenPrice
         params:
           address: "0x0E928957572875954687BcA992fBA397642d0511"
-          network: ropsten
+          network: eth-ropsten
       calculator:
         name: YearnTransformPrice
         params:
