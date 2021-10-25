@@ -1092,7 +1092,7 @@ EQ:ABNB:
 
 # yearn.finance
 
-YEARN-FI-ROPSTEN:*-ETH:
+YEARN-TEST:*-ETH:
   discrepancy: 1
   precision: 6
   inputs:
