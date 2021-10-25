@@ -1092,7 +1092,7 @@ EQ:ABNB:
 
 # yearn.finance
 
-YEARN-FI:*-ETH:
+YEARN-FI-ROPSTEN:*-ETH:
   discrepancy: 1
   precision: 6
   inputs:
@@ -1100,7 +1100,21 @@ YEARN-FI:*-ETH:
         name: YearnVaultTokenPrice
         params:
           address: "0x0E928957572875954687BcA992fBA397642d0511"
-          network: ropsten
+          network: eth-ropsten
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
+
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: "0x619B772d63399Ac0Cb70EA6ceFF25a8Fc81faE81"
+          network: eth-mainnet
       calculator:
         name: YearnTransformPrice
         params:
