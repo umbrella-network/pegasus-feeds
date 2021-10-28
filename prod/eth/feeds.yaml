@@ -9910,6 +9910,10 @@ OP:ETH:
   inputs:
     - fetcher:
         name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: ETH
 
 OP:BTC:
   discrepancy: 1
@@ -9917,3 +9921,7 @@ OP:BTC:
   inputs:
     - fetcher:
         name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: BTC
