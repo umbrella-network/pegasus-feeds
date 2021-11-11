@@ -1143,3 +1143,12 @@ OP:BTC-*:
         name: OptionsPrice
         params:
           sym: BTC
+
+RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 1
