@@ -1106,7 +1106,7 @@ OP:BTC:
     - fetcher:
         name: OptionsPrice
 
-RAND:
+FIXED_RAND:
   discrepancy: 0
   precision: 0
   inputs:
