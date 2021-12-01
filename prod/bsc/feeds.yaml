@@ -5075,6 +5075,16 @@ UMB-BTC:
           fsym: UMB
           tsyms: BTC
 
+UNO-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: uno-re
+          currency: USD
+
 ZDEX-USD:
   discrepancy: 1.0
   precision: 2
