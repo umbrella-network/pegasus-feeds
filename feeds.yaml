@@ -5644,15 +5644,6 @@ EQ:ALLE:
         params:
           sym: ALLE
 
-EQ:ALXN:
-  discrepancy: 0.5
-  precision: 2
-  inputs:
-    - fetcher:
-        name: PolygonIOPrice
-        params:
-          sym: ALXN
-
 EQ:AMAT:
   discrepancy: 0.5
   precision: 2
