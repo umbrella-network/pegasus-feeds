@@ -9932,3 +9932,12 @@ OP:BTC-*:
         name: OptionsPrice
         params:
           sym: BTC
+
+FIXED_RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 5
