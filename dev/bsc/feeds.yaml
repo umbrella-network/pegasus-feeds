@@ -1137,4 +1137,4 @@ FIXED_RAND:
     - fetcher:
         name: RandomNumber
         params:
-          numBlocks: 1
+          numBlocks: 5
