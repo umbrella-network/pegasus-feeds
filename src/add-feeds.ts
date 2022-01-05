@@ -1,48 +1,35 @@
-import * as fs from 'fs';
-import * as yaml from 'js-yaml';
+import {
+    readFeedsYaml,
+    appendFeedsYaml,
+    getAllSymbols,
+    getEquityYamlDump,
+    getAllFiles
+} from "./add-feeds-utils";
 
-export function readFeedsYaml(filePath) {
-    return yaml.load(fs.readFileSync(filePath, 'utf8'));
-}
+export async function addFeeds(
+    discrepancy,
+    precision,
+    fetcher,
+    yamlFilePath,
+    addDirPath
+) {
 
-export function writeFromFileTo(fromFilePath, toFilePath) {
-    const data = fs.readFileSync(fromFilePath, 'utf8')
-    fs.writeFileSync(toFilePath, data);
-}
+    // step 1 - import yaml file
+    const feedYamlData = readFeedsYaml(yamlFilePath);
 
-export function appendFeedsYaml(filePath, yamlData) {
-    //fs.appendFileSync(filepath, yaml.dump(yamlData));
-    fs.appendFileSync(filePath, yamlData);
-}
-
-export function getAllFiles(dirPath) {
-    return fs.readdirSync(dirPath);
-}
-
-export function getAllSymbols(filePath) {
-    const symbols = [];
-    fs.readFileSync(filePath, 'utf8')
-        .toString().split('\n')
-        .forEach((symbol) => {
-            if(symbol && symbol != "\n" && !symbols.includes(symbol)) {
-                symbols.push(symbol);
+    // step 2 - add symbols from each file, if required
+    getAllFiles(addDirPath).forEach((filename) => {
+        let feedBuffer = '\n'+'# '+filename+'\n';
+        getAllSymbols(addDirPath+filename).forEach((symbol) => {
+            const feedSymbol = 'EQ:'+symbol;
+            if(!feedYamlData.hasOwnProperty(feedSymbol)) {
+                feedBuffer += '\n'+getEquityYamlDump(symbol, discrepancy, precision, fetcher);
             }
-        });
-    return symbols.slice();
-}
+        })
 
-function getEquityDataFields(symbol, discrepancy, precision, fetcher) {
-    return {
-        discrepancy: discrepancy,
-        precision: precision,
-        inputs: [
-            { fetcher: { name: fetcher, params: { sym: symbol } } }
-        ]
-    }
-}
-
-export function getEquityYamlDump(symbol, discrepancy, precision, fetcher) {
-    const data = {}
-    data['EQ:'+symbol] = getEquityDataFields(symbol, discrepancy, precision, fetcher)
-    return yaml.dump(data);
+        // count \n's, if greater than 2 -> dump
+        if((feedBuffer.split("\n").length - 1) > 2) {
+            appendFeedsYaml(yamlFilePath, feedBuffer);
+        }
+    });
 }
