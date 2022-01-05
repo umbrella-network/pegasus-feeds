@@ -14,9 +14,9 @@ git clone git@github.com:umbrella-network/pegasus-feeds.git
 npm install
 ```
 
-Place text files with equity symbols to be added to the feeds.yaml in the /add/ directory. 
+Place text files with equity symbols to be added to the feeds.yaml/feeds-5.5.yaml in the /add/ directory. 
 
-The script expects one symbol per line, and they will be added to the yaml as keys with a "EQ:"-prefix.  
+The script expects one symbol per line, and they will be added to the yaml files as keys with a "EQ:"-prefix.  
 
 Duplicate keys will be ignored, and a comment including the source file's name will be added above the new entries in the yaml.
 

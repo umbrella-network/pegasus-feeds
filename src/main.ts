@@ -13,15 +13,11 @@ import { addFeeds } from "./add-feeds";
     const DISCREPANCY = 1.0;
     const PRECISION = 2;
     const FETCHER = "PolygonIOPrice";
-    const YAML_FILE_PATH = "../dev/bsc/feeds.yaml";
-    const ADD_DIR_PATH = "../add/";
 
     await addFeeds(
         DISCREPANCY,
         PRECISION,
-        FETCHER,
-        YAML_FILE_PATH,
-        ADD_DIR_PATH
+        FETCHER
     );
 
 })()
