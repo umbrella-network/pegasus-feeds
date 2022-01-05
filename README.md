@@ -22,7 +22,7 @@ Duplicate keys will be ignored, and a comment including the source file's name w
 
 Precision of 2, discrepancy of 1 and an initial fetcher of 'PolygonIOPrice', is hard-coded into the main script and can be changed as desired (before compilation).
 
-Use the following run command from within the base directory to compile and run the script:
+Use the following run command from within the base directory to compile and run the script: (assumes typescript already installed globally)
 
 ```
 npm start
