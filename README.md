@@ -27,3 +27,10 @@ Use the following run command from within the base directory to compile and run 
 ```
 npm start
 ```
+
+Backups of the original yaml files will be created in the backup dir.  Restore to the previous version using the following command:
+Note that only the latest version is kept in backup history.
+
+```
+npm run restore
+```
