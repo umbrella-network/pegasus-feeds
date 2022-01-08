@@ -1,6 +1,6 @@
 {
   "name": "pegasus-feeds",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "src/main.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "prettier": "prettier --config .prettierrc ./src/**/*.ts ./test/**/*.ts --check",
     "prettier:format": "prettier --config .prettierrc ./src/**/*.ts ./test/**/*.ts --write",
     "format": "npm run lint:fix && npm run prettier:format",
-    "start": "tsc src/main.ts && cd src && node main.js",
-    "restore": "tsc src/restoreFeeds.ts && cd src && node restoreFeeds.js",
-    "test": "tsc test/test.ts && cd test && node test.js"
+    "script:addFeeds": "tsc src/addFeeds.ts && cd src && node addFeeds.js",
+    "script:restoreFeeds": "tsc src/restoreFeeds.ts && cd src && node restoreFeeds.js",
+    "script:example": "tsc test/example.ts && cd test && node example.js"
   },
   "repository": {
     "type": "git",

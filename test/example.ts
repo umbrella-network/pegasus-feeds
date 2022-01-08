@@ -1,5 +1,5 @@
 import {addFeeds, restoreFeeds} from '../src/feeds';
-import {getPathToYaml, readFeedsYaml} from '../src/feedsUtils';
+import {getPathToYaml, readFeedsYaml} from '../src/utils/feedsUtils';
 
 (async function () {
   const DISCREPANCY = 1.0;

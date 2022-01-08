@@ -2,10 +2,10 @@ import * as fs from 'fs';
 import * as yaml from 'js-yaml';
 
 export function getPathToYaml() {
-  if (fs.readdirSync('..').includes('prod')) {
-    return '../prod/bsc/';
+  if (fs.readdirSync('..').includes('dev')) {
+    return '../dev/bsc/';
   }
-  return '../dev/bsc/';
+  return '../prod/bsc/';
 }
 
 export function readFeedsYaml(filePath) {

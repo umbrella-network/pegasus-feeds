@@ -106,4 +106,4 @@ dist
 # Dev
 .DS_STORE
 .idea
-src/*.js
+**/*.js

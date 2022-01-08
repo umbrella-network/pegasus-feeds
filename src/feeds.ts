@@ -6,16 +6,17 @@ import {
   getAllSymbols,
   getEquityYamlDump,
   getAllFiles,
-} from './feedsUtils';
+} from './utils/feedsUtils';
+
+const path = getPathToYaml();
+const feedsYamlFilePath = path + 'feeds.yaml';
+const feedsYaml55FilePath = path + 'feeds-5.5.yaml';
+const backupFeedsYamlFilePath = '../backup/feeds-backup.yaml';
+const backupFeedsYaml55FilePath = '../backup/feeds-5.5-backup.yaml';
 
 export function addFeeds(discrepancy, precision, fetcher) {
   // step 1 - detect environment and create file paths
-  const path = getPathToYaml();
-  const feedsYamlFilePath = path + 'feeds.yaml';
-  const feedsYaml55FilePath = path + 'feeds-5.5.yaml';
   const addDirPath = '../add/';
-  const backupFeedsYamlFilePath = '../backup/feeds-backup.yaml';
-  const backupFeedsYaml55FilePath = '../backup/feeds-5.5-backup.yaml';
 
   // step 2 - backup yaml files
   console.log('Backing up yaml files');
@@ -41,7 +42,6 @@ export function addFeeds(discrepancy, precision, fetcher) {
       }
     });
 
-    // count \n's, if greater than 2 -> dump
     if (feedBuffer.length > 1) {
       console.log('Adding ' + (feedBuffer.length - 1) + ' new feeds to feeds.yaml');
       appendFeedsYaml(feedsYamlFilePath, feedBuffer.join('\n'));
@@ -54,12 +54,6 @@ export function addFeeds(discrepancy, precision, fetcher) {
 }
 
 export function restoreFeeds() {
-  const path = getPathToYaml();
-  const feedsYamlFilePath = path + 'feeds.yaml';
-  const feedsYaml55FilePath = path + 'feeds-5.5.yaml';
-  const backupFeedsYamlFilePath = '../backup/feeds-backup.yaml';
-  const backupFeedsYaml55FilePath = '../backup/feeds-5.5-backup.yaml';
-
   console.log('Restoring yaml files from backups');
   writeFromFileTo(backupFeedsYamlFilePath, feedsYamlFilePath);
   writeFromFileTo(backupFeedsYaml55FilePath, feedsYaml55FilePath);

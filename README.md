@@ -25,12 +25,20 @@ Precision of 2, discrepancy of 1 and an initial fetcher of 'PolygonIOPrice', is 
 Use the following run command from within the base directory to compile and run the script: (assumes typescript already installed globally)
 
 ```
-npm start
+npm run script:addFeeds
 ```
 
 Backups of the original yaml files will be created in the backup dir.  Restore to the previous version using the following command:
 Note that only the latest version is kept in backup history.
 
 ```
-npm run restore
+npm run script:restoreFeeds
 ```
+
+To run an example script that will add the symbols from the files in the /add/ directory then restore the yamls, use:
+
+```
+npm run script:example
+```
+
+This will print the results of the add / restore to the terminal, displaying the changes of the number of keys.
