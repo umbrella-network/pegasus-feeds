@@ -5155,6 +5155,36 @@ DEP-USD:
           id: deapcoin
           currency: USD
 
+FUSE-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: fuse-network-token
+          currency: USD
+
+KFT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: knit-finance
+          currency: USD
+
+SNP-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: synapse-network
+          currency: USD
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
@@ -9932,6 +9962,15 @@ OP:BTC-*:
         name: OptionsPrice
         params:
           sym: BTC
+
+FIXED_RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 5
 
 # russel-2000
 EQ:AAN:
