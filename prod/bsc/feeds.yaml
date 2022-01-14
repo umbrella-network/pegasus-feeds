@@ -9973,6 +9973,7 @@ FIXED_RAND:
           numBlocks: 5
 
 # russel-2000
+
 EQ:AAN:
   discrepancy: 1
   precision: 2

@@ -30,8 +30,8 @@ export function addFeeds(discrepancy, precision, fetcher) {
   // step 4 - add symbols from each file, if required
   getAllFiles(addDirPath).forEach((filename) => {
     console.log('Adding symbols from file ' + filename + ' to feeds');
-    const feedBuffer = ['\n' + '# ' + filename];
-    const feedBuffer55 = ['\n' + '# ' + filename];
+    const feedBuffer = ['\n' + '# ' + filename + '\n'];
+    const feedBuffer55 = ['\n' + '# ' + filename + '\n'];
     getAllSymbols(addDirPath + filename).forEach((symbol) => {
       const feedSymbol = 'EQ:' + symbol;
       if (!{}.hasOwnProperty.call(feedYamlData, feedSymbol)) {
