@@ -5184,6 +5184,15 @@ SNP-USD:
         params:
           id: synapse-network
           currency: USD
+  MAHA-USD:
+    discrepancy: 1.0
+    precision: 3
+    inputs:
+      - fetcher:
+          name: CoingeckoPrice
+          params:
+            id: mahadao
+            currency: USD
 
 # On-Chain
 
