@@ -11,6 +11,7 @@
     "format": "npm run lint:fix && npm run prettier:format",
     "script:addFeeds": "tsc src/addFeeds.ts && cd src && node addFeeds.js",
     "script:restoreFeeds": "tsc src/restoreFeeds.ts && cd src && node restoreFeeds.js",
+    "script:countFeeds": "tsc src/countFeeds.ts && cd src && node countFeeds.js",
     "script:example": "tsc test/example.ts && cd test && node example.js"
   },
   "repository": {

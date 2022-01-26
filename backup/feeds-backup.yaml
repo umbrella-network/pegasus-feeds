@@ -5185,6 +5185,16 @@ SNP-USD:
           id: synapse-network
           currency: USD
 
+MAHA-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: mahadao
+          currency: USD
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
@@ -9913,15 +9923,6 @@ EQ:ZTS:
         name: PolygonIOPrice
         params:
           sym: ZTS
-
-CPI-US-3months:
-  discrepancy: 1.0
-  precision: 1
-  inputs:
-    - fetcher:
-        name: BEACPIAverage
-        params:
-          months: 3
 
 # yearn.finance
 
