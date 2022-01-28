@@ -10,7 +10,10 @@
     "prettier:format": "prettier --config .prettierrc ./src/**/*.ts ./test/**/*.ts --write",
     "format": "npm run lint:fix && npm run prettier:format",
     "script:addFeeds": "tsc src/addFeeds.ts && cd src && node addFeeds.js",
+    "script:backupFeeds": "tsc src/backupFeeds.ts && cd src && node backupFeeds.js",
+    "script:countFeeds": "tsc src/countFeeds.ts && cd src && node countFeeds.js",
     "script:restoreFeeds": "tsc src/restoreFeeds.ts && cd src && node restoreFeeds.js",
+    "script:updateEquityFeeds": "tsc src/updateEquityFeeds.ts && cd src && node updateEquityFeeds.js",
     "script:example": "tsc test/example.ts && cd test && node example.js"
   },
   "repository": {

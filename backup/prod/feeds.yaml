@@ -1,0 +1,9974 @@
+# Volume-based pairs
+
+BTC-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: USD
+
+ETH-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: USD
+
+BNB-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: USD
+
+BTC-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: JPY
+
+BTC-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: EUR
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: EUR
+
+ADA-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ADA
+          tsym: USD
+
+XRP-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: USD
+
+DOT-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: USD
+
+ETH-BTC:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: BTC
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: BTC
+
+BUSD-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BUSD
+          tsym: USD
+
+UNI-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: USD
+
+LINK-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LINK
+          tsym: USD
+
+EOS-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EOS
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: EOS
+          tsym: USD
+
+ETH-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: EUR
+
+TRX-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TRX
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: TRX
+          tsym: USD
+
+IOST-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IOST
+          tsym: USD
+
+XLM-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: XLM
+          tsym: USD
+
+DOGE-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOGE
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DOGE
+          tsym: USD
+
+BNB-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: BTC
+
+ADA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: BTC
+
+ATOM-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: USD
+
+XRP-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: BTC
+
+LTC-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LTC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LTC
+          tsym: USD
+
+HT-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HT
+          tsym: USD
+
+BTC-GBP:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: GBP
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: GBP
+
+USDT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: USDT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDT
+          tsym: USD
+
+LTC-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LTC
+          tsym: BTC
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LTC
+          tsym: BTC
+
+ZEC-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ZEC
+          tsym: USD
+
+ETC-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETC
+          tsym: USD
+
+NEO-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEO
+          tsym: USD
+
+SRM-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SRM
+          tsym: USD
+
+BSV-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BSV
+          tsym: USD
+
+USDC-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: USDC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDC
+          tsym: USD
+
+ETH-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: JPY
+
+DASH-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DASH
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DASH
+          tsym: USD
+
+SOL-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SOL
+          tsym: USD
+
+XEM-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: BTC
+
+ONT-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONT
+          tsym: USD
+
+DOT-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: BTC
+
+SUSHI-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SUSHI
+          tsym: USD
+
+BTT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTT
+          tsym: USD
+
+IOST-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IOST
+          tsym: BTC
+
+VET-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VET
+          tsym: USD
+
+BCH-BTC:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: BTC
+
+ADA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: KRW
+
+SXP-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SXP
+          tsym: USD
+
+KSM-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KSM
+          tsym: USD
+
+LINK-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: BTC
+
+XEM-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: USD
+
+ZRX-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZRX
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ZRX
+          tsym: USD
+
+AAVE-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AAVE
+          tsym: USD
+
+BCH-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BCH
+          tsym: USD
+
+RVN-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RVN
+          tsym: USD
+
+CRV-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRV
+          tsym: USD
+
+BNB-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: EUR
+
+ALGO-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ALGO
+          tsym: USD
+
+QTUM-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QTUM
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: QTUM
+          tsym: USD
+
+MIOTA-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MIOTA
+          tsym: USD
+
+XRP-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: EUR
+
+XTZ-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: XTZ
+          tsym: USD
+
+OMG-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OMG
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: OMG
+          tsym: USD
+
+ADA-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: EUR
+
+RVN-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RVN
+          tsym: BTC
+
+ATOM-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: BTC
+
+XMR-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XMR
+          tsym: USD
+
+YFI-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: YFI
+          tsym: USD
+
+DOT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: KRW
+
+ICX-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ICX
+          tsym: USD
+
+AVAX-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AVAX
+          tsym: USD
+
+FIL-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FIL
+          tsym: USD
+
+BAND-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAND
+          tsym: USD
+
+EOS-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EOS
+          tsym: BTC
+
+SOL-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SOL
+          tsym: BTC
+
+XLM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: BTC
+
+ZIL-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZIL
+          tsym: USD
+
+XMR-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XMR
+          tsym: BTC
+
+BTC-AUD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: AUD
+
+XRP-TRY:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: TRY
+
+EGLD-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EGLD
+          tsym: USD
+
+JST-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: JST
+          tsym: USD
+
+THETA-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: THETA
+          tsym: USD
+
+MATIC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MATIC
+          tsym: USD
+
+SNX-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNX
+          tsym: USD
+
+XEM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: KRW
+
+GRT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRT
+          tsym: BTC
+
+DOT-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: EUR
+
+GRT-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRT
+          tsym: EUR
+
+DOGE-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOGE
+          tsym: BTC
+
+SRM-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SRM
+          tsym: BTC
+
+LUNA-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LUNA
+          tsym: BTC
+
+FTM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FTM
+          tsym: BTC
+
+BSV-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BSV
+          tsym: BTC
+
+LINK-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: EUR
+
+CRO-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRO
+          tsym: KRW
+
+DAI-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DAI
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI
+          tsym: USD
+
+NPXS-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NPXS
+          tsym: USD
+
+DASH-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DASH
+          tsym: BTC
+
+XLM-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: EUR
+
+CRO-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRO
+          tsym: USD
+
+PAY-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PAY
+          tsym: USD
+
+BNB-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: ETH
+
+COMP-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: COMP
+          tsym: USD
+
+XEM-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: JPY
+
+TRX-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TRX
+          tsym: BTC
+
+IOST-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IOST
+          tsym: KRW
+
+RSR-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RSR
+          tsym: USD
+
+REN-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REN
+          tsym: USD
+
+AAVE-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AAVE
+          tsym: BTC
+
+NEO-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEO
+          tsym: BTC
+
+BAT-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BAT
+          tsym: USD
+
+HT-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HT
+          tsym: BTC
+
+UNI-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: BTC
+
+YFII-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: YFII
+          tsym: USD
+
+HOT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HOT
+          tsym: USD
+
+ADA-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: ETH
+
+SRM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SRM
+          tsym: KRW
+
+NU-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NU
+          tsym: USD
+
+BTT-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTT
+          tsym: KRW
+
+FTT-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FTT
+          tsym: BTC
+
+BSV-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BSV
+          tsym: KRW
+
+VET-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VET
+          tsym: BTC
+
+ALGO-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ALGO
+          tsym: BTC
+
+WAVES-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WAVES
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: WAVES
+          tsym: USD
+
+ZEC-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEC
+          tsym: BTC
+
+ZRX-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZRX
+          tsym: BTC
+
+FTT-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FTT
+          tsym: USD
+
+CRO-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRO
+          tsym: BTC
+
+MIOTA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MIOTA
+          tsym: BTC
+
+BNT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNT
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BNT
+          tsym: USD
+
+ETH-AUD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: AUD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: AUD
+
+XLM-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: JPY
+
+TOMO-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TOMO
+          tsym: USD
+
+BCH-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: EUR
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BCH
+          tsym: EUR
+
+SXP-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SXP
+          tsym: BTC
+
+LINK-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: ETH
+
+BTG-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTG
+          tsym: KRW
+
+NANO-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NANO
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: NANO
+          tsym: USD
+
+RUNE-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RUNE
+          tsym: USD
+
+FRONT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FRONT
+          tsym: USD
+
+ETC-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETC
+          tsym: BTC
+
+ATOM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: KRW
+
+HBAR-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HBAR
+          tsym: USD
+
+SUSHI-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SUSHI
+          tsym: BTC
+
+KSM-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KSM
+          tsym: BTC
+
+BTC-PLN:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTC
+          tsym: PLN
+
+ZIL-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZIL
+          tsym: BTC
+
+ZRX-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZRX
+          tsym: KRW
+
+MKR-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MKR
+          tsym: USD
+
+XTZ-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: BTC
+
+LRC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LRC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: LRC
+          tsym: USD
+
+OXT-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OXT
+          tsym: USD
+
+BORA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BORA
+          tsym: KRW
+
+ZEN-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEN
+          tsym: USD
+
+BNT-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNT
+          tsym: BTC
+
+YFI-BTC:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: YFI
+          tsym: BTC
+
+MATIC-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MATIC
+          tsym: BTC
+
+VGX-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VGX
+          tsym: BTC
+
+ICX-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ICX
+          tsym: BTC
+
+SUN-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SUN
+          tsym: USD
+
+EGLD-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EGLD
+          tsym: BTC
+
+MANA-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MANA
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: MANA
+          tsym: USD
+
+BAL-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAL
+          tsym: USD
+
+ETC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETC
+          tsym: KRW
+
+NEO-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEO
+          tsym: TRY
+
+OMG-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OMG
+          tsym: BTC
+
+USDC-GBP:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: USDC
+          tsym: GBP
+
+OCEAN-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OCEAN
+          tsym: USD
+
+SNT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNT
+          tsym: KRW
+
+DASH-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DASH
+          tsym: TRY
+
+CAKE-BNB:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CAKE
+          tsym: BNB
+
+UNI-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: KRW
+
+CHZ-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CHZ
+          tsym: USD
+
+XEM-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: ETH
+
+BNB-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: TRY
+
+KAVA-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KAVA
+          tsym: USD
+
+MFT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MFT
+          tsym: KRW
+
+REN-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REN
+          tsym: BTC
+
+EOS-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EOS
+          tsym: ETH
+
+BAT-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAT
+          tsym: BTC
+
+XLM-TRY:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: TRY
+
+ONT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONT
+          tsym: BTC
+
+LINK-GBP:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LINK
+          tsym: GBP
+
+QTUM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QTUM
+          tsym: KRW
+
+XTZ-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: KRW
+
+ENJ-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ENJ
+          tsym: USD
+
+XRP-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: ETH
+
+CVC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CVC
+          tsym: USD
+
+EPT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EPT
+          tsym: KRW
+
+ADA-BNB:
+  discrepancy: 1.0
+  precision: 6UNFI
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADA
+          tsym: BNB
+
+ZB-QC:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZB
+          tsym: QC
+
+WAXP-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WAXP
+          tsym: KRW
+
+EOS-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EOS
+          tsym: EUR
+
+TUSD-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TUSD
+          tsym: USD
+
+NPXS-ETH:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NPXS
+          tsym: ETH
+
+BAND-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAND
+          tsym: BTC
+
+PAX-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PAX
+          tsym: USD
+
+ATOM-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: TRY
+
+LTC-GBP:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LTC
+          tsym: GBP
+
+MED-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MED
+          tsym: KRW
+
+COMP-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: COMP
+          tsym: BTC
+
+STORJ-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STORJ
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: STORJ
+          tsym: USD
+
+WAVES-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WAVES
+          tsym: BTC
+
+AAVE-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AAVE
+          tsym: EUR
+
+SNX-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNX
+          tsym: BTC
+
+CARRY-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CARRY
+          tsym: KRW
+
+THETA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: THETA
+          tsym: BTC
+
+HBAR-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HBAR
+          tsym: BTC
+
+ALGO-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ALGO
+          tsym: EUR
+
+OMG-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OMG
+          tsym: KRW
+
+XTZ-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: EUR
+
+LSK-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LSK
+          tsym: BTC
+
+LTC-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LTC
+          tsym: ETH
+
+XVS-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XVS
+          tsym: BTC
+
+NANO-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NANO
+          tsym: BTC
+
+QTUM-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QTUM
+          tsym: BTC
+
+DGB-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DGB
+          tsym: BTC
+
+BCH-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: JPY
+
+HBAR-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HBAR
+          tsym: KRW
+
+DGB-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DGB
+          tsym: USD
+
+GRT-GBP:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRT
+          tsym: GBP
+
+DOT-BNB:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: BNB
+
+ZIL-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZIL
+          tsym: KRW
+
+HT-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HT
+          tsym: ETH
+
+KNC-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KNC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: KNC
+          tsym: USD
+
+ENJ-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ENJ
+          tsym: BTC
+
+AKRO-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AKRO
+          tsym: USD
+
+ANKR-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ANKR
+          tsym: KRW
+
+GT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GT
+          tsym: USD
+
+CHSB-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CHSB
+          tsym: BTC
+
+AVAX-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AVAX
+          tsym: BTC
+
+LSK-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LSK
+          tsym: USD
+
+UMA-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UMA
+          tsym: USD
+
+EOS-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EOS
+          tsym: TRY
+
+VET-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VET
+          tsym: KRW
+
+ICX-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ICX
+          tsym: KRW
+
+MKR-BTC:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MKR
+          tsym: BTC
+
+ZRX-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZRX
+          tsym: EUR
+
+TOMO-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TOMO
+          tsym: BTC
+
+NMR-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NMR
+          tsym: USD
+
+XRP-GBP:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: GBP
+
+TFUEL-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TFUEL
+          tsym: KRW
+
+CRV-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRV
+          tsym: BTC
+
+MLK-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MLK
+          tsym: KRW
+
+BTS-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTS
+          tsym: USD
+
+TRX-ETH:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TRX
+          tsym: ETH
+
+XVS-BNB:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XVS
+          tsym: BNB
+
+GAS-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GAS
+          tsym: KRW
+
+FIL-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FIL
+          tsym: BTC
+
+FET-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FET
+          tsym: USD
+
+RUNE-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RUNE
+          tsym: BTC
+
+ANKR-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ANKR
+          tsym: BTC
+
+RSR-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RSR
+          tsym: BTC
+
+SC-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SC
+          tsym: BTC
+
+PAXG-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PAXG
+          tsym: USD
+
+COTI-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: COTI
+          tsym: BTC
+
+MBL-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MBL
+          tsym: KRW
+
+XTZ-TRY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: TRY
+
+ONE-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONE
+          tsym: USD
+
+RFR-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RFR
+          tsym: KRW
+
+ANT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ANT
+          tsym: USD
+
+ETH-RUB:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: RUB
+
+XRP-AUD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XRP
+          tsym: AUD
+
+DOGE-EUR:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOGE
+          tsym: EUR
+
+SOL-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SOL
+          tsym: ETH
+
+SC-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SC
+          tsym: USD
+
+USDC-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: USDC
+          tsym: EUR
+
+OMG-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OMG
+          tsym: EUR
+
+LUNA-BNB:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LUNA
+          tsym: BNB
+
+STX-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STX
+          tsym: USD
+
+DKA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DKA
+          tsym: KRW
+
+DENT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DENT
+          tsym: USD
+
+DCR-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DCR
+          tsym: BTC
+
+BNB-AUD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: AUD
+
+KNC-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KNC
+          tsym: BTC
+
+SOL-BNB:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SOL
+          tsym: BNB
+
+MANA-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MANA
+          tsym: BTC
+
+NU-EUR:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NU
+          tsym: EUR
+
+ENJ-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ENJ
+          tsym: KRW
+
+THETA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: THETA
+          tsym: KRW
+
+XVG-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XVG
+          tsym: BTC
+
+STEEM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STEEM
+          tsym: KRW
+
+KCS-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KCS
+          tsym: USD
+
+PAXG-BTC:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PAXG
+          tsym: BTC
+
+HOT-BNB:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HOT
+          tsym: BNB
+
+DCR-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DCR
+          tsym: USD
+
+ARK-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ARK
+          tsym: KRW
+
+DASH-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DASH
+          tsym: ETH
+
+STMX-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STMX
+          tsym: KRW
+
+CELO-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CELO
+          tsym: USD
+
+SAND-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SAND
+          tsym: BTC
+
+KEY-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KEY
+          tsym: USD
+
+ELF-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ELF
+          tsym: BTC
+
+REP-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REP
+          tsym: BTC
+
+TFUEL-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TFUEL
+          tsym: BTC
+
+FTM-BNB:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FTM
+          tsym: BNB
+
+LRC-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LRC
+          tsym: BTC
+
+GAS-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GAS
+          tsym: BTC
+
+ORN-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ORN
+          tsym: BTC
+
+ETH-PLN:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: PLN
+
+RLC-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RLC
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: RLC
+          tsym: USD
+
+AION-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AION
+          tsym: USD
+
+VET-ETH:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VET
+          tsym: ETH
+
+PIXEL-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PIXEL
+          tsym: KRW
+
+IQ-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IQ
+          tsym: KRW
+
+CRO-HT:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CRO
+          tsym: HT
+
+USDC-AUD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: USDC
+          tsym: AUD
+
+ETC-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETC
+          tsym: EUR
+
+ONT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONT
+          tsym: KRW
+
+IOST-ETH:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IOST
+          tsym: ETH
+
+LOOM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LOOM
+          tsym: KRW
+
+XLM-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XLM
+          tsym: ETH
+
+LTC-JPY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LTC
+          tsym: JPY
+
+XTZ-GBP:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XTZ
+          tsym: GBP
+
+GLM-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GLM
+          tsym: KRW
+
+STX-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STX
+          tsym: BTC
+
+ONE-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONE
+          tsym: BTC
+
+PNT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PNT
+          tsym: USD
+
+MANA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MANA
+          tsym: KRW
+
+OGN-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OGN
+          tsym: USD
+
+REP-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REP
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: REP
+          tsym: USD
+
+FET-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FET
+          tsym: BTC
+
+FIL-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FIL
+          tsym: EUR
+
+LOOM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LOOM
+          tsym: BTC
+
+MTL-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MTL
+          tsym: KRW
+
+ELF-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ELF
+          tsym: USD
+
+ZEN-BTC:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEN
+          tsym: BTC
+
+PAY-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PAY
+          tsym: BTC
+
+HOT-ETH:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HOT
+          tsym: ETH
+
+ELF-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ELF
+          tsym: KRW
+
+NU-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NU
+          tsym: BTC
+
+ONGAS-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONGAS
+          tsym: USD
+
+MARO-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MARO
+          tsym: KRW
+
+QKC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QKC
+          tsym: KRW
+
+CELO-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CELO
+          tsym: BTC
+
+DOT-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOT
+          tsym: ETH
+
+KNC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KNC
+          tsym: KRW
+
+GRT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRT
+          tsym: USD
+
+ALGO-GBP:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ALGO
+          tsym: GBP
+
+FSN-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FSN
+          tsym: USD
+
+XMR-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XMR
+          tsym: EUR
+
+NMR-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NMR
+          tsym: BTC
+
+AVAX-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AVAX
+          tsym: ETH
+
+LEO-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LEO
+          tsym: USD
+
+GRS-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRS
+          tsym: KRW
+
+UTK-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UTK
+          tsym: USD
+
+VTHO-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: VTHO
+          tsym: USD
+
+DENT-ETH:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DENT
+          tsym: ETH
+
+ZEC-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEC
+          tsym: ETH
+
+BAL-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAL
+          tsym: BTC
+
+GHST-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GHST
+          tsym: ETH
+
+ALPHA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ALPHA
+          tsym: BTC
+
+WRX-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WRX
+          tsym: USD
+
+ETH-MXN:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ETH
+          tsym: MXN
+
+ORBS-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ORBS
+          tsym: KRW
+
+SRM-BNB:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SRM
+          tsym: BNB
+
+DASH-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DASH
+          tsym: EUR
+
+AERGO-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AERGO
+          tsym: KRW
+
+EGLD-BNB:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EGLD
+          tsym: BNB
+
+JST-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: JST
+          tsym: KRW
+
+CHZ-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CHZ
+          tsym: BTC
+
+TMTG-KRW:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TMTG
+          tsym: KRW
+
+OCEAN-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OCEAN
+          tsym: BTC
+
+BNB-BIDR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: BIDR
+
+SOLVE-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SOLVE
+          tsym: KRW
+
+KMD-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KMD
+          tsym: KRW
+
+NEAR-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEAR
+          tsym: BTC
+
+ARK-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ARK
+          tsym: BTC
+
+SNT-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNT
+          tsym: USD
+
+MIOTA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MIOTA
+          tsym: KRW
+
+POWR-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: POWR
+          tsym: KRW
+
+KSM-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KSM
+          tsym: EUR
+
+UNFI-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNFI
+          tsym: BTC
+
+REP-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REP
+          tsym: KRW
+
+REQ-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: REQ
+          tsym: BTC
+
+SXP-BNB:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SXP
+          tsym: BNB
+
+DIA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DIA
+          tsym: BTC
+
+TON-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TON
+          tsym: KRW
+
+QTUM-QC:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QTUM
+          tsym: QC
+
+SC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SC
+          tsym: KRW
+
+NEO-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEO
+          tsym: ETH
+
+STRAX-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STRAX
+          tsym: KRW
+
+XEM-QC:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XEM
+          tsym: QC
+
+WAVES-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WAVES
+          tsym: KRW
+
+BTS-QC:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTS
+          tsym: QC
+
+UNI-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: ETH
+
+KMD-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KMD
+          tsym: BTC
+
+LSK-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LSK
+          tsym: KRW
+
+KAVA-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KAVA
+          tsym: BTC
+
+ONGAS-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONGAS
+          tsym: KRW
+
+CELR-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CELR
+          tsym: BTC
+
+WNXM-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WNXM
+          tsym: USD
+
+AAVE-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AAVE
+          tsym: ETH
+
+IRIS-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IRIS
+          tsym: BTC
+
+CHSB-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CHSB
+          tsym: ETH
+
+BTM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTM
+          tsym: BTC
+
+MOC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MOC
+          tsym: KRW
+
+POLY-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: POLY
+          tsym: KRW
+
+BTG-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTG
+          tsym: BTC
+
+ATOM-BNB:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: BNB
+
+ZRX-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZRX
+          tsym: ETH
+
+WIN-USD:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WIN
+          tsym: USD
+
+ONT-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONT
+          tsym: ETH
+
+BTG-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTG
+          tsym: USD
+
+OMG-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OMG
+          tsym: ETH
+
+LAMB-USD:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LAMB
+          tsym: USD
+
+DMT-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DMT
+          tsym: KRW
+
+LUNA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LUNA
+          tsym: KRW
+
+STORJ-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STORJ
+          tsym: KRW
+
+UNI-BNB:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UNI
+          tsym: BNB
+
+YFI-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: YFI
+          tsym: EUR
+
+CVC-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CVC
+          tsym: BTC
+
+RVN-BNB:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: RVN
+          tsym: BNB
+
+YFII-BTC:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: YFII
+          tsym: BTC
+
+NU-GBP:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NU
+          tsym: GBP
+
+SNX-GBP:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNX
+          tsym: GBP
+
+ARDR-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ARDR
+          tsym: KRW
+
+TRB-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: TRB
+          tsym: BTC
+
+INJ-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: INJ
+          tsym: BTC
+
+KMD-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KMD
+          tsym: USD
+
+SKL-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SKL
+          tsym: BTC
+
+SCRT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SCRT
+          tsym: BTC
+
+IGNIS-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: IGNIS
+          tsym: KRW
+
+STORJ-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STORJ
+          tsym: BTC
+
+ZEC-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZEC
+          tsym: EUR
+
+AAVE-GBP:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AAVE
+          tsym: GBP
+
+WAVES-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WAVES
+          tsym: EUR
+
+ABBC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ABBC
+          tsym: USD
+
+CTXC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CTXC
+          tsym: USD
+
+WTC-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: WTC
+          tsym: USD
+
+CVC-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CVC
+          tsym: KRW
+
+AION-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AION
+          tsym: BTC
+
+JST-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: JST
+          tsym: BTC
+
+ADX-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADX
+          tsym: BTC
+
+KAVA-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KAVA
+          tsym: KRW
+
+SNT-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNT
+          tsym: BTC
+
+HNT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HNT
+          tsym: USD
+
+PIVX-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PIVX
+          tsym: BTC
+
+SNX-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SNX
+          tsym: EUR
+
+BTT-BTC:
+  discrepancy: 1.0
+  precision: 11
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTT
+          tsym: BTC
+
+ZB-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZB
+          tsym: USD
+
+ATOM-ETH:
+  discrepancy: 1.0
+  precision: 5
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ATOM
+          tsym: ETH
+
+BNT-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNT
+          tsym: EUR
+
+EMC2-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EMC2
+          tsym: KRW
+
+ANT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ANT
+          tsym: BTC
+
+HIVE-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HIVE
+          tsym: KRW
+
+BCH-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BCH
+          tsym: ETH
+
+SXP-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SXP
+          tsym: EUR
+
+DNT-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DNT
+          tsym: BTC
+
+GRT-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GRT
+          tsym: ETH
+
+UMA-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UMA
+          tsym: BTC
+
+STMX-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STMX
+          tsym: BTC
+
+BTS-BTC:
+  discrepancy: 1.0
+  precision: 10
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BTS
+          tsym: BTC
+
+NEXO-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEXO
+          tsym: USD
+
+MIOTA-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: MIOTA
+          tsym: ETH
+
+PNT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: PNT
+          tsym: BTC
+
+DVP-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DVP
+          tsym: KRW
+
+BZRX-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BZRX
+          tsym: BTC
+
+LRC-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LRC
+          tsym: ETH
+
+SBD-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: SBD
+          tsym: KRW
+
+GLM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GLM
+          tsym: BTC
+
+CEL-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CEL
+          tsym: USD
+
+ONGAS-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ONGAS
+          tsym: BTC
+
+UTK-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: UTK
+          tsym: BTC
+
+POWR-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: POWR
+          tsym: BTC
+
+XMR-ETH:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: XMR
+          tsym: ETH
+
+STEEM-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: STEEM
+          tsym: BTC
+
+FSN-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: FSN
+          tsym: BTC
+
+NEXO-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: NEXO
+          tsym: BTC
+
+HIVE-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: HIVE
+          tsym: USD
+
+BNT-GBP:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNT
+          tsym: GBP
+
+LUNA-HT:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LUNA
+          tsym: HT
+
+ZIL-ETH:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ZIL
+          tsym: ETH
+
+CTSI-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: CTSI
+          tsym: BTC
+
+AMPL-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AMPL
+          tsym: USD
+
+OGN-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: OGN
+          tsym: BTC
+
+LSK-PLN:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: LSK
+          tsym: PLN
+
+DUSK-USD:
+  discrepancy: 1.0
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DUSK
+          tsym: USD
+
+DOGE-ETH:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DOGE
+          tsym: ETH
+
+QTUM-EUR:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: QTUM
+          tsym: EUR
+
+KCS-BTC:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KCS
+          tsym: BTC
+
+BAT-ETH:
+  discrepancy: 1.0
+  precision: 7
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BAT
+          tsym: ETH
+
+KSM-BNB:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: KSM
+          tsym: BNB
+
+ROSE-BTC:
+  discrepancy: 1.0
+  precision: 9
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ROSE
+          tsym: BTC
+
+ADX-KRW:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ADX
+          tsym: KRW
+
+GAS-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: GAS
+          tsym: ETH
+
+UMB-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: umbrella-network
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: UMB
+          tsyms: USD
+
+UMB-ETH:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: umbrella-network
+          currency: ETH
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: UMB
+          tsyms: ETH
+
+UMB-BTC:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: umbrella-network
+          currency: BTC
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: UMB
+          tsyms: BTC
+
+UNO-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: uno-re
+          currency: USD
+
+ZDEX-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: USD
+
+ZDEX-EUR:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ZDEX
+          tsyms: EUR
+
+FTS-USD:
+  discrepancy: 1.0
+  precision: 8
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: fortress
+          currency: USD
+
+INT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: internet-node-token
+          currency: USD
+
+MATTER-USDT:
+  discrepancy: 1
+  precision: 4
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: MATTER
+          tsyms: USDT
+
+UFT-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: unlend-finance
+          currency: USD
+
+DEP-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: deapcoin
+          currency: USD
+
+FUSE-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: fuse-network-token
+          currency: USD
+
+KFT-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: knit-finance
+          currency: USD
+
+SNP-USD:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: synapse-network
+          currency: USD
+
+MAHA-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: mahadao
+          currency: USD
+
+# On-Chain
+
+FIXED_UMB:V-COUNT:
+  discrepancy: 0.0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0x51ABC3F2E157371c72d780E8544E3DCE178c5DA2"
+          method: getNumberOfValidators
+          inputs: []
+          outputs: [ uint256 ]
+          args: []
+
+# histo
+
+ETH-USD-TWAP-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: ETH
+          tsym: USD
+          limit: 24
+      calculator:
+        name: TWAP
+
+ETH-USD-TWAP-30days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoDay
+        params:
+          fsym: ETH
+          tsym: USD
+          limit: 30
+      calculator:
+        name: TWAP
+
+ETH-USD-VWAP-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: ETH
+          tsym: USD
+          limit: 24
+      calculator:
+        name: VWAP
+
+AMPL-USD-VWAP-1day:
+  discrepancy: 1.0
+  precision: 6
+  inputs:
+    - fetcher:
+        name: CryptoCompareHistoHour
+        params:
+          fsym: AMPL
+          tsym: USD
+          limit: 24
+      calculator:
+        name: VWAP
+
+# GVol
+
+GVol-BTC-IV-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: oneDayIv
+          sym: BTC
+
+GVol-BTC-IV-2days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twoDayIv
+          sym: BTC
+
+GVol-BTC-IV-7days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: sevenDayIv
+          sym: BTC
+
+GVol-BTC-IV-14days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: fourteenDayIv
+          sym: BTC
+
+GVol-BTC-IV-21days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyOneDayIv
+          sym: BTC
+
+GVol-BTC-IV-28days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyEightDayIv
+          sym: BTC
+
+GVol-ETH-IV-1day:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: oneDayIv
+          sym: ETH
+
+GVol-ETH-IV-2days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twoDayIv
+          sym: ETH
+
+GVol-ETH-IV-7days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: sevenDayIv
+          sym: ETH
+
+GVol-ETH-IV-14days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: fourteenDayIv
+          sym: ETH
+
+GVol-ETH-IV-21days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyOneDayIv
+          sym: ETH
+
+GVol-ETH-IV-28days:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: GVolImpliedVolatility
+        params:
+          query: twentyEightDayIv
+          sym: ETH
+
+# Polygon
+
+EQ:VIXY: #EQ:BATS:VIXY
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VIXY
+
+EQ:UVXY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UVXY
+
+EQ:VIXM:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VIXM
+
+EQ:VXX:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VXX
+
+EQ:SVXY:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SVXY
+
+EQ:XVZ:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XVZ
+
+EQ:AMC:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMC
+
+EQ:A:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: A
+
+EQ:AAL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AAL
+
+EQ:AAP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AAP
+
+EQ:AAPL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AAPL
+
+EQ:ABBV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ABBV
+
+EQ:ABC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ABC
+
+EQ:ABMD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ABMD
+
+EQ:ABT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ABT
+
+EQ:ACN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ACN
+
+EQ:ADBE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ADBE
+
+EQ:ADI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ADI
+
+EQ:ADM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ADM
+
+EQ:ADP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ADP
+
+EQ:ADSK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ADSK
+
+EQ:AEE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AEE
+
+EQ:AEP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AEP
+
+EQ:AES:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AES
+
+EQ:AFL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AFL
+
+EQ:AIG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AIG
+
+EQ:AIZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AIZ
+
+EQ:AJG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AJG
+
+EQ:AKAM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AKAM
+
+EQ:ALB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ALB
+
+EQ:ALGN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ALGN
+
+EQ:ALK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ALK
+
+EQ:ALL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ALL
+
+EQ:ALLE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ALLE
+
+EQ:AMAT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMAT
+
+EQ:AMCR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMCR
+
+EQ:AMD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMD
+
+EQ:AME:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AME
+
+EQ:AMGN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMGN
+
+EQ:AMP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMP
+
+EQ:AMT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMT
+
+EQ:AMZN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AMZN
+
+EQ:ANET:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ANET
+
+EQ:ANSS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ANSS
+
+EQ:ANTM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ANTM
+
+EQ:AON:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AON
+
+EQ:AOS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AOS
+
+EQ:APA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: APA
+
+EQ:APD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: APD
+
+EQ:APH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: APH
+
+EQ:APTV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: APTV
+
+EQ:ARE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ARE
+
+EQ:ATO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ATO
+
+EQ:ATVI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ATVI
+
+EQ:AVB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AVB
+
+EQ:AVGO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AVGO
+
+EQ:AVY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AVY
+
+EQ:AWK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AWK
+
+EQ:AXP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AXP
+
+EQ:AZO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: AZO
+
+EQ:BA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BA
+
+EQ:BAC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BAC
+
+EQ:BAX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BAX
+
+EQ:BBY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BBY
+
+EQ:BDX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BDX
+
+EQ:BEN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BEN
+
+EQ:BIIB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BIIB
+
+EQ:BIO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BIO
+
+EQ:BK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BK
+
+EQ:BKNG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BKNG
+
+EQ:BKR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BKR
+
+EQ:BLK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BLK
+
+EQ:BLL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BLL
+
+EQ:BMY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BMY
+
+EQ:BR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BR
+
+EQ:BSX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BSX
+
+EQ:BWA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BWA
+
+EQ:BXP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: BXP
+
+EQ:C:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: C
+
+EQ:CAG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CAG
+
+EQ:CAH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CAH
+
+EQ:CARR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CARR
+
+EQ:CAT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CAT
+
+EQ:CB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CB
+
+EQ:CBRE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CBRE
+
+EQ:CCI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CCI
+
+EQ:CCL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CCL
+
+EQ:CDNS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CDNS
+
+EQ:CDW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CDW
+
+EQ:CE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CE
+
+EQ:CERN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CERN
+
+EQ:CF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CF
+
+EQ:CFG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CFG
+
+EQ:CHD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CHD
+
+EQ:CHRW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CHRW
+
+EQ:CHTR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CHTR
+
+EQ:CI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CI
+
+EQ:CINF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CINF
+
+EQ:CL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CL
+
+EQ:CLX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CLX
+
+EQ:CMA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CMA
+
+EQ:CME:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CME
+
+EQ:CMG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CMG
+
+EQ:CMI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CMI
+
+EQ:CMS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CMS
+
+EQ:CNC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CNC
+
+EQ:CNP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CNP
+
+EQ:COF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COF
+
+EQ:COG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COG
+
+EQ:COO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COO
+
+EQ:COP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COP
+
+EQ:COST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: COST
+
+EQ:CPB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CPB
+
+EQ:CPRT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CPRT
+
+EQ:CRM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CRM
+
+EQ:CSCO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CSCO
+
+EQ:CSX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CSX
+
+EQ:CTAS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CTAS
+
+EQ:CTLT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CTLT
+
+EQ:CTSH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CTSH
+
+EQ:CTVA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CTVA
+
+EQ:CTXS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CTXS
+
+EQ:CVS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CVS
+
+EQ:CVX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: CVX
+
+EQ:D:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: D
+
+EQ:DAL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DAL
+
+EQ:DD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DD
+
+EQ:DE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DE
+
+EQ:DFS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DFS
+
+EQ:DG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DG
+
+EQ:DGX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DGX
+
+EQ:DHI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DHI
+
+EQ:DHR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DHR
+
+EQ:DIS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DIS
+
+EQ:DISH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DISH
+
+EQ:DLR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DLR
+
+EQ:DLTR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DLTR
+
+EQ:DOV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DOV
+
+EQ:DOW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DOW
+
+EQ:DPZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DPZ
+
+EQ:DRE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DRE
+
+EQ:DRI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DRI
+
+EQ:DTE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DTE
+
+EQ:DUK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DUK
+
+EQ:DVA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DVA
+
+EQ:DVN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DVN
+
+EQ:DXC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DXC
+
+EQ:DXCM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: DXCM
+
+EQ:EA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EA
+
+EQ:EBAY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EBAY
+
+EQ:ECL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ECL
+
+EQ:ED:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ED
+
+EQ:EFX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EFX
+
+EQ:EIX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EIX
+
+EQ:EL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EL
+
+EQ:EMN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EMN
+
+EQ:EMR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EMR
+
+EQ:ENPH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ENPH
+
+EQ:EOG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EOG
+
+EQ:EQIX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EQIX
+
+EQ:EQR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EQR
+
+EQ:ES:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ES
+
+EQ:ESS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ESS
+
+EQ:ETN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ETN
+
+EQ:ETR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ETR
+
+EQ:ETSY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ETSY
+
+EQ:EVRG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EVRG
+
+EQ:EW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EW
+
+EQ:EXC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EXC
+
+EQ:EXPD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EXPD
+
+EQ:EXPE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EXPE
+
+EQ:EXR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: EXR
+
+EQ:F:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: F
+
+EQ:FANG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FANG
+
+EQ:FAST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FAST
+
+EQ:FB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FB
+
+EQ:FBHS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FBHS
+
+EQ:FCX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FCX
+
+EQ:FDX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FDX
+
+EQ:FE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FE
+
+EQ:FFIV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FFIV
+
+EQ:FIS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FIS
+
+EQ:FISV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FISV
+
+EQ:FITB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FITB
+
+EQ:FLIR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FLIR
+
+EQ:FLS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FLS
+
+EQ:FLT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FLT
+
+EQ:FMC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FMC
+
+EQ:FOX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FOX
+
+EQ:FOXA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FOXA
+
+EQ:FRC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FRC
+
+EQ:FRT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FRT
+
+EQ:FTNT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FTNT
+
+EQ:FTV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: FTV
+
+EQ:GD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GD
+
+EQ:GE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GE
+
+EQ:GILD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GILD
+
+EQ:GIS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GIS
+
+EQ:GL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GL
+
+EQ:GLW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GLW
+
+EQ:GM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GM
+
+EQ:GOOG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GOOG
+
+EQ:GPC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GPC
+
+EQ:GPN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GPN
+
+EQ:GPS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GPS
+
+EQ:GRMN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GRMN
+
+EQ:GS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GS
+
+EQ:GWW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: GWW
+
+EQ:HAL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HAL
+
+EQ:HAS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HAS
+
+EQ:HBAN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HBAN
+
+EQ:HBI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HBI
+
+EQ:HCA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HCA
+
+EQ:HD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HD
+
+EQ:HES:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HES
+
+EQ:HFC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HFC
+
+EQ:HIG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HIG
+
+EQ:HII:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HII
+
+EQ:HLT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HLT
+
+EQ:HOLX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HOLX
+
+EQ:HON:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HON
+
+EQ:HPE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HPE
+
+EQ:HPQ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HPQ
+
+EQ:HRL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HRL
+
+EQ:HSIC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HSIC
+
+EQ:HST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HST
+
+EQ:HSY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HSY
+
+EQ:HUM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HUM
+
+EQ:HWM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: HWM
+
+EQ:IBM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IBM
+
+EQ:ICE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ICE
+
+EQ:IDXX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IDXX
+
+EQ:IEX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IEX
+
+EQ:IFF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IFF
+
+EQ:ILMN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ILMN
+
+EQ:INCY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: INCY
+
+EQ:INFO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: INFO
+
+EQ:INTC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: INTC
+
+EQ:INTU:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: INTU
+
+EQ:IP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IP
+
+EQ:IPG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IPG
+
+EQ:IPGP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IPGP
+
+EQ:IQV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IQV
+
+EQ:IR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IR
+
+EQ:IRM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IRM
+
+EQ:ISRG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ISRG
+
+EQ:IT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IT
+
+EQ:ITW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ITW
+
+EQ:IVZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: IVZ
+
+EQ:J:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: J
+
+EQ:JBHT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JBHT
+
+EQ:JCI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JCI
+
+EQ:JKHY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JKHY
+
+EQ:JNJ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JNJ
+
+EQ:JNPR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JNPR
+
+EQ:JPM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: JPM
+
+EQ:K:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: K
+
+EQ:KEY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KEY
+
+EQ:KEYS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KEYS
+
+EQ:KHC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KHC
+
+EQ:KIM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KIM
+
+EQ:KLAC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KLAC
+
+EQ:KMB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KMB
+
+EQ:KMI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KMI
+
+EQ:KMX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KMX
+
+EQ:KO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KO
+
+EQ:KR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KR
+
+EQ:KSU:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: KSU
+
+EQ:L:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: L
+
+EQ:LB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LB
+
+EQ:LDOS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LDOS
+
+EQ:LEG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LEG
+
+EQ:LEN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LEN
+
+EQ:LH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LH
+
+EQ:LHX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LHX
+
+EQ:LIN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LIN
+
+EQ:LKQ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LKQ
+
+EQ:LLY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LLY
+
+EQ:LMT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LMT
+
+EQ:LNC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LNC
+
+EQ:LNT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LNT
+
+EQ:LOW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LOW
+
+EQ:LRCX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LRCX
+
+EQ:LUMN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LUMN
+
+EQ:LUV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LUV
+
+EQ:LVS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LVS
+
+EQ:LW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LW
+
+EQ:LYB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LYB
+
+EQ:LYV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: LYV
+
+EQ:MA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MA
+
+EQ:MAA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MAA
+
+EQ:MAR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MAR
+
+EQ:MAS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MAS
+
+EQ:MCD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MCD
+
+EQ:MCHP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MCHP
+
+EQ:MCK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MCK
+
+EQ:MCO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MCO
+
+EQ:MDLZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MDLZ
+
+EQ:MDT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MDT
+
+EQ:MET:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MET
+
+EQ:MGM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MGM
+
+EQ:MHK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MHK
+
+EQ:MKC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MKC
+
+EQ:MKTX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MKTX
+
+EQ:MLM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MLM
+
+EQ:MMC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MMC
+
+EQ:MMM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MMM
+
+EQ:MNST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MNST
+
+EQ:MO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MO
+
+EQ:MOS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MOS
+
+EQ:MPC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MPC
+
+EQ:MPWR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MPWR
+
+EQ:MRK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MRK
+
+EQ:MRO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MRO
+
+EQ:MS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MS
+
+EQ:MSCI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MSCI
+
+EQ:MSFT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MSFT
+
+EQ:MSI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MSI
+
+EQ:MTB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MTB
+
+EQ:MTD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MTD
+
+EQ:MU:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MU
+
+EQ:MXIM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: MXIM
+
+EQ:NCLH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NCLH
+
+EQ:NDAQ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NDAQ
+
+EQ:NEE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NEE
+
+EQ:NEM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NEM
+
+EQ:NFLX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NFLX
+
+EQ:NI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NI
+
+EQ:NKE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NKE
+
+EQ:NLOK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NLOK
+
+EQ:NLSN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NLSN
+
+EQ:NOC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NOC
+
+EQ:NOV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NOV
+
+EQ:NOW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NOW
+
+EQ:NRG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NRG
+
+EQ:NSC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NSC
+
+EQ:NTAP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NTAP
+
+EQ:NTRS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NTRS
+
+EQ:NUE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NUE
+
+EQ:NVDA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NVDA
+
+EQ:NVR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NVR
+
+EQ:NWL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NWL
+
+EQ:NWS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NWS
+
+EQ:NWSA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: NWSA
+
+EQ:O:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: O
+
+EQ:ODFL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ODFL
+
+EQ:OKE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: OKE
+
+EQ:OMC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: OMC
+
+EQ:ORCL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ORCL
+
+EQ:ORLY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ORLY
+
+EQ:OTIS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: OTIS
+
+EQ:OXY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: OXY
+
+EQ:PAYC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PAYC
+
+EQ:PAYX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PAYX
+
+EQ:PBCT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PBCT
+
+EQ:PCAR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PCAR
+
+EQ:PEAK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PEAK
+
+EQ:PEG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PEG
+
+EQ:PEP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PEP
+
+EQ:PFE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PFE
+
+EQ:PFG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PFG
+
+EQ:PG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PG
+
+EQ:PGR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PGR
+
+EQ:PH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PH
+
+EQ:PHM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PHM
+
+EQ:PKG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PKG
+
+EQ:PKI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PKI
+
+EQ:PLD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PLD
+
+EQ:PM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PM
+
+EQ:PNC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PNC
+
+EQ:PNR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PNR
+
+EQ:PNW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PNW
+
+EQ:POOL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: POOL
+
+EQ:PPG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PPG
+
+EQ:PPL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PPL
+
+EQ:PRGO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PRGO
+
+EQ:PRU:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PRU
+
+EQ:PSA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PSA
+
+EQ:PSX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PSX
+
+EQ:PVH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PVH
+
+EQ:PWR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PWR
+
+EQ:PXD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PXD
+
+EQ:PYPL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: PYPL
+
+EQ:QCOM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: QCOM
+
+EQ:QRVO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: QRVO
+
+EQ:RCL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RCL
+
+EQ:RE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RE
+
+EQ:REG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: REG
+
+EQ:REGN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: REGN
+
+EQ:RF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RF
+
+EQ:RHI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RHI
+
+EQ:RJF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RJF
+
+EQ:RL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RL
+
+EQ:RMD:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RMD
+
+EQ:ROK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ROK
+
+EQ:ROL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ROL
+
+EQ:ROP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ROP
+
+EQ:ROST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ROST
+
+EQ:RSG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RSG
+
+EQ:RTX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: RTX
+
+EQ:SBAC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SBAC
+
+EQ:SBUX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SBUX
+
+EQ:SCHW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SCHW
+
+EQ:SEE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SEE
+
+EQ:SHW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SHW
+
+EQ:SIVB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SIVB
+
+EQ:SJM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SJM
+
+EQ:SLB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SLB
+
+EQ:SLG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SLG
+
+EQ:SNA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SNA
+
+EQ:SNPS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SNPS
+
+EQ:SO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SO
+
+EQ:SPG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SPG
+
+EQ:SPGI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SPGI
+
+EQ:SRE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SRE
+
+EQ:STE:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: STE
+
+EQ:STT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: STT
+
+EQ:STX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: STX
+
+EQ:STZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: STZ
+
+EQ:SWK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SWK
+
+EQ:SWKS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SWKS
+
+EQ:SYF:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SYF
+
+EQ:SYK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SYK
+
+EQ:SYY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: SYY
+
+EQ:T:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: T
+
+EQ:TAP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TAP
+
+EQ:TDG:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TDG
+
+EQ:TDY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TDY
+
+EQ:TEL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TEL
+
+EQ:TER:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TER
+
+EQ:TFC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TFC
+
+EQ:TFX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TFX
+
+EQ:TGT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TGT
+
+EQ:TJX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TJX
+
+EQ:TMO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TMO
+
+EQ:TMUS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TMUS
+
+EQ:TPR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TPR
+
+EQ:TRMB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TRMB
+
+EQ:TROW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TROW
+
+EQ:TRV:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TRV
+
+EQ:TSCO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TSCO
+
+EQ:TSLA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TSLA
+
+EQ:TSN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TSN
+
+EQ:TT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TT
+
+EQ:TTWO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TTWO
+
+EQ:TWTR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TWTR
+
+EQ:TXN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TXN
+
+EQ:TXT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TXT
+
+EQ:TYL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: TYL
+
+EQ:UA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UA
+
+EQ:UAA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UAA
+
+EQ:UAL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UAL
+
+EQ:UDR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UDR
+
+EQ:UHS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UHS
+
+EQ:ULTA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ULTA
+
+EQ:UNH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UNH
+
+EQ:UNM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UNM
+
+EQ:UNP:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UNP
+
+EQ:UPS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: UPS
+
+EQ:URI:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: URI
+
+EQ:USB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: USB
+
+EQ:V:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: V
+
+EQ:VAR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VAR
+
+EQ:VFC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VFC
+
+EQ:VIAC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VIAC
+
+EQ:VLO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VLO
+
+EQ:VMC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VMC
+
+EQ:VNO:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VNO
+
+EQ:VNT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VNT
+
+EQ:VRSK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VRSK
+
+EQ:VRSN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VRSN
+
+EQ:VRTX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VRTX
+
+EQ:VTR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VTR
+
+EQ:VTRS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VTRS
+
+EQ:VZ:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: VZ
+
+EQ:WAB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WAB
+
+EQ:WAT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WAT
+
+EQ:WBA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WBA
+
+EQ:WDC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WDC
+
+EQ:WEC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WEC
+
+EQ:WELL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WELL
+
+EQ:WFC:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WFC
+
+EQ:WHR:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WHR
+
+EQ:WLTW:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WLTW
+
+EQ:WM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WM
+
+EQ:WMB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WMB
+
+EQ:WMT:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WMT
+
+EQ:WRB:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WRB
+
+EQ:WRK:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WRK
+
+EQ:WST:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WST
+
+EQ:WU:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WU
+
+EQ:WY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WY
+
+EQ:WYNN:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: WYNN
+
+EQ:XEL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XEL
+
+EQ:XLNX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XLNX
+
+EQ:XOM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XOM
+
+EQ:XRAY:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XRAY
+
+EQ:XRX:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XRX
+
+EQ:XYL:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: XYL
+
+EQ:YUM:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: YUM
+
+EQ:ZBH:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ZBH
+
+EQ:ZBRA:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ZBRA
+
+EQ:ZION:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ZION
+
+EQ:ZTS:
+  discrepancy: 0.5
+  precision: 2
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          sym: ZTS
+
+# yearn.finance
+
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: "0x619B772d63399Ac0Cb70EA6ceFF25a8Fc81faE81"
+          network: eth-mainnet
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
+
+# options
+
+OP:ETH-*:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: ETH
+
+OP:BTC-*:
+  discrepancy: 1
+  precision: 15
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: BTC
+
+FIXED_RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 5

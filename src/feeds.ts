@@ -19,9 +19,7 @@ export function addFeeds(discrepancy, precision, fetcher) {
   const addDirPath = '../add/';
 
   // step 2 - backup yaml files
-  console.log('Backing up yaml files');
-  writeFromFileTo(feedsYamlFilePath, backupFeedsYamlFilePath);
-  writeFromFileTo(feedsYaml55FilePath, backupFeedsYaml55FilePath);
+  _backupFeeds();
 
   // step 3 - import yaml file data
   const feedYamlData = readFeedsYaml(feedsYamlFilePath);
@@ -58,3 +56,11 @@ export function restoreFeeds() {
   writeFromFileTo(backupFeedsYamlFilePath, feedsYamlFilePath);
   writeFromFileTo(backupFeedsYaml55FilePath, feedsYaml55FilePath);
 }
+
+function _backupFeeds() {
+  console.log('Backing up yaml files');
+  writeFromFileTo(feedsYamlFilePath, backupFeedsYamlFilePath);
+  writeFromFileTo(feedsYaml55FilePath, backupFeedsYaml55FilePath);
+}
+
+export function backupFeeds() { _backupFeeds(); }

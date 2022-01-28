@@ -17,6 +17,10 @@ export function writeFromFileTo(fromFilePath, toFilePath) {
   fs.writeFileSync(toFilePath, data);
 }
 
+export function dumpYaml(filePath, data) {
+  fs.writeFileSync(filePath, yaml.dump(data));
+}
+
 export function appendFeedsYaml(filePath, yamlData) {
   //fs.appendFileSync(filepath, yaml.dump(yamlData));
   fs.appendFileSync(filePath, yamlData);
@@ -48,7 +52,7 @@ export function getAllSymbols(filePath) {
   return symbols.slice();
 }
 
-function getEquityDataFields(symbol, discrepancy, precision, fetcher) {
+function _getEquityDataFields(symbol, discrepancy, precision, fetcher) {
   return {
     discrepancy: discrepancy,
     precision: precision,
@@ -56,8 +60,12 @@ function getEquityDataFields(symbol, discrepancy, precision, fetcher) {
   };
 }
 
+export function getEquityDataFields(symbol, discrepancy, precision, fetcher) {
+  return _getEquityDataFields(symbol, discrepancy, precision, fetcher);
+}
+
 export function getEquityYamlDump(symbol, discrepancy, precision, fetcher) {
   const data = {};
-  data['EQ:' + symbol] = getEquityDataFields(symbol, discrepancy, precision, fetcher);
+  data['EQ:' + symbol] = _getEquityDataFields(symbol, discrepancy, precision, fetcher);
   return yaml.dump(data);
 }
