@@ -897,15 +897,6 @@ KFT-USD:
         params:
           id: knit-finance
           currency: USD
-MAHA-USD:
-  discrepancy: 1
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: mahadao
-          currency: USD
 FIXED_UMB:V-COUNT:
   discrepancy: 0
   precision: 0
