@@ -1,0 +1,9 @@
+{
+  "timestamp": "2022-01-26T17:28:04.053Z",
+  "assets": [
+    {
+      "url": "https://raw.github.com/umbrella-network/pegasus-feeds/develop/dev/bsc/ota/assets/uniswapVerifiedTokens.json",
+      "path": "uniswapVerifiedTokens.json"
+    }
+  ]
+}
