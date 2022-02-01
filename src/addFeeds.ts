@@ -9,7 +9,12 @@ import {addFeeds} from './feeds';
   const DISCREPANCY = 1.0;
   const PRECISION = 2;
   const FETCHER = 'PolygonIOPrice';
-  addFeeds(DISCREPANCY, PRECISION, FETCHER);
+  const args = process.argv.slice();
+  const maxSymbolsToAdd = parseInt(args[2]);
+  if(maxSymbolsToAdd) {
+    console.log('Max of ' + maxSymbolsToAdd + ' total equity symbols will be added to the feeds.yaml');
+  }
+  addFeeds(DISCREPANCY, PRECISION, FETCHER, maxSymbolsToAdd);
 })()
   .then(() => {
     process.exit(0);
