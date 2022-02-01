@@ -82,7 +82,7 @@ COMP-USD:
 
 BNT-USD:
   discrepancy: 1.0
-  precision: 2
+  precision: 3
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
@@ -127,7 +127,7 @@ YFI-USD:
 
 REN-USD:
   discrepancy: 1.0
-  precision: 2
+  precision: 3
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
@@ -170,24 +170,12 @@ FTS-USD:
           id: fortress
           currency: USD
 
-# GVol
-
-GVol-BTC-IV-28days:
+MAHA-USD:
   discrepancy: 1.0
   precision: 2
   inputs:
     - fetcher:
-        name: GVolImpliedVolatility
+        name: CoingeckoPrice
         params:
-          query: twentyEightDayIv
-          sym: BTC
-
-GVol-ETH-IV-28days:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: GVolImpliedVolatility
-        params:
-          query: twentyEightDayIv
-          sym: ETH
+          id: mahadao
+          currency: USD
