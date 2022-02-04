@@ -1170,11 +1170,11 @@ OP:BTC-*:
         params:
           sym: BTC
 
-FIXED_RAND:
-  discrepancy: 0
-  precision: 0
-  inputs:
-    - fetcher:
-        name: RandomNumber
-        params:
-          numBlocks: 5
+# FIXED_RAND:
+#   discrepancy: 0
+#   precision: 0
+#   inputs:
+#     - fetcher:
+#         name: RandomNumber
+#         params:
+#           numBlocks: 5
