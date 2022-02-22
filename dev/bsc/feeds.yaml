@@ -1064,48 +1064,6 @@ AMPL-USD-VWAP-1day:
       calculator:
         name: VWAP
 
-# GVol
-
-GVol-BTC-IV-1day:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: GVolImpliedVolatility
-        params:
-          query: oneDayIv
-          sym: BTC
-
-GVol-BTC-IV-28days:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: GVolImpliedVolatility
-        params:
-          query: twentyEightDayIv
-          sym: BTC
-
-GVol-ETH-IV-1day:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: GVolImpliedVolatility
-        params:
-          query: oneDayIv
-          sym: ETH
-
-GVol-ETH-IV-28days:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: GVolImpliedVolatility
-        params:
-          query: twentyEightDayIv
-          sym: ETH
-
 # Polygon
 
 EQ:TSLA:
