@@ -149,3 +149,12 @@ MAHA-USD:
         params:
           id: mahadao
           currency: USD
+
+ARTH-GMU:
+  discrepancy: 1 
+  precision: 16 
+  inputs:
+    - fetcher:
+        name: ArthCoinPrice
+        params:
+          id: normalizedIndexPrice
