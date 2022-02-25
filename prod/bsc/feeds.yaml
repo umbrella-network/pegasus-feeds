@@ -9862,7 +9862,7 @@ YEARN-FI:*-ETH:
 
 OP:ETH-*:
   discrepancy: 1
-  precision: 15
+  precision: 18
   inputs:
     - fetcher:
         name: OptionsPrice
@@ -9873,7 +9873,7 @@ OP:ETH-*:
 
 OP:BTC-*:
   discrepancy: 1
-  precision: 15
+  precision: 18
   inputs:
     - fetcher:
         name: OptionsPrice
