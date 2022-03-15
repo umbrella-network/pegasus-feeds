@@ -9860,28 +9860,6 @@ YEARN-FI:*-ETH:
 
 # options
 
-OP:ETH-*:
-  discrepancy: 1
-  precision: 15
-  inputs:
-    - fetcher:
-        name: OptionsPrice
-      calculator:
-        name: OptionsPrice
-        params:
-          sym: ETH
-
-OP:BTC-*:
-  discrepancy: 1
-  precision: 15
-  inputs:
-    - fetcher:
-        name: OptionsPrice
-      calculator:
-        name: OptionsPrice
-        params:
-          sym: BTC
-
 FIXED_RAND:
   discrepancy: 0
   precision: 0
