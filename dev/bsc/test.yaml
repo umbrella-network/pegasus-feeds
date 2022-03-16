@@ -1,6 +1,6 @@
 # Volume-based pairs
 
-BTC1-USD:
+BTC2-USD:
   discrepancy: 1
   precision: 2
   inputs:
