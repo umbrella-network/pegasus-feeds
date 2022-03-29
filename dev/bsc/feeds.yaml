@@ -1039,7 +1039,7 @@ AKITA-ETH:
         name: CryptoComparePriceWS
         params:
           fsym: AKITA
-          tsyms: ETH
+          tsym: ETH
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -1054,7 +1054,7 @@ AKITA-AVAX:
         name: CryptoComparePriceWS
         params:
           fsym: AKITA
-          tsyms: AVAX
+          tsym: AVAX
 
 # On-Chain
 
