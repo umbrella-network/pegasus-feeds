@@ -1036,10 +1036,10 @@ AKITA-ETH:
   precision: 12
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: AKITA
-          tsym: ETH
+          tsyms: ETH
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -1051,10 +1051,10 @@ AKITA-AVAX:
   precision: 12
   inputs:    
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: AKITA
-          tsym: AVAX
+          tsyms: AVAX
 
 # On-Chain
 
