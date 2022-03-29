@@ -1031,6 +1031,31 @@ TXL-USD:
           id: autobahn-network
           currency: USD
 
+AKITA-ETH:
+  discrepancy: 1.0
+  precision: 12
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AKITA
+          tsyms: ETH
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: akita-inu
+          currency: ETH
+
+AKITA-AVAX:
+  discrepancy: 1.0
+  precision: 12
+  inputs:    
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AKITA
+          tsyms: AVAX
+
 # On-Chain
 
 FIXED_UMB:V-COUNT:
