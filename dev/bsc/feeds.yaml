@@ -1191,27 +1191,29 @@ YEARN-TEST:*-ETH:
 
 # options
 
-# OP:ETH-*:
-#   discrepancy: 1
-#   precision: 18
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
-#       calculator:
-#         name: OptionsPrice
-#         params:
-#           sym: ETH
+OP:ETH-*:
+  discrepancy: 1
+  precision: 18
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: ETH
 
-# OP:BTC-*:
-#   discrepancy: 1
-#   precision: 18
-#   inputs:
-#     - fetcher:
-#         name: OptionsPrice
-#       calculator:
-#         name: OptionsPrice
-#         params:
-#           sym: BTC
+OP:BTC-*:
+  discrepancy: 1
+  precision: 18
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: BTC
+
+# VRNG
 
 FIXED_RAND:
   discrepancy: 0
