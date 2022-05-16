@@ -747,7 +747,7 @@ BCH-BTC:
 
 BNT-USD:
   discrepancy: 1
-  precision: 2
+  precision: 3
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
@@ -963,7 +963,7 @@ KFT-USD:
 
 MAHA-USD:
   discrepancy: 1.0
-  precision: 3
+  precision: 2
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -1055,6 +1055,21 @@ AKITA-AVAX:
         params:
           fsym: AKITA
           tsyms: AVAX
+
+DAI-USD:
+  discrepancy: 1.0
+  precision: 3
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: DAI
+          tsym: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI
+          tsym: USD
 
 # On-Chain
 
