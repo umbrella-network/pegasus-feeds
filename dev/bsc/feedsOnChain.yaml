@@ -30,56 +30,6 @@ BTC-USD:
           fsym: BTC
           tsym: USD
 
-LINK-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LINK
-          tsym: USD
-    - fetcher:
-        name: PolygonIOCryptoPrice
-        params:
-          fsym: LINK
-          tsym: USD
-
-BNT-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BNT
-          tsym: USD
-    - fetcher:
-        name: PolygonIOCryptoPrice
-        params:
-          fsym: BNT
-          tsym: USD
-
-UNI-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: UNI
-          tsym: USD
-
-BNB-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BNB
-          tsym: USD
-
 UMB-USD:
   discrepancy: 1.0
   precision: 2
@@ -149,18 +99,3 @@ MAHA-USD:
         params:
           id: mahadao
           currency: USD
-
-DAI-USD:
-  discrepancy: 1.0
-  precision: 3
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: DAI
-          tsym: USD
-    - fetcher:
-        name: PolygonIOCryptoPrice
-        params:
-          fsym: DAI
-          tsym: USD
