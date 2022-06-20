@@ -1080,6 +1080,11 @@ AVAX-USD:
         params:
           fsym: AVAX
           tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: avalanche-2
+          currency: USD
 
 # On-Chain
 
