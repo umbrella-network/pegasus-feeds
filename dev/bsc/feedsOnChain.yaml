@@ -99,3 +99,18 @@ MAHA-USD:
         params:
           id: mahadao
           currency: USD
+
+AVAX-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: AVAX
+          tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: avalanche-2
+          currency: USD
