@@ -710,10 +710,10 @@ BNB-USD:
           fsym: BNB
           tsym: USD
     - fetcher:
-        name: KaikoPriceStream
+        name: CoingeckoPrice
         params:
-          fsym: BNB
-          tsym: USD
+          id: binancecoin
+          currency: USD
 
 VET-USD:
   discrepancy: 1

@@ -1,35 +1,5 @@
 # Crypto
 
-ETH-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: ETH
-          tsym: USD
-    - fetcher:
-        name: PolygonIOCryptoPrice
-        params:
-          fsym: ETH
-          tsym: USD
-
-BTC-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BTC
-          tsym: USD
-    - fetcher:
-        name: PolygonIOCryptoPrice
-        params:
-          fsym: BTC
-          tsym: USD
-
 UMB-USD:
   discrepancy: 1.0
   precision: 2
@@ -113,4 +83,19 @@ AVAX-USD:
         name: CoingeckoPrice
         params:
           id: avalanche-2
+          currency: USD
+
+BNB-USD:
+  discrepancy: 1.0
+  precision: 2
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: BNB
+          tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: binancecoin
           currency: USD
