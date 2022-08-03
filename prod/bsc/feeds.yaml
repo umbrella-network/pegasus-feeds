@@ -39,6 +39,11 @@ BNB-USD:
         params:
           fsym: BNB
           tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: binancecoin
+          currency: USD
 
 BTC-JPY:
   discrepancy: 1.0
@@ -804,6 +809,11 @@ AVAX-USD:
         params:
           fsym: AVAX
           tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: avalanche-2
+          currency: USD
 
 FIL-USD:
   discrepancy: 1.0
