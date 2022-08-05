@@ -787,7 +787,7 @@ LINK-USD:
 
 UMB-USD:
   discrepancy: 1
-  precision: 2
+  precision: 8
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -840,25 +840,6 @@ ZDEX-EUR:
           fsym: ZDEX
           tsym: EUR
 
-FTS-USD:
-  discrepancy: 1
-  precision: 8
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: fortress
-          currency: USD
-    - fetcher:
-        name: CoinmarketcapPrice
-        params:
-          symbol: FTS
-          convert: USD
-    - fetcher:
-        name: KaikoPriceStream
-        params:
-          fsym: FTS
-          tsym: USD
 
 DAI-BNB:
   discrepancy: 1
@@ -959,16 +940,6 @@ KFT-USD:
         name: CoingeckoPrice
         params:
           id: knit-finance
-          currency: USD
-
-MAHA-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: mahadao
           currency: USD
           
 MNY-USD:
