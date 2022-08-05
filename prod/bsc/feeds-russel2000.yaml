@@ -5105,16 +5105,6 @@ ZDEX-EUR:
           fsym: ZDEX
           tsyms: EUR
 
-FTS-USD:
-  discrepancy: 1.0
-  precision: 8
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: fortress
-          currency: USD
-
 INT-USD:
   discrepancy: 1.0
   precision: 6
