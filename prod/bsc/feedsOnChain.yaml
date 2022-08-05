@@ -2,7 +2,7 @@
           
 UMB-USD:
   discrepancy: 1.0
-  precision: 2
+  precision: 8
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -14,26 +14,6 @@ UMB-USD:
         params:
           fsym: UMB
           tsyms: USD
-
-FTS-USD:
-  discrepancy: 1.0
-  precision: 8
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: fortress
-          currency: USD
-
-MAHA-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: mahadao
-          currency: USD
 
 AVAX-USD:
   discrepancy: 1.0
