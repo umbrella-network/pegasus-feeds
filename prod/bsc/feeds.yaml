@@ -5158,3 +5158,55 @@ AMPL-USD-VWAP-1day:
           limit: 24
       calculator:
         name: VWAP
+
+# yearn.finance
+
+YEARN-FI:*-ETH:
+  discrepancy: 1
+  precision: 6
+  inputs:
+    - fetcher:
+        name: YearnVaultTokenPrice
+        params:
+          address: "0x619B772d63399Ac0Cb70EA6ceFF25a8Fc81faE81"
+          network: eth-mainnet
+      calculator:
+        name: YearnTransformPrice
+        params:
+          tsym: ETH
+
+# options
+
+OP:ETH-*:
+  discrepancy: 1
+  precision: 18
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: ETH
+
+OP:BTC-*:
+  discrepancy: 1
+  precision: 18
+  inputs:
+    - fetcher:
+        name: OptionsPrice
+      calculator:
+        name: OptionsPrice
+        params:
+          sym: BTC
+
+# VRNG
+
+FIXED_RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 5
+
