@@ -27,7 +27,8 @@ ETH-USD:
 
     - fetcher:
         name: KaikoPriceStream
-        params:          fsym: ETH
+        params:
+          fsym: ETH
           tsym: USD
 
 BTC-JPY:
@@ -54,14 +55,14 @@ BTC-EUR:
         params:
           fsym: BTC
           tsym: EUR
-
     - fetcher:
         name: KaikoPriceStream
         params:
           fsym: BTC
           tsym: EUR
 
-ADA-USD:  discrepancy: 1
+ADA-USD:  
+  discrepancy: 1
   precision: 4
   inputs:
     - fetcher:
@@ -69,7 +70,6 @@ ADA-USD:  discrepancy: 1
         params:
           fsym: ADA
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -80,7 +80,8 @@ XRP-USD:
   discrepancy: 1
   precision: 4
   inputs:
-    - fetcher:        name: CryptoComparePriceWS
+    - fetcher:
+        name: CryptoComparePriceWS
         params:
           fsym: XRP
           tsym: USD
@@ -129,7 +130,8 @@ BUSD-USD:
         name: CryptoComparePriceWS
         params:
           fsym: BUSD
-          tsym: USD    - fetcher:
+          tsym: USD    
+    - fetcher:
         name: KaikoPriceStream
         params:
           fsym: BUSD
@@ -144,7 +146,6 @@ EOS-USD:
         params:
           fsym: EOS
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -163,7 +164,8 @@ ETH-EUR:
     - fetcher:
         name: KaikoPriceStream
         params:
-          fsym: ETH          tsym: EUR
+          fsym: ETH
+          tsym: EUR
 
 BNB-BUSD:
   discrepancy: 1
@@ -217,14 +219,14 @@ IOST-USD:
           tsym: USD
 
 XLM-USD:
-  discrepancy: 1  precision: 4
+  discrepancy: 1  
+  precision: 4
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
         params:
           fsym: XLM
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -251,7 +253,8 @@ BNB-BTC:
   discrepancy: 1
   precision: 6
   inputs:
-    - fetcher:        name: CryptoComparePriceWS
+    - fetcher:
+        name: CryptoComparePriceWS
         params:
           fsym: BNB
           tsym: BTC
@@ -270,7 +273,8 @@ ADA-BTC:
         params:
           fsym: ADA
           tsym: BTC
-    - fetcher:        name: KaikoPriceStream
+    - fetcher:
+        name: KaikoPriceStream
         params:
           fsym: ADA
           tsym: BTC
@@ -314,7 +318,6 @@ LTC-USD:
         params:
           fsym: LTC
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -345,11 +348,11 @@ BTC-GBP:
         params:
           fsym: BTC
           tsym: GBP
-
     - fetcher:
         name: KaikoPriceStream
         params:
-          fsym: BTC          tsym: GBP
+          fsym: BTC
+          tsym: GBP
 
 USDT-USD:
   discrepancy: 1
@@ -360,7 +363,6 @@ USDT-USD:
         params:
           fsym: USDT
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -383,14 +385,14 @@ LTC-BTC:
           tsym: BTC
 
 ZEC-USD:
-  discrepancy: 1  precision: 2
+  discrepancy: 1  
+  precision: 2
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
         params:
           fsym: ZEC
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -402,10 +404,10 @@ ETC-USD:
   precision: 2
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS        params:
+        name: CryptoComparePriceWS
+        params:
           fsym: ETC
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -436,7 +438,8 @@ SRM-USD:
         params:
           fsym: SRM
           tsym: USD
-    - fetcher:        name: KaikoPriceStream
+    - fetcher:
+        name: KaikoPriceStream
         params:
           fsym: SRM
           tsym: USD
@@ -464,7 +467,6 @@ USDC-USD:
         params:
           fsym: USDC
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -495,7 +497,6 @@ DASH-USD:
         params:
           fsym: DASH
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -519,7 +520,8 @@ SOL-USD:
 
 XEM-BTC:
   discrepancy: 1
-  precision: 8  inputs:
+  precision: 8  
+  inputs:
     - fetcher:
         name: CryptoComparePriceWS
         params:
@@ -553,7 +555,8 @@ DOT-BTC:
     - fetcher:
         name: CryptoComparePriceWS
         params:
-          fsym: DOT          tsym: BTC
+          fsym: DOT
+          tsym: BTC
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -690,7 +693,6 @@ LINK-USD:
         params:
           fsym: LINK
           tsym: USD
-
     - fetcher:
         name: KaikoPriceStream
         params:
@@ -737,7 +739,8 @@ ZDEX-USD:
           fsym: ZDEX
           tsym: USD
 
-ZDEX-EUR:  discrepancy: 1
+ZDEX-EUR:  
+  discrepancy: 1
   precision: 2
   inputs:
     - fetcher:
@@ -751,12 +754,12 @@ ZDEX-EUR:  discrepancy: 1
           fsym: ZDEX
           tsym: EUR
 
-
 DAI-BNB:
   discrepancy: 1
   precision: 6
   inputs:
-    - fetcher:        name: CryptoComparePrice
+    - fetcher:
+        name: CryptoComparePrice
         params:
           fsym: DAI
           tsyms: BNB
@@ -780,7 +783,6 @@ INT-USD:
         params:
           fsym: INT
           tsym: USD
-
 
 SNP-USD:
   discrepancy: 1.0
