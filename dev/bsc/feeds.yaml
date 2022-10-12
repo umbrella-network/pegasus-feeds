@@ -1,7 +1,7 @@
 # Volume-based pairs
 
 BTC-USD:
-  discrepancy: 1
+  discrepancy: 1.0
   precision: 2
   inputs:
     - fetcher:
@@ -10,13 +10,18 @@ BTC-USD:
           fsym: BTC
           tsym: USD
     - fetcher:
-        name: KaikoPriceStream
+        name: CryptoComparePrice
         params:
           fsym: BTC
-          tsym: USD
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitcoin
+          currency: USD
 
 ETH-USD:
-  discrepancy: 1
+  discrepancy: 1.0
   precision: 2
   inputs:
     - fetcher:
@@ -24,12 +29,16 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
-
     - fetcher:
-        name: KaikoPriceStream
+        name: CryptoComparePrice
         params:
           fsym: ETH
-          tsym: USD
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ethereum
+          currency: USD
 
 BTC-JPY:
   discrepancy: 1
