@@ -10,11 +10,6 @@ BTC-USD:
           fsym: BTC
           tsym: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: BTC
-          tsyms: USD
-    - fetcher:
         name: CoingeckoPrice
         params:
           id: bitcoin
@@ -29,11 +24,6 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ETH
-          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
