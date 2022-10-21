@@ -2670,16 +2670,6 @@ OMG-EUR:
           fsym: OMG
           tsym: EUR
 
-LUNA-BNB:
-  discrepancy: 1.0
-  precision: 5
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LUNA
-          tsym: BNB
-
 STX-USD:
   discrepancy: 1.0
   precision: 4
@@ -4060,16 +4050,6 @@ DMT-KRW:
           fsym: DMT
           tsym: KRW
 
-LUNA-KRW:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LUNA
-          tsym: KRW
-
 STORJ-KRW:
   discrepancy: 1.0
   precision: 2
@@ -4380,16 +4360,6 @@ SNX-EUR:
           fsym: SNX
           tsym: EUR
 
-BTT-BTC:
-  discrepancy: 1.0
-  precision: 11
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BTT
-          tsym: BTC
-
 ZB-USD:
   discrepancy: 1.0
   precision: 4
@@ -4560,16 +4530,6 @@ DVP-KRW:
           fsym: DVP
           tsym: KRW
 
-BZRX-BTC:
-  discrepancy: 1.0
-  precision: 9
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: BZRX
-          tsym: BTC
-
 LRC-ETH:
   discrepancy: 1.0
   precision: 7
@@ -4699,16 +4659,6 @@ BNT-GBP:
         params:
           fsym: BNT
           tsym: GBP
-
-LUNA-HT:
-  discrepancy: 1.0
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: LUNA
-          tsym: HT
 
 ZIL-ETH:
   discrepancy: 1.0
