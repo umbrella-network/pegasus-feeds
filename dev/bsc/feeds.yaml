@@ -979,6 +979,20 @@ FIXED_UMB:V-COUNT:
           outputs: [ uint256 ]
           args: []
 
+ARTH-USD:
+  discrepancy: 0.5
+  precision: 8
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0x4d9f5c2cb7abf1a044e6a34167ad4288546f0639"
+          method: latestRoundData
+          inputs: []
+          outputs: [ uint80, int256, uint256, uint256, uint80 ]
+          args: []
+          returnIndex: 1
+
 # histo
 
 ETH-USD-TWAP-1day:
