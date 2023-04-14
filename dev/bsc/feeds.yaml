@@ -979,9 +979,9 @@ FIXED_UMB:V-COUNT:
           outputs: [ uint256 ]
           args: []
 
-ARTH-USD:
+FIXED_ARTH-USD:
   discrepancy: 0.5
-  precision: 8
+  precision: 0
   inputs:
     - fetcher:
         name: OnChainData
