@@ -981,7 +981,7 @@ FIXED_UMB:V-COUNT:
 
 ARTH-USD:
   discrepancy: 0.5
-  precision: 0
+  precision: 8
   inputs:
     - fetcher:
         name: OnChainData
@@ -992,6 +992,7 @@ ARTH-USD:
           outputs: [ uint80, int256, uint256, uint256, uint80 ]
           args: []
           returnIndex: 1
+          decimals: 8
 
 # histo
 
