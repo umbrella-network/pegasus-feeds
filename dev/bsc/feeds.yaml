@@ -979,7 +979,7 @@ FIXED_UMB:V-COUNT:
           outputs: [ uint256 ]
           args: []
 
-FIXED_ARTH-USD:
+ARTH-USD:
   discrepancy: 0.5
   precision: 0
   inputs:
