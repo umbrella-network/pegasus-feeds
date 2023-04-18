@@ -980,7 +980,7 @@ FIXED_UMB:V-COUNT:
           args: []
 
 ARTH-USD:
-  discrepancy: 0.001
+  discrepancy: 0.5
   precision: 8
   inputs:
     - fetcher:
