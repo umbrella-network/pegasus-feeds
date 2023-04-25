@@ -22,7 +22,7 @@ ARB-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: ARB
+          id: arbitrum
           currency: USD
 
 BTC-USD:
