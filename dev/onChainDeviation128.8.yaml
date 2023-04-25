@@ -2,6 +2,7 @@
 
 UMB-USD:
   discrepancy: 1.0 # allowed discrepancy level for price signing [%]
+  precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
   heartbeat: 86400
   trigger: 0.1 # [%]
   chains: [ethereum, bsc]
@@ -14,6 +15,7 @@ UMB-USD:
 
 ARB-USD:
   discrepancy: 1.0
+  precision: 8
   heartbeat: 86400
   trigger: 0.1
   chains: [ ethereum, bsc ]
