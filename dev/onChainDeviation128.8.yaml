@@ -1,0 +1,30 @@
+# Prices that are 128bits with 8 decimals
+
+UMB-USD:
+  discrepancy: 1.0 # allowed discrepancy level for price signing [%]
+  heartbeat: 86400
+  trigger: 0.1 # [%]
+  chains: [ethereum, bsc]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: umbrella-network
+          currency: usd
+
+ARB-USD:
+  discrepancy: 1.0
+  heartbeat: 86400
+  trigger: 0.1
+  chains: [ ethereum, bsc ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: ARB
+          tsym: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: arbitrum
+          currency: USD
