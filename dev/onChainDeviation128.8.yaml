@@ -5,8 +5,8 @@ UMB-USD:
   precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
   heartbeat: 86400
   trigger: 0.1 # [%]
-  interval: 60000 # [ms]
-  chains: [ethereum, bsc]
+  interval: 60000 # [ms] if not provided, it will be checked every time
+  chains: [ arbitrum, bsc ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -20,7 +20,7 @@ ARB-USD:
   heartbeat: 86400
   trigger: 0.1
   interval: 5000
-  chains: [ ethereum, bsc ]
+  chains: [ bsc ]
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
