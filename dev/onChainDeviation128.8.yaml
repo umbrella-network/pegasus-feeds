@@ -5,7 +5,7 @@ UMB-USD:
   precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
   heartbeat: 86400
   trigger: 0.5 # [%]
-  interval: 60000 # [ms] if not provided, it will be checked every time
+  interval: 60 # [s] if not provided, it will be checked every time
   chains: [ avax, bsc ]
   inputs:
     - fetcher:
@@ -19,7 +19,7 @@ ARB-USD:
   precision: 8
   heartbeat: 86400
   trigger: 0.5
-  interval: 5000
+  interval: 5
   chains: [ bsc ]
   inputs:
     - fetcher:
