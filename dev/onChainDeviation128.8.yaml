@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 86400
   trigger: 0.1 # [%]
   interval: 60000 # [ms] if not provided, it will be checked every time
-  chains: [ arbitrum, bsc ]
+  chains: [ avax, bsc ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
