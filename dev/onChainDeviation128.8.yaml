@@ -18,9 +18,9 @@ ARB-USD:
   discrepancy: 1.0
   precision: 8
   heartbeat: 43200
-  trigger: 1.5
+  trigger: 1.0
   interval: 60
-  chains: [ bsc ]
+  chains: [ bsc, linea ]
   inputs:
     - fetcher:
         name: CryptoComparePriceWS
