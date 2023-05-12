@@ -23,7 +23,7 @@ ARB-USD:
   chains: [ bsc, linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: ARB
           tsym: USD
@@ -42,7 +42,7 @@ DAI-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: DAI
           tsym: USDC
@@ -56,7 +56,7 @@ USDC-USD:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: USDC
           tsym: USD
@@ -75,7 +75,7 @@ ETH-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: ETH
           tsym: USD
@@ -94,7 +94,7 @@ WBTC-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: WBTC
           tsym: USDC
@@ -108,7 +108,7 @@ COMP-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: COMP
           tsym: USDC
@@ -122,7 +122,7 @@ LINK-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: LINK
           tsym: USDC
@@ -136,7 +136,7 @@ UNI-USDC:
   chains: [ linea ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: UNI
           tsym: USDC
