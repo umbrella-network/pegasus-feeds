@@ -33,7 +33,7 @@ ARB-USD:
           id: arbitrum
           currency: USD
 
-DAI-USD:
+DAI-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -45,7 +45,7 @@ DAI-USD:
         name: CryptoComparePriceWS
         params:
           fsym: DAI
-          tsym: USD
+          tsym: USDC
 
 USDC-USD:
   discrepancy: 1.0
@@ -66,7 +66,7 @@ USDC-USD:
           id: usd-coin
           currency: USD
 
-ETH-USD:
+ETH-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -83,9 +83,9 @@ ETH-USD:
         name: CoingeckoPrice
         params:
           id: ethereum
-          currency: USD
+          currency: USDC
 
-WBTC-USD:
+WBTC-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -97,9 +97,9 @@ WBTC-USD:
         name: CryptoComparePriceWS
         params:
           fsym: WBTC
-          tsym: USD
+          tsym: USDC
 
-COMP-USD:
+COMP-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -111,9 +111,9 @@ COMP-USD:
         name: CryptoComparePriceWS
         params:
           fsym: COMP
-          tsym: USD
+          tsym: USDC
 
-LINK-USD:
+LINK-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -125,9 +125,9 @@ LINK-USD:
         name: CryptoComparePriceWS
         params:
           fsym: LINK
-          tsym: USD
+          tsym: USDC
 
-UNI-USD:
+UNI-USDC:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -139,4 +139,4 @@ UNI-USD:
         name: CryptoComparePriceWS
         params:
           fsym: UNI
-          tsym: USD
+          tsym: USDC
