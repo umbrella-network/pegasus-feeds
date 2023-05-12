@@ -26,7 +26,7 @@ ARB-USD:
         name: CryptoComparePrice
         params:
           fsym: ARB
-          tsym: USD
+          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -45,7 +45,7 @@ DAI-USDC:
         name: CryptoComparePrice
         params:
           fsym: DAI
-          tsym: USDC
+          tsyms: USDC
 
 USDC-USD:
   discrepancy: 1.0
@@ -59,7 +59,7 @@ USDC-USD:
         name: CryptoComparePrice
         params:
           fsym: USDC
-          tsym: USD
+          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -78,7 +78,7 @@ ETH-USDC:
         name: CryptoComparePrice
         params:
           fsym: ETH
-          tsym: USD
+          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -97,7 +97,7 @@ WBTC-USDC:
         name: CryptoComparePrice
         params:
           fsym: WBTC
-          tsym: USDC
+          tsyms: USDC
 
 COMP-USDC:
   discrepancy: 1.0
@@ -111,7 +111,7 @@ COMP-USDC:
         name: CryptoComparePrice
         params:
           fsym: COMP
-          tsym: USDC
+          tsyms: USDC
 
 LINK-USDC:
   discrepancy: 1.0
@@ -125,7 +125,7 @@ LINK-USDC:
         name: CryptoComparePrice
         params:
           fsym: LINK
-          tsym: USDC
+          tsyms: USDC
 
 UNI-USDC:
   discrepancy: 1.0
@@ -139,4 +139,4 @@ UNI-USDC:
         name: CryptoComparePrice
         params:
           fsym: UNI
-          tsym: USDC
+          tsyms: USDC
