@@ -4900,26 +4900,6 @@ UNO-USD:
           id: uno-re
           currency: USD
 
-ZDEX-USD:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ZDEX
-          tsyms: USD
-
-ZDEX-EUR:
-  discrepancy: 1.0
-  precision: 2
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ZDEX
-          tsyms: EUR
-
 INT-USD:
   discrepancy: 1.0
   precision: 6
@@ -4929,16 +4909,6 @@ INT-USD:
         params:
           id: internet-node-token
           currency: USD
-
-MATTER-USDT:
-  discrepancy: 1
-  precision: 4
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: MATTER
-          tsyms: USDT
 
 UFT-USD:
   discrepancy: 1.0
@@ -5054,11 +5024,6 @@ AKITA-ETH:
   discrepancy: 1.0
   precision: 12
   inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: AKITA
-          tsyms: ETH
     - fetcher:
         name: CoingeckoPrice
         params:
