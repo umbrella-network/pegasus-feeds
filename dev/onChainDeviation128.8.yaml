@@ -12,7 +12,7 @@ UMB-USD:
         name: CoingeckoPrice
         params:
           id: umbrella-network
-          currency: usd
+          currency: USD
 
 ARB-USD:
   discrepancy: 1.0
@@ -78,12 +78,7 @@ ETH-USDC:
         name: CryptoComparePrice
         params:
           fsym: ETH
-          tsyms: USD
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: ethereum
-          currency: USDC
+          tsyms: USDC
 
 WBTC-USDC:
   discrepancy: 1.0
