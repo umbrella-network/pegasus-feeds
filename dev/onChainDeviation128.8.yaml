@@ -135,3 +135,22 @@ UNI-USDC:
         params:
           fsym: UNI
           tsyms: USDC
+
+MIM-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: MIM
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: MIM
+          currency: USD
