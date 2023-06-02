@@ -142,7 +142,7 @@ MIM-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ arbitrum ]
+  chains: [ avax, arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
