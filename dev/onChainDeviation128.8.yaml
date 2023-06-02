@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 43200
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ avax, bsc, linea, arbitrum ]
+  chains: [ linea, arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -20,7 +20,7 @@ ARB-USD:
   heartbeat: 43200
   trigger: 1.0
   interval: 60
-  chains: [ bsc, linea ]
+  chains: [ linea ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -142,7 +142,7 @@ MIM-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ avax, arbitrum ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
