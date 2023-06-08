@@ -4,7 +4,7 @@ UMB-USD:
   discrepancy: 1.0 # allowed discrepancy level for price signing [%]
   precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
   heartbeat: 3600 # [s]
-  trigger: 50 # [%]
+  trigger: 0.5 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
   chains: [ linea, arbitrum ]
   inputs:
