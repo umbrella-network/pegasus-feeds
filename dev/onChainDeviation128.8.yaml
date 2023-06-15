@@ -154,3 +154,291 @@ MIM-USD:
         params:
           id: MIM
           currency: USD
+
+UNI-USD:
+  discrepancy: 1.0
+  precision: 4
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: UNI
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: UNI
+          currency: USD
+
+CELR-USD
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: CELR
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: CELR
+          currency: USD
+
+GRT-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: GRT
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: GRT
+          currency: USD
+
+CQT-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: CQT
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: CQT
+          currency: USD
+
+SUSHI-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: SUSHI
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: SUSHI
+          currency: USD
+
+ENS-USD
+  discrepancy: 1.0
+  precision: 4
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ENS
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ENS
+          currency: USD
+
+STG-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: STG
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: STG
+          currency: USD
+
+MULTI-USD
+  discrepancy: 1.0
+  precision: 4
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: MULTI
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: MULTI
+          currency: USD
+
+AXL-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: AXL
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: AXL
+          currency: USD
+
+GEL-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: GEL
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: GEL
+          currency: USD
+
+HAPI-USD
+  discrepancy: 1.0
+  precision: 4
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: HAPI
+          currency: USD
+
+SIS-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: SIS
+          currency: USD
+
+DEGEN-USD
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: DEGEN
+          currency: USD
+
+OSEA-USD
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: OSEA
+          currency: USD
+
+PUSH-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: PUSH
+          currency: USD
+
+VC-USD
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: VC
+          currency: USD
+
+GDX-USD
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: GDX
+          currency: USD
