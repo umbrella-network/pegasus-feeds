@@ -166,12 +166,12 @@ UNI-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: UNI
+          fsym: uni
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: UNI
+          id: uniswap
           currency: USD
 
 CELR-USD:
@@ -185,12 +185,12 @@ CELR-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: CELR
+          fsym: celr
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: CELR
+          id: celer-network
           currency: USD
 
 GRT-USD:
@@ -204,12 +204,12 @@ GRT-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: GRT
+          fsym: grt
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: GRT
+          id: the-graph
           currency: USD
 
 CQT-USD:
@@ -223,12 +223,12 @@ CQT-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: CQT
+          fsym: cqt
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: CQT
+          id: covalent
           currency: USD
 
 SUSHI-USD:
@@ -242,12 +242,12 @@ SUSHI-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: SUSHI
+          fsym: sushi
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: SUSHI
+          id: sushi
           currency: USD
 
 ENS-USD:
@@ -261,12 +261,12 @@ ENS-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: ENS
+          fsym: ens
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: ENS
+          id: ethereum-name-service
           currency: USD
 
 STG-USD:
@@ -280,12 +280,12 @@ STG-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: STG
+          fsym: stg
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: STG
+          id: stargate-finance
           currency: USD
 
 MULTI-USD:
@@ -299,12 +299,12 @@ MULTI-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: MULTI
+          fsym: multi
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: MULTI
+          id: multichain
           currency: USD
 
 AXL-USD:
@@ -318,12 +318,12 @@ AXL-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: AXL
+          fsym: axl
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: AXL
+          id: axelar
           currency: USD
 
 GEL-USD:
@@ -337,12 +337,12 @@ GEL-USD:
     - fetcher:
         name: CryptoComparePrice
         params:
-          fsym: GEL
+          fsym: gelato
           tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: GEL
+          id: gelato
           currency: USD
 
 HAPI-USD:
@@ -356,7 +356,7 @@ HAPI-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: HAPI
+          id: hapi
           currency: USD
 
 SIS-USD:
@@ -370,7 +370,7 @@ SIS-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: SIS
+          id: symbiosis-finance
           currency: USD
 
 DEGEN-USD:
@@ -384,7 +384,7 @@ DEGEN-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: DEGEN
+          id: degenreborn
           currency: USD
 
 OSEA-USD:
@@ -398,7 +398,7 @@ OSEA-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: OSEA
+          id: omnisea
           currency: USD
 
 PUSH-USD:
@@ -412,7 +412,7 @@ PUSH-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: PUSH
+          id: ethereum-push-notification-service
           currency: USD
 
 VC-USD:
