@@ -161,7 +161,7 @@ UNI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -180,7 +180,7 @@ CELR-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -199,7 +199,7 @@ GRT-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -218,7 +218,7 @@ CQT-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -237,7 +237,7 @@ SUSHI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -256,7 +256,7 @@ ENS-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -275,7 +275,7 @@ STG-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -294,7 +294,7 @@ MULTI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -313,7 +313,7 @@ AXL-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -332,7 +332,7 @@ GEL-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -351,7 +351,7 @@ HAPI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -365,7 +365,7 @@ SIS-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -379,7 +379,7 @@ DEGEN-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -393,7 +393,7 @@ OSEA-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -407,7 +407,7 @@ PUSH-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -421,7 +421,7 @@ VC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -435,7 +435,7 @@ GDX-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ linea ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
