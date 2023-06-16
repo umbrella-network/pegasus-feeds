@@ -426,7 +426,7 @@ VC-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: VC
+          id: velocore
           currency: USD
 
 GDX-USD:
@@ -440,5 +440,5 @@ GDX-USD:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: GDX
+          id: gdx-token
           currency: USD
