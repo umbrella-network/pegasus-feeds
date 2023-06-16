@@ -174,7 +174,7 @@ UNI-USD:
           id: UNI
           currency: USD
 
-CELR-USD
+CELR-USD:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -193,7 +193,7 @@ CELR-USD
           id: CELR
           currency: USD
 
-GRT-USD
+GRT-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -212,7 +212,7 @@ GRT-USD
           id: GRT
           currency: USD
 
-CQT-USD
+CQT-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -231,7 +231,7 @@ CQT-USD
           id: CQT
           currency: USD
 
-SUSHI-USD
+SUSHI-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -250,7 +250,7 @@ SUSHI-USD
           id: SUSHI
           currency: USD
 
-ENS-USD
+ENS-USD:
   discrepancy: 1.0
   precision: 4
   heartbeat: 86400
@@ -269,7 +269,7 @@ ENS-USD
           id: ENS
           currency: USD
 
-STG-USD
+STG-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -288,7 +288,7 @@ STG-USD
           id: STG
           currency: USD
 
-MULTI-USD
+MULTI-USD:
   discrepancy: 1.0
   precision: 4
   heartbeat: 86400
@@ -307,7 +307,7 @@ MULTI-USD
           id: MULTI
           currency: USD
 
-AXL-USD
+AXL-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -326,7 +326,7 @@ AXL-USD
           id: AXL
           currency: USD
 
-GEL-USD
+GEL-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -345,7 +345,7 @@ GEL-USD
           id: GEL
           currency: USD
 
-HAPI-USD
+HAPI-USD:
   discrepancy: 1.0
   precision: 4
   heartbeat: 86400
@@ -359,7 +359,7 @@ HAPI-USD
           id: HAPI
           currency: USD
 
-SIS-USD
+SIS-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -373,7 +373,7 @@ SIS-USD
           id: SIS
           currency: USD
 
-DEGEN-USD
+DEGEN-USD:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -387,7 +387,7 @@ DEGEN-USD
           id: DEGEN
           currency: USD
 
-OSEA-USD
+OSEA-USD:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -401,7 +401,7 @@ OSEA-USD
           id: OSEA
           currency: USD
 
-PUSH-USD
+PUSH-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
@@ -415,7 +415,7 @@ PUSH-USD
           id: PUSH
           currency: USD
 
-VC-USD
+VC-USD:
   discrepancy: 1.0
   precision: 8
   heartbeat: 86400
@@ -429,7 +429,7 @@ VC-USD
           id: VC
           currency: USD
 
-GDX-USD
+GDX-USD:
   discrepancy: 1.0
   precision: 6
   heartbeat: 86400
