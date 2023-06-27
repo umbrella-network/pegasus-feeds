@@ -4,10 +4,10 @@ GDX-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ polygon ]
+  chains: [ linea ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
         params:
-          id: GDX
+          id: gdx-token
           currency: USD
