@@ -27,3 +27,17 @@ VC-USD:
         params:
           id: velocore
           currency: USD
+
+WEFI-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 1800
+  trigger: 0.5
+  interval: 60
+  chains: [ polygon ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: wefi-finance
+          currency: USD
