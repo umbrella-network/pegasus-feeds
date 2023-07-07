@@ -34,7 +34,7 @@ WEFI-USD:
   heartbeat: 1800
   trigger: 0.5
   interval: 60
-  chains: [ polygon, arbitrum ]
+  chains: [ polygon ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
