@@ -72,7 +72,7 @@ ETH-USDC:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [ linea ]
+  chains: [ linea, avax ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
