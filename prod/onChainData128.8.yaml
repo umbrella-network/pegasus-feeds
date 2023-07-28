@@ -26,10 +26,10 @@ WBTC-USD:
   chains: [ linea ]
   inputs:
     - fetcher:
-      name: CoingeckoPrice
-      params:
-        id: wrapped-bitcoin
-        currency: USD
+        name: CoingeckoPrice
+        params:
+          id: wrapped-bitcoin
+          currency: USD
     - fetcher:
         name: CryptoComparePrice
         params:
@@ -45,10 +45,10 @@ USDC-USD:
   chains: [ linea ]
   inputs:
     - fetcher:
-      name: CoingeckoPrice
-      params:
-        id: usd-coin
-        currency: USD
+        name: CoingeckoPrice
+        params:
+          id: usd-coin
+          currency: USD
     - fetcher:
         name: CryptoComparePrice
         params:
@@ -64,10 +64,10 @@ USDT-USD:
   chains: [ linea ]
   inputs:
     - fetcher:
-      name: CoingeckoPrice
-      params:
-        id: tether
-        currency: USD
+        name: CoingeckoPrice
+        params:
+          id: tether
+          currency: USD
     - fetcher:
         name: CryptoComparePrice
         params:
