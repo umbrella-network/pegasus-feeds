@@ -17,25 +17,6 @@ ETH-USD:
           fsym: ETH
           tsyms: USD
 
-WBTC-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 3600
-  trigger: 1.0
-  interval: 60
-  chains: [ linea ]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: wrapped-bitcoin
-          currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: WBTC
-          tsyms: USD
-
 USDC-USD:
   discrepancy: 0.5
   precision: 8
