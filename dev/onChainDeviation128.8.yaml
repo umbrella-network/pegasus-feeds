@@ -442,3 +442,36 @@ GDX-USD:
         params:
           id: gdx-token
           currency: USD
+
+stETH-USD:
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: steth
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: staked-ether
+          currency: USD
+
+frxETH-USD:
+  discrepancy: 1.0
+  precision: 6
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: frax-ether
+          currency: USD
