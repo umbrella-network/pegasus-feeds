@@ -23,7 +23,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 1.0
   interval: 60
-  chains: [ linea ]
+  chains: [ linea, base ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -42,7 +42,7 @@ USDT-USD:
   heartbeat: 21600
   trigger: 1.0
   interval: 60
-  chains: [ linea ]
+  chains: [ linea, base ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
