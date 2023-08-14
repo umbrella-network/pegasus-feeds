@@ -4,7 +4,7 @@ ETH-USD:
   heartbeat: 3600 # [s]
   trigger: 0.5 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ polygon, linea, base ]
+  chains: [ linea, base ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
