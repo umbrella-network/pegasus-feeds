@@ -35,7 +35,7 @@ ARB-USD:
 
 PolygonGasPrice-TWAP20:
   discrepancy: 1.0
-  precision: 9
+  precision: 8
   heartbeat: 3600
   trigger: 1.0
   interval: 60
