@@ -42,6 +42,7 @@ PolygonGas-TWAP10-Gwei:
   chains: [ polygon ]
   inputs:
     - fetcher:
-        name: PolygonTWAPGasPrice
+        name: TWAPGasPrice
         params:
           twap: 10
+          chainId: polygon
