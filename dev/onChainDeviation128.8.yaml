@@ -53,7 +53,7 @@ ArbitrumGas-TWAP10-Gwei:
   heartbeat: 3600
   trigger: 1.0
   interval: 60
-  chains: [ polygon ]
+  chains: [ arbitrum ]
   inputs:
     - fetcher:
         name: TWAPGasPrice
