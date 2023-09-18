@@ -33,30 +33,3 @@ ARB-USD:
           id: arbitrum
           currency: USD
 
-PolygonGas-TWAP10-Gwei:
-  discrepancy: 1.0
-  precision: 9
-  heartbeat: 3600
-  trigger: 1.0
-  interval: 60
-  chains: [ polygon ]
-  inputs:
-    - fetcher:
-        name: TWAPGasPrice
-        params:
-          twap: 10
-          chainId: polygon
-
-ArbitrumGas-TWAP10-Gwei:
-  discrepancy: 1.0
-  precision: 9
-  heartbeat: 86400
-  trigger: 1.0
-  interval: 60
-  chains: [ arbitrum ]
-  inputs:
-    - fetcher:
-        name: TWAPGasPrice
-        params:
-          twap: 10
-          chainId: arbitrum
