@@ -50,7 +50,7 @@ PolygonGas-TWAP10-Gwei:
 ArbitrumGas-TWAP10-Gwei:
   discrepancy: 1.0
   precision: 9
-  heartbeat: 3600
+  heartbeat: 86400
   trigger: 1.0
   interval: 60
   chains: [ arbitrum ]
