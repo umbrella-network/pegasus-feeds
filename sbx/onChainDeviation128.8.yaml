@@ -71,25 +71,6 @@ ArbitrumGas-TWAP10-wei:
           twap: 10
           chainId: arbitrum
 
-EGLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [ multiversx ]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: elrond-erd-2
-          currency: USD
-    - fetcher:
-        name: CryptoComparePriceWS
-        params:
-          fsym: EGLD
-          tsyms: USD
-
 USDC-USD:
   discrepancy: 0.5
   precision: 8
