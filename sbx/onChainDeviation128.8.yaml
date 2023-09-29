@@ -70,3 +70,126 @@ ArbitrumGas-TWAP10-wei:
         params:
           twap: 10
           chainId: arbitrum
+
+EGLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: elrond-erd-2
+          currency: USD
+    - fetcher:
+        name: CryptoComparePriceWS
+        params:
+          fsym: EGLD
+          tsyms: USD
+
+USDC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 21600
+  trigger: 0.1
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: usd-coin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: USDC
+          tsyms: USD
+
+USDT-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 21600
+  trigger: 0.1
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: tether
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: USDT
+          tsyms: USD
+
+WBTC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 1.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: wrapped-bitcoin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: WBTC
+          tsyms: USD
+
+BUSD-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 3600
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: binance-usd
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: BUSD
+          tsyms: USD
+
+WETH-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 3600
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: weth
+          currency: USD
+
+UTX-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: utrust
+          currency: USD
