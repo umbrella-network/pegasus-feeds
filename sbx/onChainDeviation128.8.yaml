@@ -174,3 +174,22 @@ UTX-USD:
         params:
           id: utrust
           currency: USD
+
+EGLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: elrond-erd-2
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: EGLD
+          tsyms: USD
