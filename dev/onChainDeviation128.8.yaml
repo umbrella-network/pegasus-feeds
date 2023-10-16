@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 3600 # [s]
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ linea, avax, base, multiversx ]
+  chains: [ linea, avax, base, multiversx, massa ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
