@@ -4,7 +4,7 @@ ETH-USD:
   heartbeat: 3600 # [s]
   trigger: 0.5 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ linea, base ]
+  chains: [ linea ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -23,7 +23,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ linea, base ]
+  chains: [ linea ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -42,7 +42,7 @@ USDT-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ linea, base ]
+  chains: [ linea ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
