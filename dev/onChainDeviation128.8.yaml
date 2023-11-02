@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 600 # [s]
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ base, multiversx, massa ]
+  chains: [ base, massa ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
