@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 600 # [s]
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ base, massa, multiversx ]
+  chains: [ base, massa, multiversx, avax ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -20,7 +20,7 @@ ARB-USD:
   heartbeat: 3600
   trigger: 1.0
   interval: 60
-  chains: [ linea, massa ]
+  chains: [ linea, massa, avax ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
