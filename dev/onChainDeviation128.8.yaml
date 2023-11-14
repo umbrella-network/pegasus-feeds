@@ -42,7 +42,7 @@ EGLD-USD:
   chains: [ multiversx ]
   inputs:
     - fetcher:
-        name: CryptoComparePriceWS
+        name: CryptoComparePrice
         params:
           fsym: egld
           tsyms: USD
