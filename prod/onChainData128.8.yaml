@@ -36,6 +36,25 @@ USDC-USD:
           fsym: USDC
           tsyms: USD
 
+USDC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.1
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: usd-coin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: USDC
+          tsyms: USD
+
 USDT-USD:
   discrepancy: 0.5
   precision: 8
