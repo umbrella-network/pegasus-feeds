@@ -756,21 +756,6 @@ AVAX-USD:
           id: avalanche-2
           currency: USD
 
-# On-Chain
-
-FIXED_UMB:V-COUNT:
-  discrepancy: 0.0
-  precision: 0
-  inputs:
-    - fetcher:
-        name: OnChainData
-        params:
-          address: "0xed7D6d0d1f9438962E0A415cB83F58825734a89b"
-          method: getNumberOfValidators
-          inputs: []
-          outputs: [ uint256 ]
-          args: []
-
 ARTH-USD:
   discrepancy: 0.5
   precision: 8
@@ -824,7 +809,7 @@ YEARN-FI:*-ETH:
         name: YearnVaultTokenPrice
         params:
           address: "0x619B772d63399Ac0Cb70EA6ceFF25a8Fc81faE81"
-          network: eth-mainnet
+          network: ethereum
       calculator:
         name: YearnTransformPrice
         params:
