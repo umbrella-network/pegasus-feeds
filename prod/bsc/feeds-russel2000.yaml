@@ -5017,19 +5017,6 @@ MARSH-USD:
 
 # On-Chain
 
-FIXED_UMB:V-COUNT:
-  discrepancy: 0.0
-  precision: 0
-  inputs:
-    - fetcher:
-        name: OnChainData
-        params:
-          address: "0x51ABC3F2E157371c72d780E8544E3DCE178c5DA2"
-          method: getNumberOfValidators
-          inputs: []
-          outputs: [ uint256 ]
-          args: []
-
 # histo
 
 ETH-USD-TWAP-1day:
