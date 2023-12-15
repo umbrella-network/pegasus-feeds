@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 43200 # [s]
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ polygon, multiversx, avax_meld ]
+  chains: [ polygon, multiversx, avax_meld, xdc ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -62,7 +62,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, xdc ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
