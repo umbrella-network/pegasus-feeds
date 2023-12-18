@@ -62,7 +62,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ multiversx, xdc ]
+  chains: [ multiversx, xdc, avax_meld ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -81,7 +81,7 @@ USDT-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, avax_meld ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -100,7 +100,7 @@ WBTC-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, avax_meld ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
