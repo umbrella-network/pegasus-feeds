@@ -138,7 +138,7 @@ WETH-USD:
   heartbeat: 3600
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
