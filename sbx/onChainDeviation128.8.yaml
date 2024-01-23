@@ -62,7 +62,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ multiversx, xdc, avax_meld, concordium, okx ]
+  chains: [ multiversx, xdc, avax_meld, concordium, okx, rootstock ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -81,7 +81,7 @@ USDT-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, rootstock ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -138,7 +138,7 @@ WETH-USD:
   heartbeat: 3600
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar, rootstock ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
