@@ -100,7 +100,7 @@ WBTC-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, rootstock ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -138,7 +138,7 @@ WETH-USD:
   heartbeat: 3600
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar, rootstck ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -243,4 +243,60 @@ OKB-USD:
         name: CoingeckoPrice
         params:
           id: okb
+          currency: USD
+
+RIF-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: rif-token
+          currency: USD
+
+RBTC-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: rootstock
+          currency: USD
+
+MOC-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: mossland
+          currency: USD
+          
+SOV-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: sovryn
           currency: USD
