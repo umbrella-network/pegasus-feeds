@@ -300,3 +300,50 @@ SOV-USD:
         params:
           id: sovryn
           currency: USD
+          
+MIM-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.2
+  interval: 60
+  chains: [ concordium ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: magic-internet-money
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: mim
+          tsyms: USD
+                  
+DOLA-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.2
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dola-usd
+          currency: USD
+
+Redacted-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.2
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: redacted
+          currency: USD
