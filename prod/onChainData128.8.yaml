@@ -72,9 +72,9 @@ PolygonGas-TWAP10-wei:
 EGLD-USD:
   discrepancy: 1.0
   precision: 8
-  heartbeat: 86400
+  heartbeat: 5 # 86400
   trigger: 2.0
-  interval: 60
+  interval: 1 # 60
   chains: [ multiversx ]
   inputs:
     - fetcher:
