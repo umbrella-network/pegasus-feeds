@@ -9,7 +9,7 @@ UMB-USD:
   chains: [ base, massa, multiversx, avax, concordium ]
   inputs:
     - fetcher:
-        name: CoingeckoPrice
+        name: TestInvalidFetcher
         params:
           id: umbrella-network
           currency: USD
