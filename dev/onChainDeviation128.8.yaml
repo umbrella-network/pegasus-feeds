@@ -51,3 +51,45 @@ EGLD-USD:
         params:
           id: elrond-erd-2
           currency: USD
+
+GoldApiPrice:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: GoldApiPrice
+        params:
+          symbol: XAU
+          currency: USD
+
+MetalPriceApi:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: MetalPriceApi
+        params:
+          symbol: XAU
+          currency: USD
+
+MetalsDevApi:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: MetalsDevApi
+        params:
+          metal: gold
+          currency: USD
