@@ -57,8 +57,8 @@ GoldApiPrice:
   precision: 8
   heartbeat: 86400
   trigger: 2.0
-  interval: 60
-  chains: [ multiversx ]
+  interval: 600
+  chains: [ multiversx, avax ]
   inputs:
     - fetcher:
         name: GoldApiPrice
@@ -71,8 +71,8 @@ MetalPriceApi:
   precision: 8
   heartbeat: 86400
   trigger: 2.0
-  interval: 60
-  chains: [ multiversx ]
+  interval: 600
+  chains: [ multiversx, avax ]
   inputs:
     - fetcher:
         name: MetalPriceApi
@@ -85,8 +85,8 @@ MetalsDevApi:
   precision: 8
   heartbeat: 86400
   trigger: 2.0
-  interval: 60
-  chains: [ multiversx ]
+  interval: 600
+  chains: [ multiversx, avax ]
   inputs:
     - fetcher:
         name: MetalsDevApi
