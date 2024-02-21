@@ -20,7 +20,7 @@ ARB-USD:
   heartbeat: 3600
   trigger: 1.0
   interval: 60
-  chains: [ linea, massa, avax, arbitrum ]
+  chains: [ linea, massa, avax ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
