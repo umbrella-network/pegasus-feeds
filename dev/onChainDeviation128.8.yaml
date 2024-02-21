@@ -58,7 +58,7 @@ GoldApiPrice:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx, avax ]
+  chains: [ multiversx, arbitrum ]
   inputs:
     - fetcher:
         name: GoldApiPrice
@@ -72,7 +72,7 @@ MetalPriceApi:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx, avax ]
+  chains: [ multiversx, arbitrum ]
   inputs:
     - fetcher:
         name: MetalPriceApi
@@ -86,7 +86,7 @@ MetalsDevApi:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx, avax ]
+  chains: [ multiversx, arbitrum ]
   inputs:
     - fetcher:
         name: MetalsDevApi
