@@ -1,8 +1,8 @@
 ETH-USD:
   discrepancy: 0.5 # allowed discrepancy level for price signing [%]
   precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
-  heartbeat: 3600 # [s]
-  trigger: 0.5 # [%]
+  heartbeat: 86400 # [s]
+  trigger: 3.0 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
   chains: [ linea ]
   inputs:
@@ -39,8 +39,8 @@ USDC-USD:
 USDT-USD:
   discrepancy: 0.5
   precision: 8
-  heartbeat: 21600
-  trigger: 0.1
+  heartbeat: 86400
+  trigger: 1.0
   interval: 60
   chains: [ linea ]
   inputs:
