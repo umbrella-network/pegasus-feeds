@@ -273,34 +273,6 @@ RBTC-USD:
           id: rootstock
           currency: USD
 
-#MOC-USD:
-#  discrepancy: 1.0
-#  precision: 8
-#  heartbeat: 86400
-#  trigger: 0.5
-#  interval: 60
-#  chains: [ rootstock ]
-#  inputs:
-#    - fetcher:
-#        name: CoingeckoPrice
-#        params:
-#          id: mossland
-#          currency: USD
-          
-#SOV-USD:
-#  discrepancy: 1.0
-#  precision: 8
-#  heartbeat: 86400
-#  trigger: 0.5
-#  interval: 60
-#  chains: [ rootstock ]
-#  inputs:
-#    - fetcher:
-#        name: CoingeckoPrice
-#        params:
-#          id: sovryn
-#          currency: USD
-          
 MIM-USD:
   discrepancy: 1.0
   precision: 8
