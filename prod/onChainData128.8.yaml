@@ -40,7 +40,7 @@ USDT-USD:
   discrepancy: 0.5
   precision: 8
   heartbeat: 86400
-  trigger: 0.3
+  trigger: 1.0
   interval: 60
   chains: [ linea ]
   inputs:
