@@ -2,9 +2,9 @@ ETH-USD:
   discrepancy: 0.5 # allowed discrepancy level for price signing [%]
   precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
   heartbeat: 86400 # [s]
-  trigger: 3.0 # [%]
+  trigger: 0.5 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ linea ]
+  chains: [ linea, arbitrum ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -17,6 +17,25 @@ ETH-USD:
           fsym: ETH
           tsyms: USD
 
+BTC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitcoin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: btc
+          tsyms: USD
+          
 USDC-USD:
   discrepancy: 0.5
   precision: 8
