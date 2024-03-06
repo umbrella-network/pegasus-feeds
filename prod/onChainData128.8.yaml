@@ -120,3 +120,22 @@ crvUSD-USD:
         params:
           id: crvusd
           currency: USD
+
+GOLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 600
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: GoldApiPrice
+        params:
+          symbol: XAU
+          currency: USD
+    - fetcher:
+        name: MetalPriceApi
+        params:
+          symbol: XAU
+          currency: USD
