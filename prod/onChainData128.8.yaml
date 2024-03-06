@@ -139,3 +139,41 @@ GOLD-USD:
         params:
           symbol: XAU
           currency: USD
+
+UTK-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: utrust
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: utk
+          currency: USD
+
+DAI-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: dai
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dai
+          currency: USD
