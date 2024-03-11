@@ -52,6 +52,19 @@ EGLD-USD:
           id: elrond-erd-2
           currency: USD
 
+EUR-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 600
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: PolygonIOCurrencySnapshot
+        params:
+          ticker: C:EURUSD
+
 GOLD-USD:
   discrepancy: 1.0
   precision: 8
