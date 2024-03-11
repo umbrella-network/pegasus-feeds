@@ -65,6 +65,34 @@ EUR-USD:
         params:
           ticker: C:EURUSD
 
+BTC-USD-PolygonIOCryptoPrice:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 600
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC
+          tsym: USD
+
+BTC-USD-PolygonIOPrice:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 600
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: PolygonIOPrice
+        params:
+          fsym: BTC
+          tsym: USD
+
 GOLD-USD:
   discrepancy: 1.0
   precision: 8
