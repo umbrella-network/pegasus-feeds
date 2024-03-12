@@ -107,20 +107,6 @@ EGLD-USD:
           id: elrond-erd-2
           currency: USD
 
-crvUSD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.2
-  interval: 60
-  chains: [ arbitrum ]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: crvusd
-          currency: USD
-
 GOLD-USD:
   discrepancy: 1.0
   precision: 8
@@ -138,4 +124,56 @@ GOLD-USD:
         name: MetalPriceApi
         params:
           symbol: XAU
+          currency: USD
+
+UTK-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: utk
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: utrust
+          currency: USD
+
+DAI-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dai
+          currency: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI  
+          tsym: USD
+
+BTRFLY-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: redacted
           currency: USD
