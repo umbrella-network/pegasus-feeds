@@ -88,3 +88,55 @@ GOLD-USD:
         params:
           metal: gold
           currency: USD
+
+BTC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitcoin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: btc
+          tsyms: USD
+    - fetcher:
+        name: ByBit
+        params:
+          symbol: BTCUSD
+          fsym: BTC
+          tsym: USD
+          category: inverse
+
+ETH-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400 
+  trigger: 0.5 
+  interval: 60
+  chains: [ linea, multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ethereum
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ETH
+          tsyms: USD
+    - fetcher:
+        name: ByBit
+        params:
+          symbol: ETHUSD
+          fsym: ETH
+          tsym: USD
+          category: inverse
