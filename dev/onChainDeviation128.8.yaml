@@ -6,7 +6,7 @@ UMB-USD:
   heartbeat: 3600 # [s]
   trigger: 1 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ base, massa, multiversx, avax, concordium ]
+  chains: [ base, massa, multiversx, avax, concordium, zk_link_nova ]
   inputs:
     - fetcher:
         name: TestInvalidFetcher
@@ -71,7 +71,7 @@ GOLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx ]
+  chains: [ multiversx, zk_link_nova ]
   inputs:
     - fetcher:
         name: GoldApiPrice
