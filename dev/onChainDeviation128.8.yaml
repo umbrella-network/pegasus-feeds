@@ -68,7 +68,7 @@ EUR-USD:
 GOLD-USD:
   discrepancy: 1.0
   precision: 8
-  heartbeat: 86400
+  heartbeat: 180
   trigger: 2.0
   interval: 600
   chains: [ multiversx, zk_link_nova ]
