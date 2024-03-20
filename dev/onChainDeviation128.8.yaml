@@ -39,7 +39,7 @@ EGLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, zk_link_nova ]
   inputs:
     - fetcher:
         name: CryptoComparePrice
@@ -58,7 +58,7 @@ EUR-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx ]
+  chains: [ multiversx, zk_link_nova ]
   inputs:
     - fetcher:
         name: PolygonIOCurrencySnapshot
