@@ -74,11 +74,12 @@ GOLD-USD:
   chains: [ multiversx, zk_link_nova ]
   inputs:
     - fetcher:
-        name: PolygonIOCurrencySnapshot
-        params:
-          ticker: C:XAUUSD
-    - fetcher:
         name: GoldApiPrice
+        params:
+          symbol: XAU
+          currency: USD
+    - fetcher:
+        name: MetalPriceApi
         params:
           symbol: XAU
           currency: USD
@@ -87,9 +88,3 @@ GOLD-USD:
         params:
           metal: gold
           currency: USD
-    - fetcher:
-        name: MetalPriceApi
-        params:
-          symbol: XAU
-          currency: USD
-
