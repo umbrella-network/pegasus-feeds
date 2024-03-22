@@ -83,8 +83,3 @@ GOLD-USD:
         params:
           symbol: XAU
           currency: USD
-    - fetcher:
-        name: MetalsDevApi
-        params:
-          metal: gold
-          currency: USD

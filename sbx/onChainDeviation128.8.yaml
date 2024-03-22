@@ -198,9 +198,10 @@ GOLD-USD:
           symbol: XAU
           currency: USD
     - fetcher:
-        name: PolygonIOCurrencySnapshot
+        name: MetalsDevApi
         params:
-          ticker: C:XAUUSD
+          metal: gold
+          currency: USD
 
 BTC-USD:
   discrepancy: 0.5
