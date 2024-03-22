@@ -77,3 +77,9 @@ GOLD-USD:
         name: PolygonIOCurrencySnapshot
         params:
           ticker: C:XAUUSD
+    - fetcher:
+        name: GoldApiPrice
+        params:
+          symbol: XAU
+          currency: USD
+
