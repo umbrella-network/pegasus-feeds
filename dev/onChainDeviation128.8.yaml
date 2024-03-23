@@ -14,24 +14,20 @@ UMB-USD:
           id: umbrella-network
           currency: USD
 
-ARB-USD:
-  discrepancy: 1.0
+BTC-USD:
+  discrepancy: 0.5
   precision: 8
-  heartbeat: 3600
-  trigger: 1.0
+  heartbeat: 86400
+  trigger: 0.5
   interval: 60
-  chains: [ linea, massa, avax ]
+  chains: [ multiversx ]
   inputs:
     - fetcher:
-        name: CryptoComparePrice
+        name: ByBit
         params:
-          fsym: ARB
-          tsyms: USD
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: arbitrum
-          currency: USD
+          symbol: BTCUSD
+          fsym: BTC
+          tsym: USD
 
 EGLD-USD:
   discrepancy: 1.0
@@ -42,44 +38,23 @@ EGLD-USD:
   chains: [ multiversx, zk_link_nova ]
   inputs:
     - fetcher:
-        name: CryptoComparePrice
+        name: ByBit
         params:
-          fsym: egld
-          tsyms: USD
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: elrond-erd-2
-          currency: USD
+          symbol: EGLDUSD
+          fsym: EGLD
+          tsym: USD
 
-EUR-USD:
-  discrepancy: 1.0
+ETH-USD:
+  discrepancy: 0.5
   precision: 8
-  heartbeat: 86400
-  trigger: 2.0
-  interval: 600
-  chains: [ multiversx, zk_link_nova ]
+  heartbeat: 86400 
+  trigger: 0.5 
+  interval: 60
+  chains: [ linea, multiversx ]
   inputs:
     - fetcher:
-        name: PolygonIOCurrencySnapshot
+        name: ByBit
         params:
-          ticker: C:EURUSD
-
-GOLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2.0
-  interval: 600
-  chains: [ multiversx, zk_link_nova ]
-  inputs:
-    - fetcher:
-        name: GoldApiPrice
-        params:
-          symbol: XAU
-          currency: USD
-    - fetcher:
-        name: MetalPriceApi
-        params:
-          symbol: XAU
-          currency: USD
+          symbol: ETHUSD
+          fsym: ETH
+          tsym: USD
