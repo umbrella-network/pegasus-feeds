@@ -202,6 +202,10 @@ GOLD-USD:
         params:
           metal: gold
           currency: USD
+    - fetcher:
+        name: PolygonIOCurrencySnapshot
+        params:
+          ticker: C:XAUUSD
 
 BTC-USD:
   discrepancy: 0.5
