@@ -67,6 +67,6 @@ GOLD-USD:
           metal: gold
           currency: USD
     - fetcher:
-        name: PolygonIOCurrencySnapshot
+        name: PolygonIOCurrencySnapshotGrams
         params:
           ticker: C:XAUUSD
