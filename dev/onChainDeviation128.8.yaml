@@ -6,7 +6,7 @@ BTC-USDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, massa ]
   inputs:
     - fetcher:
         name: Binance
@@ -20,7 +20,7 @@ ETH-USDT:
   heartbeat: 86400 
   trigger: 0.5 
   interval: 60
-  chains: [ linea, multiversx ]
+  chains: [ linea, multiversx, massa ]
   inputs:
     - fetcher:
         name: Binance
