@@ -1,33 +1,5 @@
 # Prices that are 128bits with 8 decimals
 
-BTC-USDT:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [ multiversx ]
-  inputs:
-    - fetcher:
-        name: Binance
-        params:
-          id: BTC
-          currency: USDT
-
-ETH-USDT:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400 
-  trigger: 0.5 
-  interval: 60
-  chains: [ linea, multiversx ]
-  inputs:
-    - fetcher:
-        name: Binance
-        params:
-          id: ETH
-          currency: USDT
-
 WETH-USD:
   discrepancy: 0.5
   precision: 8
