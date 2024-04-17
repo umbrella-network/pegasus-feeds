@@ -6,7 +6,7 @@ BTC-USDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, massa ]
+  chains: [ multiversx ]
   inputs:
     - fetcher:
         name: Binance
@@ -20,7 +20,7 @@ ETH-USDT:
   heartbeat: 86400 
   trigger: 0.5 
   interval: 60
-  chains: [ linea, multiversx, massa ]
+  chains: [ linea, multiversx ]
   inputs:
     - fetcher:
         name: Binance
@@ -28,3 +28,16 @@ ETH-USDT:
           id: ETH
           currency: USDT
 
+WETH-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 3600
+  trigger: 0.5
+  interval: 60
+  chains: [ massa ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: weth
+          currency: USD
