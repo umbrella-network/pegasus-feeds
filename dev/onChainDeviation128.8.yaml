@@ -1,15 +1,1 @@
 # Prices that are 128bits with 8 decimals
-
-WETH-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 3600
-  trigger: 0.5
-  interval: 60
-  chains: [ massa ]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: weth
-          currency: USD
