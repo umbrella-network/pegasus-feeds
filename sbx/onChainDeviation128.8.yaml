@@ -138,7 +138,7 @@ WETH-USD:
   heartbeat: 3600
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar, massa ]
+  chains: [ multiversx, avax_meld, xdc, concordium, okx, arthera, astar ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -262,10 +262,10 @@ PRNT-USDT:
 CCD-USD:
   discrepancy: 1.0
   precision: 8
-  heartbeat: 86400
+  heartbeat: 180
   trigger: 0.5
   interval: 60
-  chains: [ concordium ]
+  chains: [ concordium, massa ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
