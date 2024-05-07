@@ -749,9 +749,8 @@ DAI-USD:
         name: UniswapV3
         params:
           chainFrom: [ethereum, bsc]
-          token0: 0x0aa9e2e0b37fb54c19e45cb246b17b0e700ab98d
-          token1: 0x6f14c02fc1f78322cfd7d707ab90f18bad3b54f5
-
+          token0: '0x0aa9e2e0b37fb54c19e45cb246b17b0e700ab98d'
+          token1: '0x6f14c02fc1f78322cfd7d707ab90f18bad3b54f5'
 
 AVAX-USD:
   discrepancy: 1.0
