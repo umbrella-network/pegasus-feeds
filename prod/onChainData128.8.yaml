@@ -130,6 +130,10 @@ GOLD-USD:
         params:
           metal: gold
           currency: USD
+    - fetcher:
+        name: PolygonIOCurrencySnapshot
+        params:
+          ticker: C:XAUUSD
 
 UTK-USD:
   discrepancy: 1.0
