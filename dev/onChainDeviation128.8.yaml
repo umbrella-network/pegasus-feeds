@@ -3,6 +3,10 @@
 weBTC-rUSDT:
   discrepancy: 1
   precision: 2
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
