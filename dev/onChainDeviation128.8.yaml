@@ -14,3 +14,17 @@ weBTC-rUSDT:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0xcb46c0ddc60d18efeb0e586c17af6ea36452dae0'
           amountInDecimals: 8
+
+
+GOLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 600
+  trigger: 2.0
+  interval: 600
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: PolygonIOCurrencySnapshotGrams
+        params:
+          ticker: C:XAUUSD
