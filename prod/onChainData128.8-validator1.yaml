@@ -1,0 +1,258 @@
+ETH-USD:
+  discrepancy: 0.5 # allowed discrepancy level for price signing [%]
+  precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
+  heartbeat: 86400 # [s]
+  trigger: 0.5 # [%]
+  interval: 60 # [s] if not provided, it will be checked every time
+  chains: [ linea, multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ethereum
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: ETH
+          tsyms: USD
+
+BTC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitcoin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: btc
+          tsyms: USD
+          
+USDC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 21600
+  trigger: 0.1
+  interval: 60
+  chains: [ linea, multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: usd-coin
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: USDC
+          tsyms: USD
+
+USDT-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 1.0
+  interval: 60
+  chains: [ linea ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: tether
+          currency: USD
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: USDT
+          tsyms: USD
+
+PolygonGas-TWAP10-wei:
+  discrepancy: 1.0
+  precision: 9
+  heartbeat: 3600
+  trigger: 25.0
+  interval: 60
+  chains: [ polygon ]
+  inputs:
+    - fetcher:
+        name: TWAPGasPrice
+        params:
+          twap: 10
+          chainId: polygon
+
+EGLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: egld
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: elrond-erd-2
+          currency: USD
+
+GOLD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 2.0
+  interval: 600
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: GoldApiPrice
+        params:
+          symbol: XAU
+          currency: USD
+    - fetcher:
+        name: MetalPriceApi
+        params:
+          symbol: XAU
+          currency: USD
+    - fetcher:
+        name: MetalsDevApi
+        params:
+          metal: gold
+          currency: USD
+    - fetcher:
+        name: PolygonIOCurrencySnapshot
+        params:
+          ticker: C:XAUUSD
+
+UTK-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CryptoComparePrice
+        params:
+          fsym: utk
+          tsyms: USD
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: utrust
+          currency: USD
+
+DAI-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ multiversx ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dai
+          currency: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: DAI  
+          tsym: USD
+
+BTRFLY-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.2
+  interval: 60
+  chains: [ arbitrum ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: redacted
+          currency: USD
+
+RIF-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: rif-token
+          currency: USD
+
+RBTC-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: rootstock
+          currency: USD
+
+DOC-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.1
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: dollar-on-chain
+          currency: USD
+
+BPRO-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitpro
+          currency: USD
+
+SOV-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ rootstock ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: sovryn
+          currency: USD
