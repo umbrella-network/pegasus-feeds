@@ -4,7 +4,7 @@ ETH-USD:
   heartbeat: 86400 # [s]
   trigger: 0.5 # [%]
   interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ linea, multiversx ]
+  chains: [ linea, multiversx, concordium ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
