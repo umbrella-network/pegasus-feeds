@@ -6,7 +6,7 @@ GOLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx, arbitrum ]
+  chains: [ multiversx ]
   inputs:
     - fetcher:
         name: GoldApiPrice
