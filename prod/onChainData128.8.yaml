@@ -23,7 +23,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ multiversx, concordium ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -61,7 +61,7 @@ USDT-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [ linea ]
+  chains: [ linea, concordium ]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -251,4 +251,46 @@ SOV-USD:
         name: CoingeckoPrice
         params:
           id: sovryn
+          currency: USD
+
+CCD-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ concordium ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: concordium
+          currency: USD
+
+MATIC-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [ concordium ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: matic-network
+          currency: USD
+
+EUROe-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.1
+  interval: 60
+  chains: [ concordium ]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: euroe-stablecoin
           currency: USD
