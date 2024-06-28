@@ -12,11 +12,6 @@ ETH-USD:
           id: ethereum
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ETH
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
           fsym: ETH
@@ -35,11 +30,6 @@ BTC-USD:
         params:
           id: bitcoin
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: btc
-          tsyms: USD
     - fetcher:
         name: PolygonIOCryptoPrice
         params:
@@ -60,11 +50,6 @@ USDC-USD:
           id: usd-coin
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDC
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
           fsym: USDC
@@ -83,11 +68,6 @@ USDT-USD:
         params:
           id: tether
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDT
-          tsyms: USD
     - fetcher:
         name: PolygonIOCryptoPrice
         params:
@@ -116,11 +96,6 @@ EGLD-USD:
   interval: 60
   chains: [ multiversx ]
   inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: egld
-          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -159,11 +134,6 @@ UTK-USD:
   interval: 60
   chains: [ multiversx ]
   inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: utk
-          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
