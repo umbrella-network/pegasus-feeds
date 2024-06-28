@@ -16,6 +16,11 @@ ETH-USD:
         params:
           fsym: ETH
           tsyms: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH  
+          tsym: USD
 
 BTC-USD:
   discrepancy: 0.5
@@ -35,6 +40,11 @@ BTC-USD:
         params:
           fsym: btc
           tsyms: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: BTC  
+          tsym: USD
           
 USDC-USD:
   discrepancy: 0.5
@@ -54,6 +64,11 @@ USDC-USD:
         params:
           fsym: USDC
           tsyms: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDC  
+          tsym: USD
 
 USDT-USD:
   discrepancy: 0.5
@@ -73,6 +88,11 @@ USDT-USD:
         params:
           fsym: USDT
           tsyms: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: USDT  
+          tsym: USD
 
 PolygonGas-TWAP10-wei:
   discrepancy: 1.0
