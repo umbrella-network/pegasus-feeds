@@ -69,11 +69,6 @@ USDC-USD:
         params:
           id: usd-coin
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDC
-          tsyms: USD
 
 USDT-USD:
   discrepancy: 0.5
@@ -88,11 +83,6 @@ USDT-USD:
         params:
           id: tether
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDT
-          tsyms: USD
 
 WBTC-USD:
   discrepancy: 0.5
@@ -107,11 +97,6 @@ WBTC-USD:
         params:
           id: wrapped-bitcoin
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: WBTC
-          tsyms: USD
 
 BUSD-USD:
   discrepancy: 0.5
@@ -126,11 +111,6 @@ BUSD-USD:
         params:
           id: binance-usd
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: BUSD
-          tsyms: USD
 
 WETH-USD:
   discrepancy: 0.5
@@ -173,11 +153,6 @@ EGLD-USD:
         params:
           id: elrond-erd-2
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: EGLD
-          tsyms: USD
 
 GOLD-USD:
   discrepancy: 1.0
@@ -220,11 +195,6 @@ BTC-USD:
         params:
           id: bitcoin
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: btc
-          tsyms: USD
 
 XRP-USD:
   discrepancy: 1.0
@@ -239,25 +209,6 @@ XRP-USD:
         params:
           id: ripple
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: XRP
-          tsyms: USD
-
-PRNT-USDT:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [ xdc ]
-  inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: PRNT
-          tsyms: USDT
 
 CCD-USD:
   discrepancy: 1.0
@@ -272,11 +223,6 @@ CCD-USD:
         params:
           id: concordium
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: CCD
-          tsyms: USD
 
 OKB-USD:
   discrepancy: 0.5
@@ -333,11 +279,6 @@ MIM-USD:
         params:
           id: magic-internet-money
           currency: USD
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: mim
-          tsyms: USD
                   
 DOLA-USD:
   discrepancy: 1.0
