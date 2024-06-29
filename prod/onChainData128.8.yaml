@@ -12,14 +12,9 @@ ETH-USD:
           id: ethereum
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: ETH
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
-          fsym: ETH  
+          fsym: ETH
           tsym: USD
 
 BTC-USD:
@@ -36,16 +31,11 @@ BTC-USD:
           id: bitcoin
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: btc
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
-          fsym: BTC  
+          fsym: BTC
           tsym: USD
-          
+
 USDC-USD:
   discrepancy: 0.5
   precision: 8
@@ -60,14 +50,9 @@ USDC-USD:
           id: usd-coin
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDC
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
-          fsym: USDC  
+          fsym: USDC
           tsym: USD
 
 USDT-USD:
@@ -84,14 +69,9 @@ USDT-USD:
           id: tether
           currency: USD
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: USDT
-          tsyms: USD
-    - fetcher:
         name: PolygonIOCryptoPrice
         params:
-          fsym: USDT  
+          fsym: USDT
           tsym: USD
 
 PolygonGas-TWAP10-wei:
@@ -116,11 +96,6 @@ EGLD-USD:
   interval: 60
   chains: [ multiversx ]
   inputs:
-    - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: egld
-          tsyms: USD
     - fetcher:
         name: CoingeckoPrice
         params:
@@ -160,11 +135,6 @@ UTK-USD:
   chains: [ multiversx ]
   inputs:
     - fetcher:
-        name: CryptoComparePrice
-        params:
-          fsym: utk
-          tsyms: USD
-    - fetcher:
         name: CoingeckoPrice
         params:
           id: utrust
@@ -186,7 +156,7 @@ DAI-USD:
     - fetcher:
         name: PolygonIOCryptoPrice
         params:
-          fsym: DAI  
+          fsym: DAI
           tsym: USD
 
 BTRFLY-USD:
