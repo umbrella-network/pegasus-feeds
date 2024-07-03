@@ -34,7 +34,7 @@ GOLD-USD:
 
 WRBTC-DOC:
   discrepancy: 1
-  precision: 2
+  precision: 8
   heartbeat: 86400
   trigger: 0.5
   interval: 60
@@ -49,7 +49,7 @@ WRBTC-DOC:
 
 WRBTC-rUSDT:
   discrepancy: 1
-  precision: 2
+  precision: 8
   heartbeat: 86400
   trigger: 0.5
   interval: 60
