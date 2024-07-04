@@ -16,6 +16,7 @@ ETH-USD:
         params:
           fsym: ETH
           tsym: USD
+          
 
 BTC-USD:
   discrepancy: 0.5
