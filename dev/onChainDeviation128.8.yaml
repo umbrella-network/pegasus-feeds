@@ -291,7 +291,7 @@ WRBTC-DOC:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ rootstock ]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -306,7 +306,7 @@ WRBTC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ rootstock ]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -321,7 +321,7 @@ WRBTC-RIF:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ rootstock ]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -336,7 +336,7 @@ WRBTC-SOV:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [ rootstock ]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
