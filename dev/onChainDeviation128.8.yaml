@@ -318,8 +318,8 @@ WRBTC-rUSDT:
         name: UniswapV3Fetcher
         params:
           fromChain: 'rootstock'
-          quote: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
-          base: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
 
 WRBTC-RIF:
@@ -364,6 +364,6 @@ DOC-rUSDT:
         name: UniswapV3Fetcher
         params:
           fromChain: 'rootstock'
-          quote: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
-          base: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          base: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
