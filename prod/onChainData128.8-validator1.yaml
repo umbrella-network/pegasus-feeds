@@ -125,7 +125,7 @@ GOLD-USD:
         params:
           metal: gold
           currency: USD
-     - fetcher:
+    - fetcher:
         name: PolygonIOCurrencySnapshotGrams
         params:
           ticker: C:XAUUSD
