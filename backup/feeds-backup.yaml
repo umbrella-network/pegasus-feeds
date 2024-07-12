@@ -1,3 +1,5 @@
+---
+
 # Volume-based pairs
 
 BTC-USD:
@@ -970,7 +972,7 @@ MAHA-USD:
         params:
           id: mahadao
           currency: USD
-          
+
 MNY-USD:
   discrepancy: 1.0
   precision: 8
@@ -980,7 +982,7 @@ MNY-USD:
         params:
           id: moonienft
           currency: USD
-          
+
 BRNG-USD:
   discrepancy: 1.0
   precision: 6
@@ -1033,7 +1035,7 @@ FIXED_UMB:V-COUNT:
           address: "0xed7D6d0d1f9438962E0A415cB83F58825734a89b"
           method: getNumberOfValidators
           inputs: []
-          outputs: [ uint256 ]
+          outputs: [uint256]
           args: []
 
 # histo
