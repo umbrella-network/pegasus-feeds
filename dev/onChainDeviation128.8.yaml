@@ -1,10 +1,12 @@
+---
+
 WRBTC-DOC:
   discrepancy: 1
   precision: 8
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -19,7 +21,7 @@ WRBTC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -41,7 +43,7 @@ WRBTC-RIF:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -56,7 +58,7 @@ WRBTC-SOV:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -71,7 +73,7 @@ DOC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: UniswapV3Fetcher
