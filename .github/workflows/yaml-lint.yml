@@ -13,18 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+        - name: Checkout code
+          uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+        - name: Set up Python
+          uses: actions/setup-python@v2
+          with:
+            python-version: '3.x'
 
-    - name: Install yamllint
-      run: |
-        python -m pip install --upgrade pip
-        pip install yamllint
+        - name: Install yamllint
+          run: |
+            python -m pip install --upgrade pip
+            pip install yamllint
 
-    - name: Run yamllint
-      run: yamllint .
+        - name: Run yamllint
+          run: yamllint $(find . -not -path "./node_modules"  -name '*.yaml' ! -name '*.yml')

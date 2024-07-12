@@ -39,7 +39,7 @@ ETH-USD:
         params:
           id: ethereum
           currency: USD
-          
+
 BNB-USD:
   discrepancy: 1.0
   precision: 2
@@ -242,7 +242,7 @@ ARTH-USD:
           address: "0x4d9f5c2cb7abf1a044e6a34167ad4288546f0639"
           method: latestRoundData
           inputs: []
-          outputs: [ uint80, int256, uint256, uint256, uint80 ]
+          outputs: [uint80, int256, uint256, uint256, uint80]
           args: []
           returnIndex: 1
           decimals: 8
@@ -257,4 +257,3 @@ FIXED_RAND:
         name: RandomNumber
         params:
           numBlocks: 5
-
