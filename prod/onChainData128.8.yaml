@@ -1,9 +1,11 @@
+---
+
 ETH-USD:
-  discrepancy: 0.5 # allowed discrepancy level for price signing [%]
-  precision: 8 # stored with 8 decimals always
-  heartbeat: 86400 # [s]
-  trigger: 0.5 # [%]
-  interval: 60 # [s] if not provided, it will be checked every time
+  discrepancy: 0.5  # allowed discrepancy level for price signing [%]
+  precision: 8  # stored with 8 decimals always
+  heartbeat: 86400  # [s]
+  trigger: 0.5  # [%]
+  interval: 60  # [s] if not provided, it will be checked every time
   chains: [linea, multiversx, concordium]
   inputs:
     - fetcher:

@@ -27,4 +27,4 @@ jobs:
             pip install yamllint
 
         - name: Run yamllint
-          run: yamllint $(find . -not -path "./node_modules"  -name '*.yaml' ! -name '*.yml')
+          run: yamllint --strict $(find . -not -path "./node_modules"  -name '*.yaml' ! -name '*.yml')
