@@ -1,10 +1,12 @@
+---
+
 ETH-USD:
-  discrepancy: 0.5 # allowed discrepancy level for price signing [%]
-  precision: 8 # we can choose any precision for value, but it will be stored with 8 decimals always
-  heartbeat: 86400 # [s]
-  trigger: 0.5 # [%]
-  interval: 60 # [s] if not provided, it will be checked every time
-  chains: [ linea, multiversx, concordium ]
+  discrepancy: 0.5  # allowed discrepancy level for price signing [%]
+  precision: 8  # stored with 8 decimals
+  heartbeat: 86400  # [s]
+  trigger: 0.5  # [%]
+  interval: 60  # [s] if not provided, it will be checked every time
+  chains: [linea, multiversx, concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -23,7 +25,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx, concordium ]
+  chains: [multiversx, concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -42,7 +44,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [ linea, multiversx ]
+  chains: [linea, multiversx]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -61,7 +63,7 @@ USDT-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [ linea, concordium ]
+  chains: [linea, concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -80,7 +82,7 @@ PolygonGas-TWAP10-wei:
   heartbeat: 3600
   trigger: 25.0
   interval: 60
-  chains: [ polygon ]
+  chains: [polygon]
   inputs:
     - fetcher:
         name: TWAPGasPrice
@@ -94,7 +96,7 @@ EGLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 60
-  chains: [ multiversx ]
+  chains: [multiversx]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -108,7 +110,7 @@ GOLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [ multiversx ]
+  chains: [multiversx]
   inputs:
     - fetcher:
         name: GoldApiPrice
@@ -136,7 +138,7 @@ UTK-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [multiversx]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -150,7 +152,7 @@ DAI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ multiversx ]
+  chains: [multiversx]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -169,7 +171,7 @@ BTRFLY-USD:
   heartbeat: 86400
   trigger: 0.2
   interval: 60
-  chains: [ arbitrum ]
+  chains: [arbitrum]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -183,7 +185,7 @@ RIF-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -197,7 +199,7 @@ RBTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -211,7 +213,7 @@ DOC-USD:
   heartbeat: 86400
   trigger: 0.1
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -225,7 +227,7 @@ BPRO-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -239,7 +241,7 @@ SOV-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ rootstock ]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -253,7 +255,7 @@ CCD-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ concordium ]
+  chains: [concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -267,7 +269,7 @@ MATIC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [ concordium ]
+  chains: [concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -281,7 +283,7 @@ EUROe-USD:
   heartbeat: 86400
   trigger: 0.1
   interval: 60
-  chains: [ concordium ]
+  chains: [concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
