@@ -83,8 +83,6 @@ PolygonGas-TWAP10-wei:
   trigger: 25.0
   interval: 60
   chains: [polygon]
-  base: PolygonGas
-  quote: TWAP10
   inputs:
     - fetcher:
         name: TWAPGasPrice
