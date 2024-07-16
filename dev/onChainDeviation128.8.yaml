@@ -82,3 +82,42 @@ DOC-rUSDT:
           base: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
           quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
+
+BTC-USDC:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: ByBit
+        params:
+          symbol: BTCUSDC
+
+DOT-USDC:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: ByBit
+        params:
+          symbol: DOTUSDC
+
+ETH-USDC:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: ByBit
+        params:
+          symbol: ETHUSDC
