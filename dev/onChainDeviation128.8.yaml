@@ -121,3 +121,29 @@ ETH-USDC:
         name: ByBit
         params:
           symbol: ETHUSDC
+
+STMX-USDT:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: Binance
+        params:
+          symbol: STMXUSDT
+
+BTC-USDT:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: Binance
+        params:
+          symbol: BTCUSDT
