@@ -109,7 +109,7 @@ GOLD-USD:
   precision: 8
   heartbeat: 600
   trigger: 2.0
-  interval: 600
+  interval: 86400
   chains: [multiversx]
   inputs:
     - fetcher:
