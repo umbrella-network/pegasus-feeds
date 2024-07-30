@@ -189,3 +189,36 @@ GOLD-USD:
         name: PolygonIOCurrencySnapshotGrams
         params:
           ticker: C:XAUUSD
+
+ETH-USD:
+  discrepancy: 0.5  # allowed discrepancy level for price signing [%]
+  precision: 8  # stored with 8 decimals
+  heartbeat: 86400  # [s]
+  trigger: 0.5  # [%]
+  interval: 60  # [s] if not provided, it will be checked every time
+  chains: [multiversx]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ethereum
+          currency: USD
+    - fetcher:
+        name: PolygonIOCryptoPrice
+        params:
+          fsym: ETH
+          tsym: USD
+
+BTC-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [multiversx]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: bitcoin
+          currency: USD
