@@ -13,3 +13,30 @@ PolygonGas-TWAP10-wei:
         params:
           twap: 10
           chainId: polygon
+
+
+ARTH-USD:
+  discrepancy: 0.5
+  precision: 8
+  inputs:
+    - fetcher:
+        name: OnChainData
+        params:
+          address: "0x4d9f5c2cb7abf1a044e6a34167ad4288546f0639"
+          method: latestRoundData
+          inputs: []
+          outputs: [uint80, int256, uint256, uint256, uint80]
+          args: []
+          returnIndex: 1
+          decimals: 8
+
+# VRNG
+
+FIXED_RAND:
+  discrepancy: 0
+  precision: 0
+  inputs:
+    - fetcher:
+        name: RandomNumber
+        params:
+          numBlocks: 5
