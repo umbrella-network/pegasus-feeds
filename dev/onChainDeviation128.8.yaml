@@ -40,7 +40,7 @@ FIXED_RAND:
   discrepancy: 0
   precision: 0
   heartbeat: 3600
-  trigger: 0
+  trigger: 0.1
   interval: 60
   chains: [multiverxs]
   inputs:
