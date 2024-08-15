@@ -6,7 +6,7 @@ PolygonGas-TWAP10-wei:
   heartbeat: 3600
   trigger: 25.0
   interval: 60
-  chains: [polygon]
+  chains: [multiverxs]
   inputs:
     - fetcher:
         name: TWAPGasPrice
@@ -18,6 +18,10 @@ PolygonGas-TWAP10-wei:
 ARTH-USD:
   discrepancy: 0.5
   precision: 8
+  heartbeat: 3600
+  trigger: 25.0
+  interval: 60
+  chains: [multiverxs]
   inputs:
     - fetcher:
         name: OnChainData
@@ -35,6 +39,10 @@ ARTH-USD:
 FIXED_RAND:
   discrepancy: 0
   precision: 0
+  heartbeat: 3600
+  trigger: 0
+  interval: 60
+  chains: [multiverxs]
   inputs:
     - fetcher:
         name: RandomNumber
