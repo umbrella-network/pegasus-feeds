@@ -6,7 +6,7 @@ SOV-WRBTC:
   heartbeat: 600
   trigger: 0.5
   interval: 60
-  chains: [multivers]
+  chains: [multivers, arbitrum, polygon]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
@@ -21,7 +21,7 @@ SOV-WRBTC18:
   heartbeat: 600
   trigger: 0.5
   interval: 60
-  chains: [multivers]
+  chains: [multivers, arbitrum, polygon]
   inputs:
     - fetcher:
         name: SovrynPriceFetcher
