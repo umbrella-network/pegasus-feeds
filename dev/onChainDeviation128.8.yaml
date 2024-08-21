@@ -3,8 +3,8 @@
 SOV-WRBTC:
   discrepancy: 1.0
   precision: 8
-  heartbeat: 180
-  trigger: 0.5
+  heartbeat: 600
+  trigger: 0.2
   interval: 60
   chains: [multivers, arbitrum, polygon]
   inputs:
@@ -18,8 +18,8 @@ SOV-WRBTC:
 SOV-WRBTC18:
   discrepancy: 1.0
   precision: 18
-  heartbeat: 180
-  trigger: 0.5
+  heartbeat: 600
+  trigger: 0.2
   interval: 60
   chains: [multivers, arbitrum, polygon]
   inputs:
