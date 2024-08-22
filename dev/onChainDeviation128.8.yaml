@@ -36,7 +36,7 @@ PolygonGas-TWAP10-wei:
   heartbeat: 3600
   trigger: 25.0
   interval: 60
-  chains: [multivers, arbitrum, polygon]
+  chains: [arbitrum]
   inputs:
     - fetcher:
         name: TWAPGasPrice
