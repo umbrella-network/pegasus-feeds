@@ -32,7 +32,7 @@ SOV-WRBTC18:
 
 PolygonGas-TWAP10-wei:
   discrepancy: 1.0
-  precision: 0
+  precision: 9
   heartbeat: 3600
   trigger: 25.0
   interval: 60
