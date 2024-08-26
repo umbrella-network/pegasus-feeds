@@ -287,7 +287,7 @@ BITP-WRBTC:
 
 SOV-WRBTC:
   discrepancy: 1.0
-  precision: 8
+  precision: 18
   heartbeat: 86400
   trigger: 0.5
   interval: 60
