@@ -12,6 +12,24 @@ BCAT:
         name: PolygonIOStockSnapshotPrice
         params:
           ticker: BCAT
+    - fetcher:
+        name: PolygonIOSingleCryptoPrice
+        params:
+          fsym: ethereum
+          tsym: usd
+
+TRX-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 600
+  trigger: 0.2
+  interval: 60
+  chains: [arbitrum]
+  inputs:
+    - fetcher:
+        name: PolygonIOCryptoSnapshotPrice
+        params:
+          symbol: x:trxusd
 
 SOV-WRBTC18:
   discrepancy: 1.0
