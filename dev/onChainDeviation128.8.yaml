@@ -15,8 +15,8 @@ BCAT:
     - fetcher:
         name: PolygonIOSingleCryptoPrice
         params:
-          fsym: ethereum
-          tsym: usd
+          fsym: BTC
+          tsym: USD
 
 TRX-USD:
   discrepancy: 1.0
