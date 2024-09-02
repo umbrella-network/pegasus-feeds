@@ -2,7 +2,7 @@
 
 ETH-USD:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
-  precision: 8  # stored with 8 decimals
+  precision: 8  # stored with 8 decimals always
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
@@ -164,76 +164,6 @@ BTRFLY-USD:
           id: redacted
           currency: USD
 
-RIF-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: rif-token
-          currency: USD
-
-RBTC-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: rootstock
-          currency: USD
-
-DOC-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.1
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: dollar-on-chain
-          currency: USD
-
-BPRO-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: bitpro
-          currency: USD
-
-SOV-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: sovryn
-          currency: USD
-
 CCD-USD:
   discrepancy: 1.0
   precision: 8
@@ -315,7 +245,7 @@ BITP-WRBTC:
 
 SOV-WRBTC:
   discrepancy: 1.0
-  precision: 8
+  precision: 18
   heartbeat: 86400
   trigger: 0.5
   interval: 60
