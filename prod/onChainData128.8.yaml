@@ -201,13 +201,6 @@ WRBTC-rUSDT:
           base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
           quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
-    - fetcher:
-        name: UniswapV3
-        params:
-          fromChain: 'rootstock'
-          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
-          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
-          amountInDecimals: 18
 
 BITP-WRBTC:
   discrepancy: 1.0
