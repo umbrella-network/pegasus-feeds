@@ -20,7 +20,7 @@ GOLD-USD:
   heartbeat: 86400
   trigger: 2.0
   interval: 600
-  chains: [arbitrum]
+  chains: [arbitrum, bob]
   inputs:
     - fetcher:
         name: PolygonIOCurrencySnapshotGrams
@@ -33,7 +33,7 @@ DAI-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [arbitrum]
+  chains: [arbitrum, bob]
   inputs:
     - fetcher:
         name: CoingeckoPrice
