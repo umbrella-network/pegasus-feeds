@@ -43,8 +43,7 @@ DAI-USD:
     - fetcher:
         name: PolygonIOCryptoSnapshotPrice
         params:
-          fsym: DAI
-          tsym: USD
+          symbol: X:DAIUSD
 
 EUROe-USD:
   discrepancy: 1.0
