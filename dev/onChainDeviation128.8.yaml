@@ -65,7 +65,7 @@ WRBTC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [arbitrum]
+  chains: [arbitrum, bob]
   inputs:
     - fetcher:
         name: SovrynPrice
@@ -87,7 +87,7 @@ SOV-WRBTC:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [arbitrum]
+  chains: [arbitrum, bob]
   inputs:
     - fetcher:
         name: SovrynPrice
@@ -102,7 +102,7 @@ rUSDT-DOC:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [arbitrum]
+  chains: [arbitrum. bob]
   inputs:
     - fetcher:
         name: UniswapV3
