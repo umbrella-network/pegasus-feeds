@@ -6,7 +6,7 @@ ETH-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [linea, multiversx, concordium]
+  chains: [multiversx, concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -42,7 +42,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [linea, multiversx]
+  chains: [multiversx]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -60,7 +60,7 @@ USDT-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [linea, concordium]
+  chains: [concordium]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -207,7 +207,7 @@ WRBTC-rUSDT:
           fromChain: 'rootstock'
           base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
           quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
-          amountInDecimals: 18
+          amountInDecimals: 16
 
 BITP-WRBTC:
   discrepancy: 1.0
