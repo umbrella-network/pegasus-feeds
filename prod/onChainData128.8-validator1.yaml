@@ -303,7 +303,7 @@ rUSDT-DOC:
           quote: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
           amountInDecimals: 18
 
-rifp-leverage:
+RIFPro-USD
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
   precision: 8  # stored with 8 decimals
   heartbeat: 86400  # [s]
