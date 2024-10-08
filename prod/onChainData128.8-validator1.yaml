@@ -315,4 +315,4 @@ RIFPro-USD
         name: MoCMeasurement
         params:
           measurement_id: rdocMainnet
-          field: rifp_leverage
+          field: rifp_price
