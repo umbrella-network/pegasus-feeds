@@ -309,7 +309,7 @@ RIFPro-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [arbitrum, bob]
+  chains: [rootstock]
   inputs:
     - fetcher:
         name: MoCMeasurement
