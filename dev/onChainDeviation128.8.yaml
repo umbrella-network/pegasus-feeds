@@ -6,7 +6,7 @@ rifp-leverage:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [arbitrum, bob]
+  chains: [arbitrum]
   inputs:
     - fetcher:
         name: MoCMeasurement
@@ -20,7 +20,7 @@ WRBTC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [arbitrum, bob]
+  chains: [arbitrum]
   inputs:
     - fetcher:
         name: SovrynPrice
