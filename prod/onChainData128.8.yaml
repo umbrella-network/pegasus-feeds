@@ -302,3 +302,17 @@ rUSDT-DOC:
           base: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           quote: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
           amountInDecimals: 18
+
+RIFPro-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]
+  inputs:
+    - fetcher:
+        name: MoCMeasurement
+        params:
+          measurement_id: rdocMainnet
+          field: rifp_price
