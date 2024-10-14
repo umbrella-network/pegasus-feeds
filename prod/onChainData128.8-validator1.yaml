@@ -224,21 +224,6 @@ BITP-WRBTC:
           quote: '0x542fda317318ebf1d3deaf76e0b632741a7e677d'
           amountInDecimals: 18
 
-SOV-WRBTC:
-  discrepancy: 1.0
-  precision: 18
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0xefc78fc7d48b64958315949279ba181c2114abbd'
-          quote: '0x542fda317318ebf1d3deaf76e0b632741a7e677d'
-          amountInDecimals: 18
-
 RIF-rUSDT:
   discrepancy: 1.0
   precision: 8
