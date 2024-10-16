@@ -287,6 +287,7 @@ DOC-rUSDT:
           quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
 
+RIFPro-USD:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
   precision: 8  # stored with 8 decimals
   heartbeat: 86400  # [s]
