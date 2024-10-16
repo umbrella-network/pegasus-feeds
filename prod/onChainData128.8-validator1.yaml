@@ -287,22 +287,6 @@ DOC-rUSDT:
           quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 18
 
-rUSDT-DOC:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: UniswapV3
-        params:
-          fromChain: 'rootstock'
-          base: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
-          quote: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
-          amountInDecimals: 18
-
 RIFPro-USD:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
   precision: 8  # stored with 8 decimals
