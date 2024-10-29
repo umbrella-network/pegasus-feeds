@@ -78,7 +78,7 @@ PolygonGas-TWAP10-wei:
   heartbeat: 3600
   trigger: 25.0
   interval: 60
-  chains: [polygon, massa]
+  chains: [polygon]
   inputs:
     - fetcher:
         name: TWAPGasPrice
