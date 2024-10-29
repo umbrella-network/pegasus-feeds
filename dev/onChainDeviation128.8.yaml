@@ -6,7 +6,7 @@ rifp-leverage:
   heartbeat: 200  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [massa]
+  chains: [massa, _5ire]
   inputs:
     - fetcher:
         name: MoCMeasurement
@@ -20,7 +20,7 @@ WRBTC-rUSDT:
   heartbeat: 200
   trigger: 0.5
   interval: 60
-  chains: [massa]
+  chains: [massa, _5ire]
   inputs:
     - fetcher:
         name: SovrynPrice
