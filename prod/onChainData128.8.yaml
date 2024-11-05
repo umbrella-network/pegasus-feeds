@@ -277,7 +277,7 @@ DOC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [rootstock] # sponsored by RSK, used by Balmy
+  chains: [rootstock]  # sponsored by RSK, used by Balmy
   inputs:
     - fetcher:
         name: UniswapV3
