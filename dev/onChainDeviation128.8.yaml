@@ -6,7 +6,7 @@ rifp-leverage:
   heartbeat: 200  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [massa, _5ire]
+  chains: [massa, _5ire, polygon]
   inputs:
     - fetcher:
         name: MoCMeasurement
