@@ -92,7 +92,7 @@ WBTC-USD:
   heartbeat: 86400
   trigger: 1.0
   interval: 60
-  chains: [multiversx, avax_meld, xdc, concordium, okx]
+  chains: [multiversx, avax_meld, xdc, concordium, okx, _5ire]
   inputs:
     - fetcher:
         name: CoingeckoPrice
