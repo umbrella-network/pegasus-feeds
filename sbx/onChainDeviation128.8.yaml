@@ -190,7 +190,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [multiversx]
+  chains: [multiversx, _5ire]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -369,3 +369,35 @@ WBTC-USDT:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0x4d5a316d23ebe168d8f887b4447bf8dbfa4901cc'
           amountInDecimals: 8
+
+ETH-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [_5ire]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: ethereum
+          currency: USD
+    - fetcher:
+        name: PolygonIOCryptoSnapshotPrice
+        params:
+          symbol: x:ethusd
+
+5ire-USD:
+  discrepancy: 0.5
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [_5ire]
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: 5ire
+          currency: USD
