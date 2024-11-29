@@ -42,7 +42,7 @@ USDC-USD:
   heartbeat: 21600
   trigger: 0.1
   interval: 60
-  chains: [multiversx, _5ire]
+  chains: [multiversx, _5ire, massa]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -78,7 +78,7 @@ PolygonGas-TWAP10-wei:
   heartbeat: 3600
   trigger: 25.0
   interval: 60
-  chains: [polygon]
+  chains: [polygon, massa]
   inputs:
     - fetcher:
         name: TWAPGasPrice
