@@ -1,5 +1,20 @@
 ---
 
+USDT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 600
+  trigger: 0.5
+  interval: 60
+  chains: [arbitrum]
+  averagePriceMethod: vwap
+  inputs:
+    - fetcher:
+        name: Binance
+        params:
+          symbol: BTCUSDC
+          inverse: true
+
 rifp-leverage:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
   precision: 8  # stored with 8 decimals
