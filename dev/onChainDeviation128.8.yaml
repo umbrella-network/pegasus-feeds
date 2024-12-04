@@ -10,7 +10,7 @@ USDT-BTC:
   averagePriceMethod: vwap
   inputs:
     - fetcher:
-        name: Binance
+        name: BinancePrice
         params:
           symbol: BTCUSDC
           inverse: true
