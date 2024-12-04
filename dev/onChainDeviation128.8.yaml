@@ -14,6 +14,7 @@ USDT-BTC:
         params:
           symbol: BTCUSDC
           inverse: true
+          interval: 1h
 
 rifp-leverage:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
