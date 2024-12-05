@@ -13,7 +13,13 @@ USDT-BTC:
         name: BinancePrice
         params:
           symbol: BTCUSDC
-          inverse: true
+          inverse: false
+          vwapInterval: 1h
+    - fetcher:
+        name: BinancePrice
+        params:
+          symbol: ETHUSDC
+          inverse: false
           vwapInterval: 1h
 
 rifp-leverage:
