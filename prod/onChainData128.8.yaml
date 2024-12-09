@@ -7,7 +7,7 @@ ETH-USD:
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
   chains: [multiversx, concordium, _5ire]  # used by JewelSwap
-    #sponsored by Concordium, 5ire
+  # sponsored by Concordium, 5ire
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -25,7 +25,8 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [multiversx, concordium, _5ire]  # used by JewelSwap, sponsored by Concordium, 5ire
+  chains: [multiversx, concordium, _5ire]  # used by JewelSwap
+  # sponsored by Concordium, 5ire
   inputs:
     - fetcher:
         name: CoingeckoPrice
