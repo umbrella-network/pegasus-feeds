@@ -19,6 +19,7 @@ USDT-BTC:
         name: ByBitPrice
         params:
           symbol: BTCUSDC
+          vwapSymbol: BTCUSD
           vwapCategory: linear
           vwapInterval: "60"
 
