@@ -18,7 +18,7 @@ USDT-BTC:
     - fetcher:
         name: ByBitPrice
         params:
-          symbol: BTCUSD
+          symbol: BTCUSDC
           vwapCategory: linear
           vwapInterval: "60"
 
