@@ -14,13 +14,13 @@ USDT-BTC:
         params:
           symbol: BTCUSDC
           inverse: false
-          vwapInterval: 1h
+          vwapInterval: "1h"
     - fetcher:
         name: ByBitPrice
         params:
           symbol: BTCUSD
           vwapCategory: linear
-          vwapInterval: 60
+          vwapInterval: "60"
 
 rifp-leverage:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
