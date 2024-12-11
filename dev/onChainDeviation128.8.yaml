@@ -19,7 +19,7 @@ USDT-BTC:
         name: ByBitPrice
         params:
           symbol: BTCUSD
-          inverse: linear
+          vwapCategory: linear
           vwapInterval: 60
 
 rifp-leverage:
