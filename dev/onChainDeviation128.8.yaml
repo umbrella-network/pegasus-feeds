@@ -20,11 +20,6 @@ USDT-BTC:
         params:
           symbol: BTCUSDC
           vwapInterval: "60"
-    - fetcher:
-        name: KuCoinPrice
-        params:
-          symbol: BTC-USDC
-          vwapInterval: "1hour"
 
 rifp-leverage:
   discrepancy: 0.5  # allowed discrepancy level for price signing [%]
