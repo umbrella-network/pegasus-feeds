@@ -6,8 +6,8 @@ ETH-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [multiversx, concordium, _5ire]  # used by JewelSwap
-  # sponsored by Concordium, 5ire
+  chains: [multiversx, concordium, _5ire, massa]  # used by JewelSwap
+  # sponsored by Concordium, 5ire, massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -25,8 +25,8 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [multiversx, concordium, _5ire]  # used by JewelSwap
-  # sponsored by Concordium, 5ire
+  chains: [multiversx, concordium, _5ire, massa]  # used by JewelSwap
+  # sponsored by Concordium, 5ire, massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -315,4 +315,18 @@ RIFPro-USD:
         name: CoingeckoPrice
         params:
           id: 5ire
+          currency: USD
+
+MASSA-USD:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [massa]  # sponsored by massa
+  inputs:
+    - fetcher:
+        name: CoingeckoPrice
+        params:
+          id: massa
           currency: USD
