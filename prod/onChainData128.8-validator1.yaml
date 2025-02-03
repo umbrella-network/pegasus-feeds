@@ -335,7 +335,7 @@ BTC-USD-QA:
   heartbeat: 600
   trigger: 0.5
   interval: 60
-  chains: [arbitrum]
+  chains: [massa]
   averagePriceMethod: vwap
   inputs:
     - fetcher:
@@ -343,14 +343,14 @@ BTC-USD-QA:
         params:
           symbol: BTCUSDC
           inverse: false
-          vwapInterval: "1h"
+          vwapInterval: "1d"
     - fetcher:
         name: ByBitPrice
         params:
           symbol: BTCUSDC
-          vwapInterval: "60"
+          vwapInterval: "D"
     - fetcher:
         name: KuCoinPrice
         params:
           symbol: BTC-USDC
-          vwapInterval: "1hour"
+          vwapInterval: "1day"
