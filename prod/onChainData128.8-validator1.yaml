@@ -335,7 +335,7 @@ BTC-USD-QA:
   heartbeat: 600
   trigger: 0.5
   interval: 60
-  chains: [massa]
+  chains: [massa, arbitrum]
   averagePriceMethod: vwap
   inputs:
     - fetcher:
