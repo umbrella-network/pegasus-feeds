@@ -6,8 +6,7 @@ ETH-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [multiversx, concordium, _5ire, massa]  # used by JewelSwap
-  # sponsored by Concordium, 5ire, massa
+  chains: [concordium, _5ire, massa]  # sponsored by Concordium, 5ire, massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -25,8 +24,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [multiversx, concordium, _5ire, massa]  # used by JewelSwap
-  # sponsored by Concordium, 5ire, massa
+  chains: [concordium, _5ire, massa]  # sponsored by Concordium, 5ire, massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -37,24 +35,6 @@ BTC-USD:
         name: PolygonIOCryptoSnapshotPrice
         params:
           symbol: x:btcusd
-
-USDC-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 21600
-  trigger: 0.1
-  interval: 60
-  chains: [multiversx]  # subsidized by UMB
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: usd-coin
-          currency: USD
-    - fetcher:
-        name: PolygonIOCryptoSnapshotPrice
-        params:
-          symbol: x:usdcusd
 
 USDT-USD:
   discrepancy: 0.5
@@ -101,51 +81,6 @@ EGLD-USD:
         params:
           id: elrond-erd-2
           currency: USD
-
-GOLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2.0
-  interval: 600
-  chains: [multiversx]  # used by Midas
-  inputs:
-    - fetcher:
-        name: PolygonIOCurrencySnapshotGrams
-        params:
-          ticker: C:XAUUSD
-
-UTK-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2
-  interval: 60
-  chains: [multiversx]  # used by JewelSwap
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: utrust
-          currency: USD
-
-DAI-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2
-  interval: 60
-  chains: [multiversx]  # used by JewelSwap
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: dai
-          currency: USD
-    - fetcher:
-        name: PolygonIOCryptoSnapshotPrice
-        params:
-          symbol: x:daiusd
 
 CCD-USD:
   discrepancy: 1.0
