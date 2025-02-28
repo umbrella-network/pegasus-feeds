@@ -44,20 +44,6 @@ WEFI-USD:
           id: wefi-finance
           currency: USD
 
-ArbitrumGas-TWAP10-wei:
-  discrepancy: 1.0
-  precision: 9
-  heartbeat: 86400
-  trigger: 25.0
-  interval: 60
-  chains: [arbitrum]
-  inputs:
-    - fetcher:
-        name: TWAPGasPrice
-        params:
-          twap: 10
-          chainId: arbitrum
-
 USDC-USD:
   discrepancy: 0.5
   precision: 8
@@ -401,3 +387,29 @@ ETH-USD:
         params:
           id: 5ire
           currency: USD
+
+USDT-BTC:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 600
+  trigger: 0.5
+  interval: 60
+  chains: [arbitrum]
+  averagePriceMethod: vwap
+  inputs:
+    - fetcher:
+        name: BinancePrice
+        params:
+          symbol: BTCUSDC
+          inverse: false
+          vwapInterval: "1h"
+    - fetcher:
+        name: ByBitPrice
+        params:
+          symbol: BTCUSDC
+          vwapInterval: "60"
+    - fetcher:
+        name: KuCoinPrice
+        params:
+          symbol: BTC-USDC
+          vwapInterval: "1hour"
