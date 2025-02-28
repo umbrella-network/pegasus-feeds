@@ -305,7 +305,7 @@ WBTC-tRIF:
   chains: [rootstock]
   inputs:
     - fetcher:
-        name: SovrynPriceFetcher
+        name: SovrynPrice
         params:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0x19f64674d8a5b4e652319f5e239efd3bc969a1fe'
@@ -320,7 +320,7 @@ WBTC-DOC:
   chains: [rootstock]
   inputs:
     - fetcher:
-        name: SovrynPriceFetcher
+        name: SovrynPrice
         params:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0xcb46c0ddc60d18efeb0e586c17af6ea36452dae0'
@@ -335,7 +335,7 @@ WBTC-SOV:
   chains: [rootstock]
   inputs:
     - fetcher:
-        name: SovrynPriceFetcher
+        name: SovrynPrice
         params:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0x6a9a07972d07e58f0daf5122d11e069288a375fb'
@@ -350,7 +350,7 @@ WBTC-USDT:
   chains: [rootstock]
   inputs:
     - fetcher:
-        name: SovrynPriceFetcher
+        name: SovrynPrice
         params:
           base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
           quote: '0x4d5a316d23ebe168d8f887b4447bf8dbfa4901cc'
