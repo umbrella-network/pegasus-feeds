@@ -12,7 +12,7 @@ USDT-BTC:
         name: UniswapV3
         params:
           fromChain: 'rootstock'
-          base: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f'
-          quote: '0xaf88d065e77c8cc2239327c5edb3a432268e5831'
+          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 16
           vwapInterval: "1day"
