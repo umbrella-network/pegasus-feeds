@@ -1,4 +1,3 @@
----
 
 USDT-BTC:
   discrepancy: 1.0
@@ -10,54 +9,10 @@ USDT-BTC:
   averagePriceMethod: vwap
   inputs:
     - fetcher:
-        name: BinancePrice
-        params:
-          symbol: BTCUSDC
-          inverse: false
-          vwapInterval: "1h"
-    - fetcher:
-        name: ByBitPrice
-        params:
-          symbol: BTCUSDC
-          vwapInterval: "60"
-    - fetcher:
-        name: KuCoinPrice
-        params:
-          symbol: BTC-USDC
-          vwapInterval: "1hour"
-
-rifp-leverage:
-  discrepancy: 0.5  # allowed discrepancy level for price signing [%]
-  precision: 8  # stored with 8 decimals
-  heartbeat: 200  # [s]
-  trigger: 0.5  # [%]
-  interval: 60  # [s] if not provided, it will be checked every time
-  chains: [massa, _5ire, arbitrum]
-  inputs:
-    - fetcher:
-        name: MoCMeasurement
-        params:
-          measurement_id: rdocMainnet
-          field: rifp_leverage
-
-WRBTC-rUSDT:
-  discrepancy: 1
-  precision: 8
-  heartbeat: 200
-  trigger: 0.5
-  interval: 60
-  chains: [massa, _5ire]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
-          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
-          amountInDecimals: 18
-    - fetcher:
         name: UniswapV3
         params:
           fromChain: 'rootstock'
-          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
-          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          base: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f'
+          quote: '0xaf88d065e77c8cc2239327c5edb3a432268e5831'
           amountInDecimals: 16
+          vwapInterval: "1day"
