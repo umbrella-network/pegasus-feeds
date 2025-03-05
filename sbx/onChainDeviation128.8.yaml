@@ -1,423 +1,73 @@
 ---
 
-# Prices that are 128bits with 8 decimals
-
-UMB-USD:
-  discrepancy: 1.0  # allowed discrepancy level for price signing [%]
-  precision: 8  # stored with 8 decimals
-  heartbeat: 43200  # [s]
-  trigger: 1  # [%]
-  interval: 60  # [s] if not provided, it will be checked every time
-  chains: [multiversx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: umbrella-network
-          currency: USD
-
-VC-USD:
-  discrepancy: 1.0
+WRBTC-rUSDT:
+  discrepancy: 1
   precision: 8
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [polygon]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: velocore
-          currency: USD
-
-WEFI-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 1800
-  trigger: 0.5
-  interval: 60
-  chains: [polygon, arbitrum]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: wefi-finance
-          currency: USD
-
-USDC-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 21600
-  trigger: 0.1
-  interval: 60
-  chains: [multiversx, xdc, avax_meld, concordium, okx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: usd-coin
-          currency: USD
-
-USDT-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 21600
-  trigger: 0.1
-  interval: 60
-  chains: [multiversx, avax_meld, xdc, concordium, okx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: tether
-          currency: USD
-
-WBTC-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 1.0
-  interval: 60
-  chains: [multiversx, avax_meld, xdc, concordium, okx, _5ire]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: wrapped-bitcoin
-          currency: USD
-
-BUSD-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 3600
-  trigger: 0.5
-  interval: 60
-  chains: [multiversx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: binance-usd
-          currency: USD
-
-WETH-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 3600
-  trigger: 0.5
-  interval: 60
-  chains: [multiversx, avax_meld, xdc, concordium, okx, arthera, astar, massa]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: weth
-          currency: USD
-
-UTX-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [multiversx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: utrust
-          currency: USD
-
-EGLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [multiversx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: elrond-erd-2
-          currency: USD
-
-GOLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2.0
-  interval: 600
-  chains: [multiversx]
-  inputs:
-    - fetcher:
-        name: GoldApiPrice
-        params:
-          symbol: XAU
-          currency: USD
-    - fetcher:
-        name: MetalPriceApi
-        params:
-          symbol: XAU
-          currency: USD
-    - fetcher:
-        name: MetalsDevApi
-        params:
-          metal: gold
-          currency: USD
-    - fetcher:
-        name: PolygonIOCurrencySnapshotGrams
-        params:
-          ticker: C:XAUUSD
-
-BTC-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [multiversx, _5ire]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: bitcoin
-          currency: USD
-
-XRP-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [xdc]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: ripple
-          currency: USD
-
-CCD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [concordium]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: concordium
-          currency: USD
-
-OKB-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [okx]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: okb
-          currency: USD
-
-RIF-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 1
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: rif-token
-          currency: USD
-
-RBTC-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 1
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: rootstock
-          currency: USD
-
-MIM-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.2
-  interval: 60
-  chains: [concordium]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: magic-internet-money
-          currency: USD
-
-DOLA-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.2
-  interval: 60
-  chains: [arbitrum]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: dola-usd
-          currency: USD
-
-Redacted-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.2
-  interval: 60
-  chains: [arbitrum]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: redacted
-          currency: USD
-
-WBTC-tRIF:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
-          quote: '0x19f64674d8a5b4e652319f5e239efd3bc969a1fe'
-          amountInDecimals: 8
-
-WBTC-DOC:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.1
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
-          quote: '0xcb46c0ddc60d18efeb0e586c17af6ea36452dae0'
-          amountInDecimals: 8
-
-WBTC-SOV:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
-          quote: '0x6a9a07972d07e58f0daf5122d11e069288a375fb'
-          amountInDecimals: 8
-
-WBTC-USDT:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.1
-  interval: 60
-  chains: [rootstock]
-  inputs:
-    - fetcher:
-        name: SovrynPrice
-        params:
-          base: '0x69fe5cec81d5ef92600c1a0db1f11986ab3758ab'
-          quote: '0x4d5a316d23ebe168d8f887b4447bf8dbfa4901cc'
-          amountInDecimals: 8
-
-ETH-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [_5ire]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: ethereum
-          currency: USD
-    - fetcher:
-        name: PolygonIOCryptoSnapshotPrice
-        params:
-          symbol: x:ethusd
-
-5ire-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [_5ire]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: 5ire
-          currency: USD
-
-USDT-BTC:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 600
-  trigger: 0.5
-  interval: 60
-  chains: [arbitrum]
+  chains: [rootstock]  # sponsored by RSK, used by Balmy
   averagePriceMethod: vwap
   inputs:
-    - fetcher:
-        name: BinancePrice
-        params:
-          symbol: BTCUSDC
-          inverse: false
-          vwapInterval: "1h"
-    - fetcher:
-        name: ByBitPrice
-        params:
-          symbol: BTCUSDC
-          vwapInterval: "60"
-    - fetcher:
-        name: KuCoinPrice
-        params:
-          symbol: BTC-USDC
-          vwapInterval: "1hour"
     - fetcher:
         name: UniswapV3
         params:
           fromChain: 'rootstock'
-          base: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f'
-          quote: '0xaf88d065e77c8cc2239327c5edb3a432268e5831'
+          base: '0x542fDA317318eBF1d3DEAf76E0b632741A7e677d'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
           amountInDecimals: 16
+          vwapInterval: "1day"
+
+RIF-rUSDT:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]  # sponsored by RSK
+  averagePriceMethod: vwap
+  inputs:
+    - fetcher:
+        name: UniswapV3
+        params:
+          fromChain: 'rootstock'
+          base: '0x2AcC95758f8b5F583470ba265EB685a8F45fC9D5'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          amountInDecimals: 18
+          vwapInterval: "1day"
+
+USDRIF-rUSDT:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]  # sponsored by RSK
+  averagePriceMethod: vwap
+  inputs:
+    - fetcher:
+        name: UniswapV3
+        params:
+          fromChain: 'rootstock'
+          base: '0x3A15461d8aE0F0Fb5Fa2629e9DA7D66A794a6e37'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          amountInDecimals: 18
+          vwapInterval: "1day"
+
+DOC-rUSDT:
+  discrepancy: 1.0
+  precision: 8
+  heartbeat: 86400
+  trigger: 0.5
+  interval: 60
+  chains: [rootstock]  # sponsored by RSK, used by Balmy
+  averagePriceMethod: vwap
+  inputs:
+    - fetcher:
+        name: UniswapV3
+        params:
+          fromChain: 'rootstock'
+          base: '0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db'
+          quote: '0xef213441A85dF4d7ACbDaE0Cf78004e1E486bB96'
+          amountInDecimals: 18
           vwapInterval: "1day"
