@@ -68,20 +68,6 @@ PolygonGas-TWAP10-wei:
           twap: 10
           chainId: polygon
 
-EGLD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 2.0
-  interval: 60
-  chains: [multiversx]  # subsidized by UMB
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: elrond-erd-2
-          currency: USD
-
 CCD-USD:
   discrepancy: 1.0
   precision: 8
