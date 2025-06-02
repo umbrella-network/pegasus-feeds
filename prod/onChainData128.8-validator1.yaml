@@ -6,7 +6,7 @@ ETH-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [concordium, _5ire, massa]
+  chains: [_5ire, massa]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -24,7 +24,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [concordium, _5ire, massa]
+  chains: [_5ire, massa]
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -35,67 +35,6 @@ BTC-USD:
         name: PolygonIOCryptoSnapshotPrice
         params:
           symbol: x:btcusd
-
-
-USDT-USD:
-  discrepancy: 0.5
-  precision: 8
-  heartbeat: 86400
-  trigger: 1.0
-  interval: 60
-  chains: [concordium]
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: tether
-          currency: USD
-    - fetcher:
-        name: PolygonIOCryptoSnapshotPrice
-        params:
-          symbol: x:usdtusd
-
-CCD-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [concordium]  # sponsored by Concordium
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: concordium
-          currency: USD
-
-MATIC-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [concordium]  # sponsored by Concordium
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: matic-network
-          currency: USD
-
-EUROe-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.1
-  interval: 60
-  chains: [concordium]  # sponsored by Concordium
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: euroe-stablecoin
-          currency: USD
 
 WRBTC-rUSDT:
   discrepancy: 1
@@ -238,29 +177,3 @@ MASSA-USD:
         params:
           id: massa
           currency: USD
-
-BTC-USD_QA:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 600
-  trigger: 0.5
-  interval: 60
-  chains: [massa, arbitrum]
-  averagePriceMethod: vwap
-  inputs:
-    - fetcher:
-        name: BinancePrice
-        params:
-          symbol: BTCUSDC
-          inverse: false
-          vwapInterval: "1d"
-    - fetcher:
-        name: ByBitPrice
-        params:
-          symbol: BTCUSDC
-          vwapInterval: "D"
-    - fetcher:
-        name: KuCoinPrice
-        params:
-          symbol: BTC-USDC
-          vwapInterval: "1day"
