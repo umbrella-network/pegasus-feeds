@@ -6,7 +6,7 @@ ETH-USD:
   heartbeat: 86400  # [s]
   trigger: 0.5  # [%]
   interval: 60  # [s] if not provided, it will be checked every time
-  chains: [_5ire, massa]  # sponsored by 5ire, massa
+  chains: [massa]  # sponsored by massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -24,7 +24,7 @@ BTC-USD:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [_5ire, massa]  # sponsored by 5ire, massa
+  chains: [massa]  # sponsored by massa
   inputs:
     - fetcher:
         name: CoingeckoPrice
@@ -42,7 +42,7 @@ WRBTC-rUSDT:
   heartbeat: 86400
   trigger: 0.5
   interval: 60
-  chains: [rootstock]  # sponsored by RSK, used by Balmy
+  chains: [rootstock]  # sponsored by RSK
   inputs:
     - fetcher:
         name: SovrynPrice
@@ -149,20 +149,6 @@ RIFPro-USD:
         params:
           measurement_id: rdocMainnet
           field: rifp_price
-
-5ire-USD:
-  discrepancy: 1.0
-  precision: 8
-  heartbeat: 86400
-  trigger: 0.5
-  interval: 60
-  chains: [_5ire]  # sponsored by 5ire
-  inputs:
-    - fetcher:
-        name: CoingeckoPrice
-        params:
-          id: 5ire
-          currency: USD
 
 MASSA-USD:
   discrepancy: 1.0
